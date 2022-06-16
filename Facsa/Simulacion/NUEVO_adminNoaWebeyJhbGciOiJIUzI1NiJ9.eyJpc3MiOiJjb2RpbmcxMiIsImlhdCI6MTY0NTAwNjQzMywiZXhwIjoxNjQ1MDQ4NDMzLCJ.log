@@ -1,0 +1,42 @@
+RecordEdits
+Define  EntidadVisualización  {  Ejes-XYZ  Malla-XY  }
+Define  ModelosCollada  {  Ejes  Malla100x100  }
+Define  Vista  {  Vista1  }
+Simulación  Descripción  {  Simulation run control inputs  }
+Simulación  SalidaEnCondiciónDePausa  {  VERDADERO  }
+Simulación  ImprimirInforme  {  FALSO  }
+Simulación  ListaIndicesReplicación  {  5  }
+Simulación  UnidadesMostradas  {  h  deg  }
+Simulación  AjustarAMalla  {  VERDADERO  }
+Simulación  Seguimiento  {  VERDADERO  }
+Simulación  TiempoReal  {  VERDADERO  }
+Simulación  TiempoDePausa  {  }
+Simulación  MostrarBibliotecaDelModelo  {  VERDADERO  }
+Simulación  MostrarElementosDelModelo  {  VERDADERO  }
+Simulación  MostrarEditorInput  {  VERDADERO  }
+Simulación  MostrarVistaOutput  {  VERDADERO  }
+Simulación  MostrarVistaPropiedades  {  FALSO  }
+Simulación  MostrarEstadoDelModelo  {  FALSO  }
+Simulación  MostrarVisorDeEventos  {  FALSO  }
+Ejes  ArchivoCollada  {  <res>/shapes/axis_text.dae  }
+Ejes-XYZ  Descripción  {  Unit vectors  }
+Ejes-XYZ  Posición  {  0.9  0.9  0.1  m  }
+Ejes-XYZ  Alineación  {  0.0  0.0  0.0  }
+Ejes-XYZ  Tamaño  {  2  2  1.4  m  }
+Ejes-XYZ  Icono  {  Ejes  }
+Ejes-XYZ  Movible  {  FALSO  }
+Malla-XY  Descripción  {  Grid for the X-Y plane (100 m x 100 m)  }
+Malla-XY  Tamaño  {  100  100  m  }
+Malla-XY  Icono  {  Malla100x100  }
+Malla-XY  Movible  {  FALSO  }
+Malla100x100  ArchivoCollada  {  <res>/shapes/grid100x100.dae  }
+Vista1  Descripción  {  Default view window  }
+Vista1  VerCentro  {  0  0  0  m  }
+Vista1  VerPosición  {  0  -34.999999999999986  24.99999999999999  m  }
+Vista1  MostrarVentana  {  VERDADERO  }
+Vista1  Bloqueo2D  {  FALSO  }
+Vista1  ImagenCielo  {  <res>/images/sky_map_2048x1024.jpg  }
+EXPORT  {  }
+OUTPUTEXPORT  {  }
+MONITOR  {  }
+OUTPUTMONITOR  {  }

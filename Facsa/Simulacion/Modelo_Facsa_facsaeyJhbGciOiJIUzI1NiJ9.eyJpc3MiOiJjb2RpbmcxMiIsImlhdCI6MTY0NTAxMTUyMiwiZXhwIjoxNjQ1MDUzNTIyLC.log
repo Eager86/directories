@@ -1,0 +1,1745 @@
+RecordEdits
+Define  GráficosSimulación  {  Simulación  }
+*** ERROR *** El nombre:Simulación ya se ha usado y es un Simulation
+
+Define  Asignación  {  De  Deshidratacion  Re  a_gas  ant_2  ap1  ap2  ap3  as1  as2  as3  asig_prob  cal_2  calculos_cosus  fm  mot1  mot2  mot3  mot_2  }
+Define  Buffer  {  Gasometro  b_antorcha  b_centr  b_mot  buffer_esp  buffer_flot  }
+Define  Camino  {  Camino2  Digestor  Digestor_2  Fangos_mixtos  bif_1  bif_2  c1  c2  c3  c4  c5  c6  c7  c8  c9  c10  co1  co2  co3  co4  co5  met_1  met_2  met_3  p1  p2  p3  s1  s2  s3  }
+Define  Controlador  {  Controlador1  }
+Define  Demora  {  Biogas_calderas_m3_dia  Biotrading_DQO_kgm3  Biotrading_m3_dia  Biotrading_porcentaje_MV  Canon_entrada_Biotrading_€_Ton  Canon_entrada_Extra1_€_Ton  Canon_entrada_Extra2_€_Ton  Canon_entrada_Kaura_€_Ton  Canon_entrada_Otivar_€_Ton  Caudal_efluente_m3_dia  Caudal_influente_m3_dia  Consumo_biogas(kw/Nm3)  Consumo_deshidratacion(kw/Nm3)  Coste_gestion_fangos_deshidratados_€_Ton  Extra1_DQO_kgm3  Extra1_m3_dia  Extra1_porcentaje_MV  Extra2_DQO_kgm3  Extra2_m3_dia  Extra2_porcentaje_MV  Fango_espesado_DQO_kgm3  Fango_espesado_m3_dia  Fango_espesado_porcentaje_MS  Fango_espesado_porcentaje_MV  Fango_flotado_DQO_kgm3  Fango_flotado_m3_dia  Fango_flotado_porcentaje_MS  Fango_flotado_porcentaje_MV  Kaura_DQO_kgm3  Kaura_m3_dia  Kaura_porcentaje_MV  MANT_Coste_hora_centrifuga  MANT_Coste_hora_motores  Otivar_DQO_kgm3  Otivar_m3_dia  Otivar_porcentaje_MV  Porcentaje_Metano  Potencia_Motor_1_kW  Potencia_Motor_2_kW  Potencia_Motor_3_kW  Precio_Ton_poli  Precio_kwh  Ratio_consumo_efluente_kWm3  Temp_digestor_ºC  Volumen_total_digestion_m3  }
+Define  DestructorEntidades  {  DestructorEntidades1  SALIDA  }
+Define  Direcciona  {  digestores  }
+Define  DistribuciónDiscreta  {  unif_dig  }
+Define  DistribuciónNormal  {  Normal_densidad  Normal_m1  Normal_m2  Normal_m3  Normal_poli  Normal_potencia  }
+Define  Duplica  {  d1  d2  }
+Define  Entidad  {  bio  extra1  extra2  fango_espesado  fango_flotado  kaura  otivar  }
+Define  EntidadVisualización  {  Ejes-XYZ  Malla-XY  PLANTA_SAVILLA  color_web  color_web_Copia1  icono_fango  icono_gas  }
+Define  EtiquetaDeEntidad  {  Antorcha_Label  Biogas_calderas_m3_dia_Label  Biotrading_DQO_kgm3_Label  Biotrading_m3_dia_Label  Biotrading_porcentaje_MV_Label  C_Biotrading_Label  C_Extra1_Label  C_Extra2_Label  C_Kaura_Label  C_Otivar_Label  Caldera_Label  Calent_Label  Camino2_Label1  Caminos_Label  Canon_entrada_Biotrading_€_Ton_Label  Canon_entrada_Extra1_€_Ton_Label  Canon_entrada_Extra2_€_Ton_Label  Canon_entrada_Kaura_€_Ton_Label  Canon_entrada_Otivar_€_Ton_Label  Caudal_efluente_m3_dia_Label  Caudal_influente_m3_dia_Label  Centrifuga_Label  Cogeneracion_Label  Consumo_biogas(kw/Nm3)_Label  Consumo_deshidratacion(kw/Nm3)_Label  Controlador1_Label1  Coste_gestion_fangos_deshidratados_€_Ton_Label  De_Label  Depuradora_Label  Deshidratacion_Label  DestructorEntidades1_Label1  Efluente_Label  Espesador_Label  Extra1_DQO_kgm3_Label  Extra1_m3_dia_Label  Extra1_porcentaje_MV_Label  Extra2_DQO_kgm3_Label  Extra2_m3_dia_Label  Extra2_porcentaje_MV_Label  Fango_espesado_DQO_kgm3_Label  Fango_espesado_m3_dia_Label  Fango_espesado_porcentaje_MS_Label  Fango_espesado_porcentaje_MV_Label  Fango_flotado_DQO_kgm3_Label  Fango_flotado_m3_dia_Label  Fango_flotado_porcentaje_MS_Label  Fango_flotado_porcentaje_MV_Label  Fangos_mixtos_Label  Flotador_Label  Gasometro_Label  Kaura_DQO_kgm3_Label  Kaura_m3_dia_Label  Kaura_porcentaje_MV_Label  MANT_Coste_hora_centrifuga_Label  MANT_Coste_hora_motores_Label  Motor_1_Label  Motor_2_Label  Motor_3_Label  Normal_densidad_Label  Normal_m1_Label  Normal_m2_Label  Normal_m3_Label  Normal_poli_Label  Normal_potencia_Label  Otivar_DQO_kgm3_Label  Otivar_m3_dia_Label  Otivar_porcentaje_MV_Label  PLANTA_SAVILLA_Label1  Porcentaje_Metano_Label  Potencia_Motor_1_kW_Label  Potencia_Motor_2_kW_Label  Potencia_Motor_3_kW_Label  Precio_Ton_poli_Label  Precio_kwh_Label  Primaria_1_Label  Primaria_2_Label  Primaria_3_Label  Ratio_consumo_efluente_kWm3_Label  Re_Label  Reinicio_Label  SALIDA_Label  Secundaria_1_Label  Secundaria_2_Label  Secundaria_3_Label  Temp_digestor_ºC_Label  Volumen_total_digestion_m3_Label  _Label  a_gas_Label  ant_2_Label  ap1_Label  ap2_Label  ap3_Label  as1_Label  as2_Label  as3_Label  asig_prob_Label  b_antorcha_Label  b_centr_Label  b_mot_Label  bio_Label  buffer_esp_Label  buffer_flot_Label  cal_2_Label  calculos_cosus_Label  d1_Label  d2_Label  digestores_Label  ext_antorcha_12_Label  ext_antorcha_34_Label  extra1_Label  extra2_Label  fango_espesado_Label  fango_flotado_Label  fm_Label  gen_prob_Label  icono_fango_Label  icono_gas_Label  kaura_Label  mot1_Label  mot2_Label  mot3_Label  mot_2_Label  otivar_Label  u_mot1_Label  u_mot2_Label  u_mot2_Label1  u_mot3_Label  u_mot3_Label1  u_mot_Label  unif_dig_Label  unif_dig_Label1  }
+Define  GeneradorEntidades  {  C_Biotrading  C_Extra1  C_Extra2  C_Kaura  C_Otivar  Depuradora  Efluente  Primaria_1  Primaria_2  Primaria_3  Reinicio  Secundaria_1  Secundaria_2  Secundaria_3  gen_prob  }
+Define  ImágenesModelo  {  Captura1-model  agua-model  color_web-model  fango-model  image-model  verde-model  verde-model1  }
+Define  ModelosCollada  {  Ejes  Malla100x100  PLANTA_SAVILLA-model  }
+Define  Proceso  {  Antorcha  Caldera  Centrifuga  Cogeneracion  Motor_1  Motor_2  Motor_3  ext_antorcha_12  ext_antorcha_34  }
+Define  ProcesoConCaptura  {  Espesador  Flotador  }
+Define  Región  {  Caminos  }
+Define  RelojCabecera  {  Reloj  }
+Define  Texto  {  Texto3  Texto3_Copia1  Texto4  }
+Define  UmbralFunción  {  Calent  alerta_centrifuga  alerta_digestor  u_ant_1  u_ant_2  u_cosus_1  u_cosus_2  u_cosus_3  u_cosus_4  u_cosus_5  u_mot  u_mot1  u_mot2  u_mot3  }
+Define  Vista  {  Vista1  Vista2  }
+Antorcha  ListaSalidaPersonalizada  {  {  Porcentaje  0  }  {  Per  0  }  {  Total_dia  0[m3]  VolumeUnit  }  }
+*** INPUT ERROR *** Entidad: Antorcha Palabra clave: ListaSalidaPersonalizada - Error que analiza elemento 3: No pudo encontrar una Entidad llamada: VolumeUnit
+
+C_Biotrading  ListaSalidaPersonalizada  {  {  Canon  0  }  {  m3_introducidos  0  }  }
+C_Extra1  ListaSalidaPersonalizada  {  {  Canon  0  }  {  m3_introducidos  0  }  }
+C_Extra2  ListaSalidaPersonalizada  {  {  Canon  0  }  {  m3_introducidos  0  }  }
+C_Kaura  ListaSalidaPersonalizada  {  {  Canon  0  }  {  m3_introducidos  0  }  }
+C_Otivar  ListaSalidaPersonalizada  {  {  Canon  0  }  {  m3_introducidos  0  }  }
+Caldera  ListaSalidaPersonalizada  {  {  Porcentaje  0  }  {  Per  0  }  {  Total_dia  0[m3]  VolumeUnit  }  }
+*** INPUT ERROR *** Entidad: Caldera Palabra clave: ListaSalidaPersonalizada - Error que analiza elemento 3: No pudo encontrar una Entidad llamada: VolumeUnit
+
+Centrifuga  ListaSalidaPersonalizada  {  {  Caudal  0  }  }
+Cogeneracion  ListaSalidaPersonalizada  {  {  Porcentaje  0  }  {  Per  0  }  {  Generado  0[J]  EnergyUnit  }  {  Total_generado_kaura_dia  0[J]  EnergyUnit  }  {  Total_generado_bio_dia  0[J]  EnergyUnit  }  {  Total_generado_otivar_dia  0[J]  EnergyUnit  }  {  Total_generado_extra1_dia  0[J]  EnergyUnit  }  {  Total_generado_extra2_dia  0[J]  EnergyUnit  }  }
+*** INPUT ERROR *** Entidad: Cogeneracion Palabra clave: ListaSalidaPersonalizada - Error que analiza elemento 3: No pudo encontrar una Entidad llamada: EnergyUnit
+
+Depuradora  ListaSalidaPersonalizada  {  {  Balance  0  }  {  Ingreso_total  0  }  }
+Deshidratacion  ListaSalidaPersonalizada  {  {  Consumo  0[J]  EnergyUnit  }  {  Consumo_poli_fangos_dia  0[kg]  MassUnit  }  {  Consumo_poli_cosus_dia  0[kg]  MassUnit  }  }
+*** INPUT ERROR *** Entidad: Deshidratacion Palabra clave: ListaSalidaPersonalizada - Error que analiza elemento 1: No pudo encontrar una Entidad llamada: EnergyUnit
+
+Digestor  ListaSalidaPersonalizada  {  {  _1_TRH_dias  0  }  {  OLR  0  }  }
+Gasometro  ListaSalidaPersonalizada  {  {  Ocupacion  0  }  {  m3_DQO  0  }  }
+Motor_1  ListaSalidaPersonalizada  {  {  Potencia  0  }  {  potencia_generada_dia  0[J]  EnergyUnit  }  {  Total_dia  0[m3]  VolumeUnit  }  }
+*** INPUT ERROR *** Entidad: Motor_1 Palabra clave: ListaSalidaPersonalizada - Error que analiza elemento 2: No pudo encontrar una Entidad llamada: EnergyUnit
+
+Motor_2  ListaSalidaPersonalizada  {  {  Potencia  0  }  {  potencia_generada_dia  0[J]  EnergyUnit  }  {  Total_dia  0[m3]  VolumeUnit  }  }
+*** INPUT ERROR *** Entidad: Motor_2 Palabra clave: ListaSalidaPersonalizada - Error que analiza elemento 2: No pudo encontrar una Entidad llamada: EnergyUnit
+
+Motor_3  ListaSalidaPersonalizada  {  {  Potencia  0  }  {  potencia_generada_dia  0[J]  EnergyUnit  }  {  Total_dia  0[m3]  VolumeUnit  }  }
+*** INPUT ERROR *** Entidad: Motor_3 Palabra clave: ListaSalidaPersonalizada - Error que analiza elemento 2: No pudo encontrar una Entidad llamada: EnergyUnit
+
+SALIDA  ListaSalidaPersonalizada  {  {  Costes_totales  0[€]  CostUnit  }  {  1_Coste_total_fangos  0[€]  CostUnit  }  {  1.1_Coste_MAN_deshidratacion_fangos  0[€]  CostUnit  }  {  1.2_Coste_ENERGIA  0[€]  CostUnit  }  {  1.2.1_Coste_ENER_biogas_fangos  0[€]  CostUnit  }  {  1.2.2_Coste_ENER_deshidratacion_fangos  0[€]  CostUnit  }  {  1.3_Coste_GESTION_RES_fangos  0[€]  CostUnit  }  {  1.4_Coste_POLI_fangos  0[€]  CostUnit  }  {  2_Coste_total_cosustratos  0[€]  CostUnit  }  {  2.1_Coste_Kaura  0[€]  CostUnit  }  {  2.1.1_Coste_MAN_cogeneracion_Kaura  0[€]  CostUnit  }  {  2.1.2_Coste_MAN_deshidratacion_Kaura  0[€]  CostUnit  }  {  2.1.3_Coste_ENER_Kaura  0[€]  CostUnit  }  {  2.1.3.1_Coste_ENER_biogas_Kaura  0[€]  CostUnit  }  {  2.1.3.2_Coste_ENER_deshidratacion_Kaura  0[€]  CostUnit  }  {  2.1.4_Coste_GESTION_RES_Kaura  0[€]  CostUnit  }  {  2.1.5_Coste_POLI_Kaura  0[€]  CostUnit  }  {  2.2_Coste_Biotrading  0[€]  CostUnit  }  {  2.2.1_Coste_MAN_cogeneracion_Biotrading  0[€]  CostUnit  }  {  2.2.2_Coste_MAN_deshidratacion_Biotrading  0[€]  CostUnit  }  {  2.2.3_Coste_ENER_Biotrading  0[€]  CostUnit  }  {  2.2.3.1_Coste_ENER_biogas_Biotrading  0[€]  CostUnit  }  {  2.2.3.2_Coste_ENER_deshidratacion_Biotrading  0[€]  CostUnit  }  {  2.2.4_Coste_GESTION_RES_Biotrading  0[€]  CostUnit  }  {  2.2.5_Coste_POLI_Biotrading  0[€]  CostUnit  }  {  2.3_Coste_Otivar  0[€]  CostUnit  }  {  2.3.1_Coste_MAN_cogeneracion_Otivar  0[€]  CostUnit  }  {  2.3.2_Coste_MAN_deshidratacion_Otivar  0[€]  CostUnit  }  {  2.3.3_Coste_ENER_Otivar  0[€]  CostUnit  }  {  2.3.3.1_Coste_ENER_biogas_Otivar  0[€]  CostUnit  }  {  2.3.3.2_Coste_ENER_deshidratacion_Otivar  0[€]  CostUnit  }  {  2.3.4_Coste_GESTION_RES_Otivar  0[€]  CostUnit  }  {  2.3.5_Coste_POLI_Otivar  0[€]  CostUnit  }  {  1_TRH_dias  0  }  {  2_Fango_digerido  0[m3]  VolumeUnit  }  {  2.1_m3_dia  0[m3]  VolumeUnit  }  {  2.2_DQO_kgm3  0  }  {  2.3_Porcentaje_MV  0  }  {  3_Fango_a_deshidratacion  0[m3]  VolumeUnit  }  {  3.1_Fango  0[m3]  VolumeUnit  }  {  3.1.1_m3_dia  0[m3]  VolumeUnit  }  {  3.1.2_Polielectorlito_kg_dia  0[kg]  MassUnit  }  {  3.1.3_Consumo_kWh  0[J]  EnergyUnit  }  {  3.2_Cosustratos  0[m3]  VolumeUnit  }  {  3.2.1_m3_dia  0[m3]  VolumeUnit  }  {  3.2.2_Polielectorlito_kg_dia  0[kg]  MassUnit  }  {  3.2.3_Consumo_kWh  0[J]  EnergyUnit  }  {  4_Fango_deshidratado  0[m3]  VolumeUnit  }  {  4.1_kgMH_kgDQO_eliminada  0  }  {  4.2_kgMH_m3_agua  0  }  {  1_Biogas_total_generado_m3_dia  0[m3]  VolumeUnit  }  {  1.1_Biogas_generado_por_fangos_m3_dia  0[m3]  VolumeUnit  }  {  1.2_Biogas_generado_por_cosustratos_m3_dia  0[m3]  VolumeUnit  }  {  2_Biogas_generado_m3_kg_DQO_eliminada  0  }  {  3_Consumo_total_biogas_m3_dia  0[m3]  VolumeUnit  }  {  3.1_Motores_de_cogeneracion  0[m3]  VolumeUnit  }  {  3.1.1_m3_dia_motores  0[J]  EnergyUnit  }  {  3.1.2_Porcentaje  0  }  {  3.1.3_kWh_m3_biogas  0  }  {  3.2_Calderas  0[m3]  VolumeUnit  }  {  3.2.1_m3_dia  0[m3]  VolumeUnit  }  {  3.2.1_Porcentaje  0  }  {  3.3_Antorcha  0[m3]  VolumeUnit  }  {  3.3.1_m3_dia  0[m3]  VolumeUnit  }  {  3.3.2_Porcentaje  0  }  {  4_Ocupacion_gasometro_Porcentaje  0  }  {  1_Consumo_EDAR_kWh_dia  0[J]  EnergyUnit  }  {  2_Cogeneracion_total_kWh_dia  0[J]  EnergyUnit  }  {  2.1_Generado_por_fangos_kWh_dia  0[J]  EnergyUnit  }  {  2.2_Generado_por_cosustratos_kWh_dia  0[J]  EnergyUnit  }  {  2.2.1_Generado_Biotrading  0[J]  EnergyUnit  }  {  2.2.2_Generado_Kaura  0[J]  EnergyUnit  }  {  2.2.3_Generado_Otivar  0[J]  EnergyUnit  }  {  2.2.4_Generado_Extra1  0[J]  EnergyUnit  }  {  2.2.5_Generado_Extra2  0[J]  EnergyUnit  }  {  3_Autoconsumo_EDAR  0  }  }
+*** INPUT ERROR *** Entidad: SALIDA Palabra clave: ListaSalidaPersonalizada - Error que analiza elemento 1: No pudo encontrar una Entidad llamada: CostUnit
+
+alerta_centrifuga  ListaSalidaPersonalizada  {  {  Mensaje_estado  0  }  }
+alerta_digestor  ListaSalidaPersonalizada  {  {  Mensaje_estado  0  }  }
+bio  ListaSalidaPersonalizada  {  {  m_gas  0  }  }
+extra1  ListaSalidaPersonalizada  {  {  m_gas  0  }  }
+extra2  ListaSalidaPersonalizada  {  {  m_gas  0  }  }
+fango_espesado  ListaSalidaPersonalizada  {  {  m_gas  0  }  }
+fango_flotado  ListaSalidaPersonalizada  {  {  m_gas  0  }  }
+kaura  ListaSalidaPersonalizada  {  {  m_gas  0  }  }
+otivar  ListaSalidaPersonalizada  {  {  m_gas  0  }  }
+Biogas_calderas_m3_dia  TipoDeUnidad  {  UnidadAdimensional  }
+Biotrading_DQO_kgm3  TipoDeUnidad  {  UnidadAdimensional  }
+Biotrading_m3_dia  TipoDeUnidad  {  UnidadAdimensional  }
+Biotrading_porcentaje_MV  TipoDeUnidad  {  UnidadAdimensional  }
+Canon_entrada_Biotrading_€_Ton  TipoDeUnidad  {  UnidadAdimensional  }
+Canon_entrada_Extra1_€_Ton  TipoDeUnidad  {  UnidadAdimensional  }
+Canon_entrada_Extra2_€_Ton  TipoDeUnidad  {  UnidadAdimensional  }
+Canon_entrada_Kaura_€_Ton  TipoDeUnidad  {  UnidadAdimensional  }
+Canon_entrada_Otivar_€_Ton  TipoDeUnidad  {  UnidadAdimensional  }
+Caudal_efluente_m3_dia  TipoDeUnidad  {  UnidadAdimensional  }
+Caudal_influente_m3_dia  TipoDeUnidad  {  UnidadAdimensional  }
+Consumo_biogas(kw/Nm3)  TipoDeUnidad  {  UnidadAdimensional  }
+Consumo_deshidratacion(kw/Nm3)  TipoDeUnidad  {  UnidadAdimensional  }
+Coste_gestion_fangos_deshidratados_€_Ton  TipoDeUnidad  {  UnidadAdimensional  }
+Extra1_DQO_kgm3  TipoDeUnidad  {  UnidadAdimensional  }
+Extra1_m3_dia  TipoDeUnidad  {  UnidadAdimensional  }
+Extra1_porcentaje_MV  TipoDeUnidad  {  UnidadAdimensional  }
+Extra2_DQO_kgm3  TipoDeUnidad  {  UnidadAdimensional  }
+Extra2_m3_dia  TipoDeUnidad  {  UnidadAdimensional  }
+Extra2_porcentaje_MV  TipoDeUnidad  {  UnidadAdimensional  }
+Fango_espesado_DQO_kgm3  TipoDeUnidad  {  UnidadAdimensional  }
+Fango_espesado_m3_dia  TipoDeUnidad  {  UnidadAdimensional  }
+Fango_espesado_porcentaje_MS  TipoDeUnidad  {  UnidadAdimensional  }
+Fango_espesado_porcentaje_MV  TipoDeUnidad  {  UnidadAdimensional  }
+Fango_flotado_DQO_kgm3  TipoDeUnidad  {  UnidadAdimensional  }
+Fango_flotado_m3_dia  TipoDeUnidad  {  UnidadAdimensional  }
+Fango_flotado_porcentaje_MS  TipoDeUnidad  {  UnidadAdimensional  }
+Fango_flotado_porcentaje_MV  TipoDeUnidad  {  UnidadAdimensional  }
+Kaura_DQO_kgm3  TipoDeUnidad  {  UnidadAdimensional  }
+Kaura_m3_dia  TipoDeUnidad  {  UnidadAdimensional  }
+Kaura_porcentaje_MV  TipoDeUnidad  {  UnidadAdimensional  }
+MANT_Coste_hora_centrifuga  TipoDeUnidad  {  UnidadAdimensional  }
+MANT_Coste_hora_motores  TipoDeUnidad  {  UnidadAdimensional  }
+Normal_densidad  TipoDeUnidad  {  UnidadAdimensional  }
+Normal_m1  TipoDeUnidad  {  UnidadAdimensional  }
+Normal_m2  TipoDeUnidad  {  UnidadAdimensional  }
+Normal_m3  TipoDeUnidad  {  UnidadAdimensional  }
+Normal_poli  TipoDeUnidad  {  UnidadAdimensional  }
+Normal_potencia  TipoDeUnidad  {  UnidadAdimensional  }
+Otivar_DQO_kgm3  TipoDeUnidad  {  UnidadAdimensional  }
+Otivar_m3_dia  TipoDeUnidad  {  UnidadAdimensional  }
+Otivar_porcentaje_MV  TipoDeUnidad  {  UnidadAdimensional  }
+Porcentaje_Metano  TipoDeUnidad  {  UnidadAdimensional  }
+Potencia_Motor_1_kW  TipoDeUnidad  {  UnidadAdimensional  }
+Potencia_Motor_2_kW  TipoDeUnidad  {  UnidadAdimensional  }
+Potencia_Motor_3_kW  TipoDeUnidad  {  UnidadAdimensional  }
+Precio_Ton_poli  TipoDeUnidad  {  UnidadAdimensional  }
+Precio_kwh  TipoDeUnidad  {  UnidadAdimensional  }
+Ratio_consumo_efluente_kWm3  TipoDeUnidad  {  UnidadAdimensional  }
+Temp_digestor_ºC  TipoDeUnidad  {  UnidadAdimensional  }
+Volumen_total_digestion_m3  TipoDeUnidad  {  UnidadAdimensional  }
+unif_dig  TipoDeUnidad  {  UnidadAdimensional  }
+Antorcha  ListaDeDefinicionesDeAtributos  {  {  Total  0[m3]  }  }
+C_Biotrading  ListaDeDefinicionesDeAtributos  {  {  Total_costes  0  }  {  Total_ingresos  0  }  {  Balance  0  }  {  Balance_ton  0  }  {  Balance_1  0  }  {  Balance_2  0  }  }
+C_Extra1  ListaDeDefinicionesDeAtributos  {  {  Total_costes  0  }  {  Total_ingresos  0  }  {  Balance  0  }  {  Balance_ton  0  }  {  Balance_1  0  }  {  Balance_2  0  }  }
+C_Extra2  ListaDeDefinicionesDeAtributos  {  {  Total_costes  0  }  {  Total_ingresos  0  }  {  Balance  0  }  {  Balance_ton  0  }  {  Balance_1  0  }  {  Balance_2  0  }  }
+C_Kaura  ListaDeDefinicionesDeAtributos  {  {  Total_costes  0  }  {  Total_ingresos  0  }  {  Balance  0  }  {  Balance_ton  0  }  {  Balance_1  0  }  {  Balance_2  0  }  }
+C_Otivar  ListaDeDefinicionesDeAtributos  {  {  Total_costes  0  }  {  Total_ingresos  0  }  {  Balance  0  }  {  Balance_ton  0  }  {  Balance_1  0  }  {  Balance_2  0  }  }
+Caldera  ListaDeDefinicionesDeAtributos  {  {  Total  0[m3]  }  }
+Cogeneracion  ListaDeDefinicionesDeAtributos  {  {  Ahorro_total  0[kWh]  }  {  Ahorro_total_euros  0  }  {  Ahorro  0[kWh]  }  {  Ahorro_€  0  }  {  Ahorro_kaura_€  0  }  {  Ahorro_otivar_€  0  }  {  Ahorro_bio_€  0  }  {  Ahorro_Extra1_€  0  }  {  Ahorro_Extra2_€  0  }  {  KW_m3  0  }  {  Total  0[m3]  }  {  Total_fangos  0[m3]  }  {  Total_kaura  0[m3]  }  {  Total_bio  0[m3]  }  {  Total_otivar  0[m3]  }  {  Total_extra1  0[m3]  }  {  Total_extra2  0[m3]  }  {  Coste_MAN_fango_€  0  }  {  Coste_MAN_cosustrato_€  0  }  {  Coste_MAN_kaura_€  0  }  {  Coste_MAN_otivar_€  0  }  {  Coste_MAN_bio_€  0  }  {  Coste_MAN_Extra1_€  0  }  {  Coste_MAN_Extra2_€  0  }  {  Total_generado_fangos  0[kWh]  }  {  Total_generado_fangos_dia  0[kWh]  }  {  Total_generado_cosustrato  0[kWh]  }  {  Total_generado_cosustrato_dia  0[kWh]  }  {  Total_generado_kaura  0[kWh]  }  {  Total_generado_otivar  0[kWh]  }  {  Total_generado_bio  0[kWh]  }  {  Total_generado_Extra1  0[kWh]  }  {  Total_generado_Extra2  0[kWh]  }  {  Consumo_biogas  0[kWh]  }  {  Coste_consumo_biogas_€  0  }  {  Coste_consumo_biogas_fangos_€  0  }  {  Consumo_biogas_fangos  0[kWh]  }  {  Consumo_biogas_kaura  0[kWh]  }  {  Consumo_biogas_bio  0[kWh]  }  {  Consumo_biogas_otivar  0[kWh]  }  {  Consumo_biogas_extra1  0[kWh]  }  {  Consumo_biogas_extra2  0[kWh]  }  {  Coste_consumo_biogas_fangos_€  0  }  {  Coste_consumo_biogas_kaura_€  0  }  {  Coste_consumo_biogas_bio_€  0  }  {  Coste_consumo_biogas_otivar_€  0  }  {  Coste_consumo_biogas_extra1_€  0  }  {  Coste_consumo_biogas_extra2_€  0  }  {  m3_biogas_m3_fangos_mixtos  0  }  {  m3_biogas_ton_DQO  0  }  }
+Depuradora  ListaDeDefinicionesDeAtributos  {  {  Consumo_total  0  kWh  }  {  Consumo_total_dia  0  kWh  }  {  Costes_totales  0  }  {  Ingreso_total_canon  0  }  {  Autoconsumo  0  }  {  Costes_totales_fangos  0  }  {  Costes_totales_cosus  0  }  {  Ratio_costes_totales_fangos  0  }  {  Ratio_costes_totales_cosus  0  }  }
+Deshidratacion  ListaDeDefinicionesDeAtributos  {  {  Total_fango  0[m3]  }  {  Total_cosus  0[m3]  }  {  Total_kaura  0[m3]  }  {  Total_otivar  0[m3]  }  {  Total_bio  0[m3]  }  {  Total_Extra1  0[m3]  }  {  Total_Extra2  0[m3]  }  {  Total_Ton_fango  0  }  {  Total_Ton_cosus  0  }  {  Total_Ton_kaura  0  }  {  Total_Ton_otivar  0  }  {  Total_Ton_bio  0  }  {  Total_Ton_Extra1  0  }  {  Total_Ton_Extra2  0  }  {  Coste_gestion_fangos_€  0  }  {  Coste_consumo_fangos_€  0  }  {  _11_Coste_MAN_fangos_€  0  }  {  Consumo_fangos  0[kWh]  }  {  Consumo_polielectrolito_fangos  0[kg]  }  {  Coste_polielectrolito_fangos_€  0  }  {  Coste_gestion_cosustratos_€  0  }  {  Coste_gestion_kaura_€  0  }  {  Coste_gestion_otivar_€  0  }  {  Coste_gestion_bio_€  0  }  {  Coste_gestion_Extra1_€  0  }  {  Coste_gestion_Extra2_€  0  }  {  Coste_consumo_cosustratos_€  0  }  {  Coste_consumo_kaura_€  0  }  {  Coste_consumo_otivar_€  0  }  {  Coste_consumo_bio_€  0  }  {  Coste_consumo_Extra1_€  0  }  {  Coste_consumo_Extra2_€  0  }  {  Coste_MAN_cosustratos_€  0  }  {  Coste_MAN_kaura_€  0  }  {  Coste_MAN_otivar_€  0  }  {  Coste_MAN_bio_€  0  }  {  Coste_MAN_Extra1_€  0  }  {  Coste_MAN_Extra2_€  0  }  {  Consumo_cosustratos  0[kWh]  }  {  Consumo_kaura  0[kWh]  }  {  Consumo_otivar  0[kWh]  }  {  Consumo_bio  0[kWh]  }  {  Consumo_Extra1  0[kWh]  }  {  Consumo_Extra2  0[kWh]  }  {  Consumo_polielectrolito_cosustratos  0[kg]  }  {  Consumo_polielectrolito_kaura  0[kg]  }  {  Consumo_polielectrolito_otivar  0[kg]  }  {  Consumo_polielectrolito_bio  0[kg]  }  {  Consumo_polielectrolito_Extra1  0[kg]  }  {  Consumo_polielectrolito_Extra2  0[kg]  }  {  Coste_polielectrolito_cosustratos_€  0  }  {  Coste_polielectrolito_kaura_€  0  }  {  Coste_polielectrolito_otivar_€  0  }  {  Coste_polielectrolito_bio_€  0  }  {  Coste_polielectrolito_Extra1_€  0  }  {  Coste_polielectrolito_Extra2_€  0  }  {  Kg_MH_kg_DQO  0  }  {  Kg_MH_m3_Agua  0  }  }
+Espesador  ListaDeDefinicionesDeAtributos  {  {  Fango_espesado  0[m3]  }  }
+Fangos_mixtos  ListaDeDefinicionesDeAtributos  {  {  Q_fangos_dia  0  }  {  Q_cos_dia  0  }  {  Q_total  0[m3]  }  {  DQO_kgm3  0  }  {  DQO_cos_kgm3  0  }  {  Porcentaje_MV_cos  0  }  {  Porcentaje_MV  0  }  {  DQO_total_kg  0  }  {  Kilos_SV  0  }  }
+Flotador  ListaDeDefinicionesDeAtributos  {  {  Fango_flotado  0[m3]  }  }
+Gasometro  ListaDeDefinicionesDeAtributos  {  {  Total  0[m3]  }  {  Total_generado  0[m3]  }  {  Total_generado_fangos  0[m3]  }  {  Total_generado_cosus  0[m3]  }  {  Total_generado_dia  0[m3]  }  {  Total_generado_fangos_dia  0[m3]  }  {  Total_generado_cosus_dia  0[m3]  }  {  Total_generado_hora  0[m3]  }  }
+Motor_1  ListaDeDefinicionesDeAtributos  {  {  potencia_generada_fangos  0[kWh]  }  {  potencia_generada_cosus  0[kWh]  }  {  potencia_generada_kaura  0[kWh]  }  {  potencia_generada_otivar  0[kWh]  }  {  potencia_generada_bio  0[kWh]  }  {  potencia_generada_Extra1  0[kWh]  }  {  potencia_generada_Extra2  0[kWh]  }  {  Total  0[m3]  }  }
+Motor_2  ListaDeDefinicionesDeAtributos  {  {  potencia_generada_fangos  0[kWh]  }  {  potencia_generada_cosus  0[kWh]  }  {  potencia_generada_kaura  0[kWh]  }  {  potencia_generada_otivar  0[kWh]  }  {  potencia_generada_bio  0[kWh]  }  {  potencia_generada_Extra1  0[kWh]  }  {  potencia_generada_Extra2  0[kWh]  }  {  Total  0[m3]  }  }
+Motor_3  ListaDeDefinicionesDeAtributos  {  {  potencia_generada_fangos  0[kWh]  }  {  potencia_generada_cosus  0[kWh]  }  {  potencia_generada_kaura  0[kWh]  }  {  potencia_generada_otivar  0[kWh]  }  {  potencia_generada_bio  0[kWh]  }  {  potencia_generada_Extra1  0[kWh]  }  {  potencia_generada_Extra2  0[kWh]  }  {  Total  0[m3]  }  }
+Normal_densidad  ListaDeDefinicionesDeAtributos  {  {  Numero  0  }  }
+Normal_m1  ListaDeDefinicionesDeAtributos  {  {  Numero  0  }  }
+Normal_m2  ListaDeDefinicionesDeAtributos  {  {  Numero  0  }  }
+Normal_m3  ListaDeDefinicionesDeAtributos  {  {  Numero  0  }  }
+Normal_poli  ListaDeDefinicionesDeAtributos  {  {  Numero  0  }  }
+Normal_potencia  ListaDeDefinicionesDeAtributos  {  {  Numero  0  }  }
+Reinicio  ListaDeDefinicionesDeAtributos  {  {  Ajuste  0[h]  }  {  Ajuste_M1  0[h]  }  {  Ajuste_M2  0[h]  }  {  Ajuste_M3  0[h]  }  }
+alerta_centrifuga  ListaDeDefinicionesDeAtributos  {  {  Mensaje  {[[CAUDAL_INSUFICIENTE]],[[CAUDAL_OK]]}  }  }
+alerta_digestor  ListaDeDefinicionesDeAtributos  {  {  Mensaje  {[[TRH<15 dias]],[[TRH>=15 dias]]}  }  }
+bio  ListaDeDefinicionesDeAtributos  {  {  m_agua  0  }  {  m_fango  0  }  {  m_cosus  0.1  }  {  tipo  2  }  {  tipo_cosus  3  }  }
+extra1  ListaDeDefinicionesDeAtributos  {  {  m_agua  0  }  {  m_fango  0  }  {  m_cosus  0.1  }  {  tipo  2  }  {  tipo_cosus  4  }  }
+extra2  ListaDeDefinicionesDeAtributos  {  {  m_agua  0  }  {  m_fango  0  }  {  m_cosus  0.1  }  {  tipo  2  }  {  tipo_cosus  5  }  }
+fango_espesado  ListaDeDefinicionesDeAtributos  {  {  m_agua  0  }  {  m_fango  0.1  }  {  m_cosus  0  }  {  tipo  1  }  {  tipo_cosus  0  }  }
+fango_flotado  ListaDeDefinicionesDeAtributos  {  {  m_agua  0  }  {  m_fango  0.1  }  {  m_cosus  0  }  {  tipo  1  }  {  tipo_cosus  0  }  }
+kaura  ListaDeDefinicionesDeAtributos  {  {  m_agua  0  }  {  m_fango  0  }  {  m_cosus  0.1  }  {  tipo  2  }  {  tipo_cosus  2  }  }
+otivar  ListaDeDefinicionesDeAtributos  {  {  m_agua  0  }  {  m_fango  0  }  {  m_cosus  0.1  }  {  tipo  2  }  {  tipo_cosus  1  }  }
+Antorcha  ListaSalidaPersonalizada  {  {  Porcentaje  this.Total/[Gasometro].Total_generado*100  }  {  Per  max(0,this.Total/[Gasometro].Total_generado*100)  }  {  Total_dia  this.Total/(this.TotalTime/1[d])  UnidadVolumen  }  }
+C_Biotrading  ListaSalidaPersonalizada  {  {  Canon  this.UnidadesRecibidas/10*[Normal_densidad].Numero*[Canon_entrada_Biotrading_€_Ton].Error  }  {  m3_introducidos  this.UnidadesProcesadas/10  }  }
+C_Extra1  ListaSalidaPersonalizada  {  {  Canon  this.UnidadesRecibidas/10*[Normal_densidad].Numero*[Canon_entrada_Extra1_€_Ton].Error  }  {  m3_introducidos  this.UnidadesProcesadas/10  }  }
+C_Extra2  ListaSalidaPersonalizada  {  {  Canon  this.UnidadesRecibidas/10*[Normal_densidad].Numero*[Canon_entrada_Extra2_€_Ton].Error  }  {  m3_introducidos  this.UnidadesProcesadas/10  }  }
+C_Kaura  ListaSalidaPersonalizada  {  {  Canon  this.UnidadesRecibidas/10*[Normal_densidad].Numero*[Canon_entrada_Kaura_€_Ton].Error  }  {  m3_introducidos  this.UnidadesProcesadas/10  }  }
+C_Otivar  ListaSalidaPersonalizada  {  {  Canon  this.UnidadesRecibidas/10*[Normal_densidad].Numero*[Canon_entrada_Otivar_€_Ton].Error  }  {  m3_introducidos  this.UnidadesProcesadas/10  }  }
+Caldera  ListaSalidaPersonalizada  {  {  Porcentaje  this.Total/[Gasometro].Total_generado*100  }  {  Per  max(0,this.Total/[Gasometro].Total_generado*100)  }  {  Total_dia  this.Total/(this.TotalTime/1[d])  UnidadVolumen  }  }
+Centrifuga  ListaSalidaPersonalizada  {  {  Caudal  (this.TiempoSimulación>2[d])*this.UnidadesRecibidas/10/max(0.001,this.TiempoSimulación/1[h]-48)  }  }
+Cogeneracion  ListaSalidaPersonalizada  {  {  Porcentaje  this.Total/[Gasometro].Total_generado*100  }  {  Per  max(0,this.Total/[Gasometro].Total_generado*100)  }  {  Generado  [Cogeneracion].Total_generado_fangos+[Cogeneracion].Total_generado_cosustrato  UnidadEnergía  }  {  Total_generado_kaura_dia  this.Total_generado_kaura/(this.TotalTime/1[d])  UnidadEnergía  }  {  Total_generado_bio_dia  this.Total_generado_bio/(this.TotalTime/1[d])  UnidadEnergía  }  {  Total_generado_otivar_dia  this.Total_generado_otivar/(this.TotalTime/1[d])  UnidadEnergía  }  {  Total_generado_extra1_dia  this.Total_generado_Extra1/(this.TotalTime/1[d])  UnidadEnergía  }  {  Total_generado_extra2_dia  this.Total_generado_Extra2/(this.TotalTime/1[d])  UnidadEnergía  }  }
+Depuradora  ListaSalidaPersonalizada  {  {  Balance  [Cogeneracion].Ahorro_€+[Depuradora].Ingreso_total_canon-[Depuradora].Costes_totales  }  {  Ingreso_total  [Cogeneracion].Ahorro_€+[Depuradora].Ingreso_total_canon  }  }
+Deshidratacion  ListaSalidaPersonalizada  {  {  Consumo  [Deshidratacion].Consumo_fangos+[Deshidratacion].Consumo_cosustratos  UnidadEnergía  }  {  Consumo_poli_fangos_dia  this.Consumo_polielectrolito_fangos/(this.TotalTime/1[d])  UnidadMasa  }  {  Consumo_poli_cosus_dia  this.Consumo_polielectrolito_cosustratos/(this.TotalTime/1[d])  UnidadMasa  }  }
+Digestor  ListaSalidaPersonalizada  {  {  _1_TRH_dias  [Volumen_total_digestion_m3].Error/(([Fango_espesado_m3_dia].Error+[Fango_flotado_m3_dia].Error+[Otivar_m3_dia].Error+[Kaura_m3_dia].Error+[Biotrading_m3_dia].Error+[Extra1_m3_dia].Error+[Extra2_m3_dia].Error))  }  {  OLR  [Fangos_mixtos].Kilos_SV/([Volumen_total_digestion_m3].Error)  }  }
+Gasometro  ListaSalidaPersonalizada  {  {  Ocupacion  100*this.Total/1[m3]/1900  }  {  m3_DQO  this.Total/1[m3]/[Fangos_mixtos].DQO_total_kg  }  }
+Motor_1  ListaSalidaPersonalizada  {  {  Potencia  [Potencia_Motor_1_kW].Error*([u_mot1].Abierto==1)  }  {  potencia_generada_dia  ([Motor_1].potencia_generada_fangos+[Motor_1].potencia_generada_cosus)/(this.TotalTime/1[d])  UnidadEnergía  }  {  Total_dia  this.Total/(this.TotalTime/1[d])  UnidadVolumen  }  }
+Motor_2  ListaSalidaPersonalizada  {  {  Potencia  [Potencia_Motor_2_kW].Error*([u_mot2].Abierto==1)  }  {  potencia_generada_dia  ([Motor_2].potencia_generada_fangos+[Motor_2].potencia_generada_cosus)/(this.TotalTime/1[d])  UnidadEnergía  }  {  Total_dia  this.Total/(this.TotalTime/1[d])  UnidadVolumen  }  }
+Motor_3  ListaSalidaPersonalizada  {  {  Potencia  [Potencia_Motor_3_kW].Error*([u_mot3].Abierto==1)  }  {  potencia_generada_dia  ([Motor_3].potencia_generada_fangos+[Motor_3].potencia_generada_cosus)/(this.TotalTime/1[d])  UnidadEnergía  }  {  Total_dia  this.Total/(this.TotalTime/1[d])  UnidadVolumen  }  }
+SALIDA  ListaSalidaPersonalizada  {  {  Costes_totales  1[€]*([Deshidratacion]._11_Coste_MAN_fangos_€+[Cogeneracion].Coste_consumo_biogas_fangos_€+[Deshidratacion].Coste_consumo_fangos_€+[Deshidratacion].Coste_gestion_fangos_€+[Deshidratacion].Coste_polielectrolito_fangos_€+[Cogeneracion].Coste_MAN_kaura_€+[Deshidratacion].Coste_MAN_kaura_€+[Cogeneracion].Coste_consumo_biogas_kaura_€+[Deshidratacion].Coste_consumo_kaura_€+[Deshidratacion].Coste_gestion_kaura_€+[Deshidratacion].Coste_polielectrolito_kaura_€+[Cogeneracion].Coste_MAN_bio_€+[Deshidratacion].Coste_MAN_bio_€+[Cogeneracion].Coste_consumo_biogas_bio_€+[Deshidratacion].Coste_consumo_bio_€+[Deshidratacion].Coste_gestion_bio_€+[Deshidratacion].Coste_polielectrolito_bio_€+[Cogeneracion].Coste_MAN_otivar_€+[Deshidratacion].Coste_MAN_otivar_€+[Cogeneracion].Coste_consumo_biogas_otivar_€+[Deshidratacion].Coste_consumo_otivar_€+[Deshidratacion].Coste_gestion_otivar_€+[Deshidratacion].Coste_polielectrolito_otivar_€)  UnidadCoste  }  {  1_Coste_total_fangos  1[€]*([Deshidratacion]._11_Coste_MAN_fangos_€+[Cogeneracion].Coste_consumo_biogas_fangos_€+[Deshidratacion].Coste_consumo_fangos_€+[Deshidratacion].Coste_gestion_fangos_€+[Deshidratacion].Coste_polielectrolito_fangos_€)  UnidadCoste  }  {  1.1_Coste_MAN_deshidratacion_fangos  1[€]*([Deshidratacion]._11_Coste_MAN_fangos_€)  UnidadCoste  }  {  1.2_Coste_ENERGIA  1[€]*([Cogeneracion].Coste_consumo_biogas_fangos_€+[Deshidratacion].Coste_consumo_fangos_€)  UnidadCoste  }  {  1.2.1_Coste_ENER_biogas_fangos  1[€]*([Cogeneracion].Coste_consumo_biogas_fangos_€)  UnidadCoste  }  {  1.2.2_Coste_ENER_deshidratacion_fangos  1[€]*([Deshidratacion].Coste_consumo_fangos_€)  UnidadCoste  }  {  1.3_Coste_GESTION_RES_fangos  1[€]*([Deshidratacion].Coste_gestion_fangos_€)  UnidadCoste  }  {  1.4_Coste_POLI_fangos  1[€]*([Deshidratacion].Coste_polielectrolito_fangos_€)  UnidadCoste  }  {  2_Coste_total_cosustratos  1[€]*([Cogeneracion].Coste_MAN_kaura_€+[Deshidratacion].Coste_MAN_kaura_€+[Cogeneracion].Coste_consumo_biogas_kaura_€+[Deshidratacion].Coste_consumo_kaura_€+[Deshidratacion].Coste_gestion_kaura_€+[Deshidratacion].Coste_polielectrolito_kaura_€+[Cogeneracion].Coste_MAN_bio_€+[Deshidratacion].Coste_MAN_bio_€+[Cogeneracion].Coste_consumo_biogas_bio_€+[Deshidratacion].Coste_consumo_bio_€+[Deshidratacion].Coste_gestion_bio_€+[Deshidratacion].Coste_polielectrolito_bio_€+[Cogeneracion].Coste_MAN_otivar_€+[Deshidratacion].Coste_MAN_otivar_€+[Cogeneracion].Coste_consumo_biogas_otivar_€+[Deshidratacion].Coste_consumo_otivar_€+[Deshidratacion].Coste_gestion_otivar_€+[Deshidratacion].Coste_polielectrolito_otivar_€)  UnidadCoste  }  {  2.1_Coste_Kaura  1[€]*([Cogeneracion].Coste_MAN_kaura_€+[Deshidratacion].Coste_MAN_kaura_€+[Cogeneracion].Coste_consumo_biogas_kaura_€+[Deshidratacion].Coste_consumo_kaura_€+[Deshidratacion].Coste_gestion_kaura_€+[Deshidratacion].Coste_polielectrolito_kaura_€)  UnidadCoste  }  {  2.1.1_Coste_MAN_cogeneracion_Kaura  1[€]*([Cogeneracion].Coste_MAN_kaura_€)  UnidadCoste  }  {  2.1.2_Coste_MAN_deshidratacion_Kaura  1[€]*([Deshidratacion].Coste_MAN_kaura_€)  UnidadCoste  }  {  2.1.3_Coste_ENER_Kaura  1[€]*([Cogeneracion].Coste_consumo_biogas_kaura_€+[Deshidratacion].Coste_consumo_kaura_€)  UnidadCoste  }  {  2.1.3.1_Coste_ENER_biogas_Kaura  1[€]*([Cogeneracion].Coste_consumo_biogas_kaura_€)  UnidadCoste  }  {  2.1.3.2_Coste_ENER_deshidratacion_Kaura  1[€]*([Deshidratacion].Coste_consumo_kaura_€)  UnidadCoste  }  {  2.1.4_Coste_GESTION_RES_Kaura  1[€]*([Deshidratacion].Coste_gestion_kaura_€)  UnidadCoste  }  {  2.1.5_Coste_POLI_Kaura  1[€]*([Deshidratacion].Coste_polielectrolito_kaura_€)  UnidadCoste  }  {  2.2_Coste_Biotrading  1[€]*([Cogeneracion].Coste_MAN_bio_€+[Deshidratacion].Coste_MAN_bio_€+[Cogeneracion].Coste_consumo_biogas_bio_€+[Deshidratacion].Coste_consumo_bio_€+[Deshidratacion].Coste_gestion_bio_€+[Deshidratacion].Coste_polielectrolito_bio_€)  UnidadCoste  }  {  2.2.1_Coste_MAN_cogeneracion_Biotrading  1[€]*([Cogeneracion].Coste_MAN_bio_€)  UnidadCoste  }  {  2.2.2_Coste_MAN_deshidratacion_Biotrading  1[€]*([Deshidratacion].Coste_MAN_bio_€)  UnidadCoste  }  {  2.2.3_Coste_ENER_Biotrading  1[€]*([Cogeneracion].Coste_consumo_biogas_bio_€+[Deshidratacion].Coste_consumo_bio_€)  UnidadCoste  }  {  2.2.3.1_Coste_ENER_biogas_Biotrading  1[€]*([Cogeneracion].Coste_consumo_biogas_bio_€)  UnidadCoste  }  {  2.2.3.2_Coste_ENER_deshidratacion_Biotrading  1[€]*([Deshidratacion].Coste_consumo_bio_€)  UnidadCoste  }  {  2.2.4_Coste_GESTION_RES_Biotrading  1[€]*([Deshidratacion].Coste_gestion_bio_€)  UnidadCoste  }  {  2.2.5_Coste_POLI_Biotrading  1[€]*([Deshidratacion].Coste_polielectrolito_bio_€)  UnidadCoste  }  {  2.3_Coste_Otivar  1[€]*([Cogeneracion].Coste_MAN_otivar_€+[Deshidratacion].Coste_MAN_otivar_€+[Cogeneracion].Coste_consumo_biogas_otivar_€+[Deshidratacion].Coste_consumo_otivar_€+[Deshidratacion].Coste_gestion_otivar_€+[Deshidratacion].Coste_polielectrolito_otivar_€)  UnidadCoste  }  {  2.3.1_Coste_MAN_cogeneracion_Otivar  1[€]*([Cogeneracion].Coste_MAN_otivar_€)  UnidadCoste  }  {  2.3.2_Coste_MAN_deshidratacion_Otivar  1[€]*([Deshidratacion].Coste_MAN_otivar_€)  UnidadCoste  }  {  2.3.3_Coste_ENER_Otivar  1[€]*([Cogeneracion].Coste_consumo_biogas_otivar_€+[Deshidratacion].Coste_consumo_otivar_€)  UnidadCoste  }  {  2.3.3.1_Coste_ENER_biogas_Otivar  1[€]*([Cogeneracion].Coste_consumo_biogas_otivar_€)  UnidadCoste  }  {  2.3.3.2_Coste_ENER_deshidratacion_Otivar  1[€]*([Deshidratacion].Coste_consumo_otivar_€)  UnidadCoste  }  {  2.3.4_Coste_GESTION_RES_Otivar  1[€]*([Deshidratacion].Coste_gestion_otivar_€)  UnidadCoste  }  {  2.3.5_Coste_POLI_Otivar  1[€]*([Deshidratacion].Coste_polielectrolito_otivar_€)  UnidadCoste  }  {  1_TRH_dias  [Digestor]._1_TRH_dias  }  {  2_Fango_digerido  [Deshidratacion].Total_fango  UnidadVolumen  }  {  2.1_m3_dia  ([Fangos_mixtos].Q_fangos_dia+[Fangos_mixtos].Q_cos_dia)*1[m3]  UnidadVolumen  }  {  2.2_DQO_kgm3  [Fangos_mixtos].DQO_kgm3  }  {  2.3_Porcentaje_MV  0  }  {  3_Fango_a_deshidratacion  [Deshidratacion].Total_fango+[Deshidratacion].Total_cosus  UnidadVolumen  }  {  3.1_Fango  [Deshidratacion].Total_fango  UnidadVolumen  }  {  3.1.1_m3_dia  [Fangos_mixtos].Q_fangos_dia*1[m3]  UnidadVolumen  }  {  3.1.2_Polielectorlito_kg_dia  [Deshidratacion].Consumo_poli_fangos_dia  UnidadMasa  }  {  3.1.3_Consumo_kWh  [Deshidratacion].Consumo_fangos  UnidadEnergía  }  {  3.2_Cosustratos  [Deshidratacion].Total_cosus  UnidadVolumen  }  {  3.2.1_m3_dia  [Fangos_mixtos].Q_cos_dia*1[m3]  UnidadVolumen  }  {  3.2.2_Polielectorlito_kg_dia  [Deshidratacion].Consumo_poli_cosus_dia  UnidadMasa  }  {  3.2.3_Consumo_kWh  [Deshidratacion].Consumo_cosustratos  UnidadEnergía  }  {  4_Fango_deshidratado  [Deshidratacion].Total_fango+[Deshidratacion].Total_cosus  UnidadVolumen  }  {  4.1_kgMH_kgDQO_eliminada  [Deshidratacion].Kg_MH_kg_DQO  }  {  4.2_kgMH_m3_agua  [Deshidratacion].Kg_MH_m3_Agua  }  {  1_Biogas_total_generado_m3_dia  [Gasometro].Total_generado_fangos_dia+[Gasometro].Total_generado_cosus_dia  UnidadVolumen  }  {  1.1_Biogas_generado_por_fangos_m3_dia  [Gasometro].Total_generado_fangos_dia  UnidadVolumen  }  {  1.2_Biogas_generado_por_cosustratos_m3_dia  [Gasometro].Total_generado_cosus_dia  UnidadVolumen  }  {  2_Biogas_generado_m3_kg_DQO_eliminada  [Gasometro].m3_DQO  }  {  3_Consumo_total_biogas_m3_dia  [Motor_1].Total_dia+[Motor_2].Total_dia+[Motor_3].Total_dia+[Caldera].Total_dia+[Antorcha].Total_dia  UnidadVolumen  }  {  3.1_Motores_de_cogeneracion  [Motor_1].Total_dia+[Motor_2].Total_dia+[Motor_3].Total_dia  UnidadVolumen  }  {  3.1.1_m3_dia_motores  [Motor_1].Total_dia+[Motor_2].Total_dia+[Motor_3].Total_dia  UnidadEnergía  }  {  3.1.2_Porcentaje  [Cogeneracion].Porcentaje  }  {  3.1.3_kWh_m3_biogas  [Cogeneracion].KW_m3  }  {  3.2_Calderas  [Caldera].Total_dia  UnidadVolumen  }  {  3.2.1_m3_dia  [Caldera].Total_dia  UnidadVolumen  }  {  3.2.1_Porcentaje  [Caldera].Porcentaje  }  {  3.3_Antorcha  [Antorcha].Total_dia  UnidadVolumen  }  {  3.3.1_m3_dia  [Antorcha].Total_dia  UnidadVolumen  }  {  3.3.2_Porcentaje  [Antorcha].Porcentaje  }  {  4_Ocupacion_gasometro_Porcentaje  [Gasometro].Ocupacion  }  {  1_Consumo_EDAR_kWh_dia  [Depuradora].Consumo_total_dia  UnidadEnergía  }  {  2_Cogeneracion_total_kWh_dia  [Cogeneracion].Total_generado_fangos_dia+[Cogeneracion].Total_generado_cosustrato_dia  UnidadEnergía  }  {  2.1_Generado_por_fangos_kWh_dia  [Cogeneracion].Total_generado_fangos_dia  UnidadEnergía  }  {  2.2_Generado_por_cosustratos_kWh_dia  [Cogeneracion].Total_generado_cosustrato_dia  UnidadEnergía  }  {  2.2.1_Generado_Biotrading  [Cogeneracion].Total_generado_bio_dia  UnidadEnergía  }  {  2.2.2_Generado_Kaura  [Cogeneracion].Total_generado_kaura_dia  UnidadEnergía  }  {  2.2.3_Generado_Otivar  [Cogeneracion].Total_generado_otivar_dia  UnidadEnergía  }  {  2.2.4_Generado_Extra1  [Cogeneracion].Total_generado_extra1_dia  UnidadEnergía  }  {  2.2.5_Generado_Extra2  [Cogeneracion].Total_generado_extra2_dia  UnidadEnergía  }  {  3_Autoconsumo_EDAR  [Depuradora].Autoconsumo  }  }
+alerta_centrifuga  ListaSalidaPersonalizada  {  {  Mensaje_estado  this.Mensaje(choose(this.Abierto+1,1,2))  }  }
+alerta_digestor  ListaSalidaPersonalizada  {  {  Mensaje_estado  this.Mensaje(choose(this.Abierto+1,1,2))  }  }
+bio  ListaSalidaPersonalizada  {  {  m_gas  0.1*[Biotrading_DQO_kgm3].Error*0.71641925  }  }
+extra1  ListaSalidaPersonalizada  {  {  m_gas  0.1*[Extra1_DQO_kgm3].Error*(([Kaura_DQO_kgm3].Error>=[Otivar_DQO_kgm3].Error)*(([Extra1_DQO_kgm3].Error<=[Kaura_DQO_kgm3].Error)*((0.6165263-0.40141)/([Kaura_DQO_kgm3].Error-[Otivar_DQO_kgm3].Error)*[Extra1_DQO_kgm3].Error+(0.40141-((0.6165263-0.40141)/([Kaura_DQO_kgm3].Error-[Otivar_DQO_kgm3].Error))*[Otivar_DQO_kgm3].Error))+([Extra1_DQO_kgm3].Error>[Kaura_DQO_kgm3].Error)*((0.71641925-0.6165263)/([Biotrading_DQO_kgm3].Error-[Kaura_DQO_kgm3].Error)*[Extra1_DQO_kgm3].Error+(0.6165263-((0.71641925-0.6165263)/([Biotrading_DQO_kgm3].Error-[Kaura_DQO_kgm3].Error))*[Kaura_DQO_kgm3].Error)))+([Kaura_DQO_kgm3].Error<[Otivar_DQO_kgm3].Error)*(([Extra1_DQO_kgm3].Error<=[Otivar_DQO_kgm3].Error)*((0.40141-0.6165263)/([Otivar_DQO_kgm3].Error-[Kaura_DQO_kgm3].Error)*[Extra1_DQO_kgm3].Error+(0.6165263-((0.40141-0.6165263)/([Otivar_DQO_kgm3].Error-[Kaura_DQO_kgm3].Error))*[Kaura_DQO_kgm3].Error))+([Extra1_DQO_kgm3].Error>[Otivar_DQO_kgm3].Error)*((0.71641925-0.40141)/([Biotrading_DQO_kgm3].Error-[Otivar_DQO_kgm3].Error)*[Extra1_DQO_kgm3].Error+(0.40141-((0.71641925-0.40141)/([Biotrading_DQO_kgm3].Error-[Otivar_DQO_kgm3].Error))*[Otivar_DQO_kgm3].Error))))  }  }
+extra2  ListaSalidaPersonalizada  {  {  m_gas  0.1*[Extra2_DQO_kgm3].Error*(([Kaura_DQO_kgm3].Error>=[Otivar_DQO_kgm3].Error)*(([Extra2_DQO_kgm3].Error<=[Kaura_DQO_kgm3].Error)*((0.6165263-0.40141)/([Kaura_DQO_kgm3].Error-[Otivar_DQO_kgm3].Error)*[Extra2_DQO_kgm3].Error+(0.40141-((0.6165263-0.40141)/([Kaura_DQO_kgm3].Error-[Otivar_DQO_kgm3].Error))*[Otivar_DQO_kgm3].Error))+([Extra2_DQO_kgm3].Error>[Kaura_DQO_kgm3].Error)*((0.71641925-0.6165263)/([Biotrading_DQO_kgm3].Error-[Kaura_DQO_kgm3].Error)*[Extra2_DQO_kgm3].Error+(0.6165263-((0.71641925-0.6165263)/([Biotrading_DQO_kgm3].Error-[Kaura_DQO_kgm3].Error))*[Kaura_DQO_kgm3].Error)))+([Kaura_DQO_kgm3].Error<[Otivar_DQO_kgm3].Error)*(([Extra2_DQO_kgm3].Error<=[Otivar_DQO_kgm3].Error)*((0.40141-0.6165263)/([Otivar_DQO_kgm3].Error-[Kaura_DQO_kgm3].Error)*[Extra2_DQO_kgm3].Error+(0.6165263-((0.40141-0.6165263)/([Otivar_DQO_kgm3].Error-[Kaura_DQO_kgm3].Error))*[Kaura_DQO_kgm3].Error))+([Extra2_DQO_kgm3].Error>[Otivar_DQO_kgm3].Error)*((0.71641925-0.40141)/([Biotrading_DQO_kgm3].Error-[Otivar_DQO_kgm3].Error)*[Extra2_DQO_kgm3].Error+(0.40141-((0.71641925-0.40141)/([Biotrading_DQO_kgm3].Error-[Otivar_DQO_kgm3].Error))*[Otivar_DQO_kgm3].Error))))  }  }
+fango_espesado  ListaSalidaPersonalizada  {  {  m_gas  0.1*[Fango_espesado_DQO_kgm3].Error*0.105  }  }
+fango_flotado  ListaSalidaPersonalizada  {  {  m_gas  0.1*[Fango_flotado_DQO_kgm3].Error*0.105  }  }
+kaura  ListaSalidaPersonalizada  {  {  m_gas  0.1*[Kaura_DQO_kgm3].Error*0.6165263  }  }
+otivar  ListaSalidaPersonalizada  {  {  m_gas  0.1*[Otivar_DQO_kgm3].Error*0.40141  }  }
+Simulación  Descripción  {  Simulation run control inputs  }
+Simulación  DuracionSimulacion  {  1  d  }
+Simulación  DuraciónDeInicialización  {  2  d  }
+Simulación  SalidaEnCondiciónDePausa  {  VERDADERO  }
+Simulación  SemillaDeSubcorrienteGlobal  {  round(this.Dia/(this.DuraciónSimulación/1[d]))  }
+Simulación  ImprimirInforme  {  FALSO  }
+Simulación  ListaIndicesReplicación  {  5  }
+Simulación  ReplicaciónInicial  {  1  }
+Simulación  ReplicaciónFinal  {  1  }
+Simulación  UnidadesMostradas  {  kWh  d  kW  deg  }
+Simulación  AjustarAMalla  {  VERDADERO  }
+Simulación  Seguimiento  {  FALSO  }
+Simulación  nDecimales  {  2  }
+Simulación  SeguimientoFactor  {  1  }
+Simulación  TiempoReal  {  FALSO  }
+Simulación  ÍndiceDeTiempoReal  {  5000  }
+Simulación  MostrarBibliotecaDelModelo  {  VERDADERO  }
+Simulación  MostrarElementosDelModelo  {  VERDADERO  }
+Simulación  MostrarEditorInput  {  VERDADERO  }
+Simulación  MostrarVistaOutput  {  VERDADERO  }
+Simulación  MostrarVistaPropiedades  {  FALSO  }
+Simulación  MostrarEstadoDelModelo  {  FALSO  }
+Simulación  MostrarVisorDeEventos  {  FALSO  }
+Antorcha  SiguienteComponente  {  ant_2  }
+Antorcha  BufferDeEspera  {  b_antorcha  }
+Antorcha  TiempoDeServicio  {  2  s  }
+Antorcha  Posición  {  8.000000  -15.800000  0.000000  m  }
+Antorcha  Tamaño  {  0.3  0.3  0.3  m  }
+Antorcha  Puntos  {  {  7.950  -10.050  0.000  m  }  {  8.950  -10.050  0.000  m  }  }
+Antorcha_Label  EntidadObjetivo  {  Antorcha  }
+Antorcha_Label  Posición  {  0.700000  0.000000  0.000000  m  }
+Antorcha_Label  Tamaño  {  1.068850  0.300000  0.000000  m  }
+Antorcha_Label  EntidadRelativa  {  Antorcha  }
+Biogas_calderas_m3_dia  Categoria  {  FACSA_equipos  {  ValorDeEntrada  }  }
+Biogas_calderas_m3_dia  Controlador  {  Controlador1  }
+Biogas_calderas_m3_dia  Posición  {  -44.800000  -47.600000  0.000000  m  }
+Biogas_calderas_m3_dia  Categoria  {  FACSA_equipos  {  ValorDeEntrada  }  }
+Biogas_calderas_m3_dia  Puntos  {  {  -55.500  -4.200  0.000  m  }  {  -54.500  -4.200  0.000  m  }  }
+Biogas_calderas_m3_dia  ValorDeEntrada  {  10  }
+Biogas_calderas_m3_dia_Label  EntidadObjetivo  {  Biogas_calderas_m3_dia  }
+Biogas_calderas_m3_dia_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Biogas_calderas_m3_dia_Label  Tamaño  {  2.700798  0.300000  0.000000  m  }
+Biogas_calderas_m3_dia_Label  EntidadRelativa  {  Biogas_calderas_m3_dia  }
+Biotrading_DQO_kgm3  Categoria  {  FACSA_cosustratos  {  ValorDeEntrada  }  }
+Biotrading_DQO_kgm3  Controlador  {  Controlador1  }
+Biotrading_DQO_kgm3  Posición  {  -44.800000  -20.100000  0.000000  m  }
+Biotrading_DQO_kgm3  Categoria  {  FACSA_cosustratos  {  ValorDeEntrada  }  }
+Biotrading_DQO_kgm3  Puntos  {  {  -44.300  -18.400  0.000  m  }  {  -43.300  -18.400  0.000  m  }  }
+Biotrading_DQO_kgm3  ValorDeEntrada  {  80  }
+Biotrading_DQO_kgm3_Label  EntidadObjetivo  {  Biotrading_DQO_kgm3  }
+Biotrading_DQO_kgm3_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Biotrading_DQO_kgm3_Label  Tamaño  {  2.515492  0.300000  0.000000  m  }
+Biotrading_DQO_kgm3_Label  EntidadRelativa  {  Biotrading_DQO_kgm3  }
+Biotrading_m3_dia  Categoria  {  FACSA_cosustratos  {  ValorDeEntrada  }  }
+Biotrading_m3_dia  Controlador  {  Controlador1  }
+Biotrading_m3_dia  Posición  {  -44.800000  -18.900000  0.000000  m  }
+Biotrading_m3_dia  Categoria  {  FACSA_cosustratos  {  ValorDeEntrada  }  }
+Biotrading_m3_dia  Puntos  {  {  -44.300  -17.100  0.000  m  }  {  -43.300  -17.100  0.000  m  }  }
+Biotrading_m3_dia  ValorDeEntrada  {  20  }
+Biotrading_m3_dia_Label  EntidadObjetivo  {  Biotrading_m3_dia  }
+Biotrading_m3_dia_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Biotrading_m3_dia_Label  Tamaño  {  2.094415  0.300000  0.000000  m  }
+Biotrading_m3_dia_Label  EntidadRelativa  {  Biotrading_m3_dia  }
+Biotrading_porcentaje_MV  Categoria  {  FACSA_cosustratos  {  ValorDeEntrada  }  }
+Biotrading_porcentaje_MV  Controlador  {  Controlador1  }
+Biotrading_porcentaje_MV  Posición  {  -44.800000  -21.300000  0.000000  m  }
+Biotrading_porcentaje_MV  Categoria  {  FACSA_cosustratos  {  ValorDeEntrada  }  }
+Biotrading_porcentaje_MV  Puntos  {  {  -44.300  -19.700  0.000  m  }  {  -43.300  -19.700  0.000  m  }  }
+Biotrading_porcentaje_MV  ValorDeEntrada  {  81  }
+Biotrading_porcentaje_MV_Label  EntidadObjetivo  {  Biotrading_porcentaje_MV  }
+Biotrading_porcentaje_MV_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Biotrading_porcentaje_MV_Label  Tamaño  {  2.862566  0.300000  0.000000  m  }
+Biotrading_porcentaje_MV_Label  EntidadRelativa  {  Biotrading_porcentaje_MV  }
+C_Biotrading  SiguienteComponente  {  co3  }
+C_Biotrading  TiempoEntreLlegadas  {  86400[s]/([Biotrading_m3_dia].Error)/10  }
+C_Biotrading  EntidadPrototipo  {  bio  }
+C_Biotrading  Posición  {  9.200000  -9.700000  0.000000  m  }
+C_Biotrading  Tamaño  {  0.290121  0.274434  1.000000  m  }
+C_Biotrading  Puntos  {  {  7.645  -3.337  0.000  m  }  {  8.645  -3.337  0.000  m  }  }
+C_Biotrading  ListaInmediataPermisos  {  u_cosus_3  }
+C_Biotrading_Label  EntidadObjetivo  {  C_Biotrading  }
+C_Biotrading_Label  Posición  {  0.800000  0.000000  0.000000  m  }
+C_Biotrading_Label  Tamaño  {  1.472673  0.300000  0.000000  m  }
+C_Biotrading_Label  EntidadRelativa  {  C_Biotrading  }
+C_Extra1  SiguienteComponente  {  co4  }
+C_Extra1  TiempoEntreLlegadas  {  86400[s]/([Extra1_m3_dia].Error)/10  }
+C_Extra1  EntidadPrototipo  {  extra1  }
+C_Extra1  Posición  {  10.900000  -9.700000  0.000000  m  }
+C_Extra1  Tamaño  {  0.290121  0.274434  1.000000  m  }
+C_Extra1  Puntos  {  {  9.945  -9.837  0.000  m  }  {  10.945  -9.837  0.000  m  }  }
+C_Extra1  ListaInmediataPermisos  {  u_cosus_4  }
+C_Extra1_Label  EntidadObjetivo  {  C_Extra1  }
+C_Extra1_Label  Posición  {  0.000000  -0.287217  0.000000  m  }
+C_Extra1_Label  Tamaño  {  1.092686  0.300000  0.000000  m  }
+C_Extra1_Label  EntidadRelativa  {  C_Extra1  }
+C_Extra2  SiguienteComponente  {  co5  }
+C_Extra2  TiempoEntreLlegadas  {  86400[s]/([Extra2_m3_dia].Error)/10  }
+C_Extra2  EntidadPrototipo  {  extra2  }
+C_Extra2  Posición  {  12.400000  -9.700000  0.000000  m  }
+C_Extra2  Tamaño  {  0.290121  0.274434  1.000000  m  }
+C_Extra2  Puntos  {  {  11.045  -9.837  0.000  m  }  {  12.045  -9.837  0.000  m  }  }
+C_Extra2  ListaInmediataPermisos  {  u_cosus_5  }
+C_Extra2_Label  EntidadObjetivo  {  C_Extra2  }
+C_Extra2_Label  Posición  {  0.000000  -0.287217  0.000000  m  }
+C_Extra2_Label  Tamaño  {  1.092686  0.300000  0.000000  m  }
+C_Extra2_Label  EntidadRelativa  {  C_Extra2  }
+C_Kaura  SiguienteComponente  {  co2  }
+C_Kaura  TiempoEntreLlegadas  {  86400[s]/([Kaura_m3_dia].Error)/10  }
+C_Kaura  EntidadPrototipo  {  kaura  }
+C_Kaura  Posición  {  7.700000  -9.700000  0.000000  m  }
+C_Kaura  Tamaño  {  0.290121  0.274434  1.000000  m  }
+C_Kaura  Puntos  {  {  6.845  -3.137  0.000  m  }  {  7.845  -3.137  0.000  m  }  }
+C_Kaura  ListaInmediataPermisos  {  u_cosus_2  }
+C_Kaura_Label  EntidadObjetivo  {  C_Kaura  }
+C_Kaura_Label  Posición  {  0.600000  0.000000  0.000000  m  }
+C_Kaura_Label  Tamaño  {  1.025765  0.300000  0.000000  m  }
+C_Kaura_Label  EntidadRelativa  {  C_Kaura  }
+C_Otivar  SiguienteComponente  {  co1  }
+C_Otivar  TiempoEntreLlegadas  {  86400[s]/([Otivar_m3_dia].Error)/10  }
+C_Otivar  EntidadPrototipo  {  otivar  }
+C_Otivar  Posición  {  7.300000  -9.700000  0.000000  m  }
+C_Otivar  Tamaño  {  0.290121  0.274434  1.000000  m  }
+C_Otivar  Puntos  {  {  1.645  -3.837  0.000  m  }  {  2.645  -3.837  0.000  m  }  }
+C_Otivar  ListaInmediataPermisos  {  u_cosus_1  }
+C_Otivar_Label  EntidadObjetivo  {  C_Otivar  }
+C_Otivar_Label  Posición  {  -0.600000  0.000000  0.000000  m  }
+C_Otivar_Label  Tamaño  {  1.050499  0.300000  0.000000  m  }
+C_Otivar_Label  EntidadRelativa  {  C_Otivar  }
+Caldera  SiguienteComponente  {  cal_2  }
+Caldera  BufferDeEspera  {  Gasometro  }
+Caldera  TiempoDeServicio  {  8640[s]/([Biogas_calderas_m3_dia].Error+0.001)  }
+Caldera  Posición  {  0.800000  -15.700000  0.000000  m  }
+Caldera  Tamaño  {  0.15  0.15  1.000000  m  }
+Caldera  Puntos  {  {  2.375  -10.275  0.000  m  }  {  3.375  -10.275  0.000  m  }  }
+Caldera_Label  EntidadObjetivo  {  Caldera  }
+Caldera_Label  Posición  {  0.500000  0.000000  0.000000  m  }
+Caldera_Label  Tamaño  {  0.930120  0.300000  0.000000  m  }
+Caldera_Label  EntidadRelativa  {  Caldera  }
+Calent  CondiciónDeApertura  {  this.TiempoSimulación>2[d]  }
+Calent  Posición  {  -12.900000  -8.700000  0.000000  m  }
+Calent  Puntos  {  {  -12.900  -8.700  0.000  m  }  {  -11.900  -8.700  0.000  m  }  }
+Calent_Label  EntidadObjetivo  {  Calent  }
+Calent_Label  Posición  {  -0.700000  -0.000000  0.000000  m  }
+Calent_Label  Tamaño  {  0.802759  0.300000  0.000000  m  }
+Calent_Label  EntidadRelativa  {  Calent  }
+Camino2  SiguienteComponente  {  DestructorEntidades1  }
+Camino2  TiempoDeViaje  {  1  min  }
+Camino2  Posición  {  -11.200000  -5.100000  0.000000  m  }
+Camino2  Puntos  {  {  -11.200  -5.100  0.000  m  }  {  -9.000  -5.100  0.000  m  }  }
+Camino2_Label1  EntidadObjetivo  {  Camino2  }
+Camino2_Label1  Posición  {  1.100000  -0.100000  0.000000  m  }
+Camino2_Label1  Tamaño  {  1.053092  0.300000  0.000000  m  }
+Camino2_Label1  EntidadRelativa  {  Camino2  }
+Caminos  Posición  {  0  00  0  m  }
+Caminos  Puntos  {  {  24.700  -15.500  0.000  m  }  {  25.700  -15.500  0.000  m  }  }
+Caminos  Mostrar  {  VERDADERO  }
+Caminos_Label  EntidadObjetivo  {  Caminos  }
+Caminos_Label  Posición  {  0.000000  -0.728412  0.000000  m  }
+Caminos_Label  Tamaño  {  1.029654  0.300000  0.000000  m  }
+Caminos_Label  EntidadRelativa  {  Caminos  }
+Canon_entrada_Biotrading_€_Ton  Categoria  {  FACSA_datos_economic  {  ValorDeEntrada  }  }
+Canon_entrada_Biotrading_€_Ton  Controlador  {  Controlador1  }
+Canon_entrada_Biotrading_€_Ton  Posición  {  -44.800000  -33.200000  0.000000  m  }
+Canon_entrada_Biotrading_€_Ton  Categoria  {  FACSA_datos_economic  {  ValorDeEntrada  }  }
+Canon_entrada_Biotrading_€_Ton  Puntos  {  {  -58.900  0.300  0.000  m  }  {  -57.900  0.300  0.000  m  }  }
+Canon_entrada_Biotrading_€_Ton  ValorDeEntrada  {  10  }
+Canon_entrada_Biotrading_€_Ton_Label  EntidadObjetivo  {  Canon_entrada_Biotrading_€_Ton  }
+Canon_entrada_Biotrading_€_Ton_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Canon_entrada_Biotrading_€_Ton_Label  Tamaño  {  3.667520  0.300000  0.000000  m  }
+Canon_entrada_Biotrading_€_Ton_Label  EntidadRelativa  {  Canon_entrada_Biotrading_€_Ton  }
+Canon_entrada_Extra1_€_Ton  Categoria  {  FACSA_datos_economic  {  ValorDeEntrada  }  }
+Canon_entrada_Extra1_€_Ton  Controlador  {  Controlador1  }
+Canon_entrada_Extra1_€_Ton  Posición  {  -44.800000  -34.400000  0.000000  m  }
+Canon_entrada_Extra1_€_Ton  Categoria  {  FACSA_datos_economic  {  ValorDeEntrada  }  }
+Canon_entrada_Extra1_€_Ton  Puntos  {  {  -59.000  -2.700  0.000  m  }  {  -58.000  -2.700  0.000  m  }  }
+Canon_entrada_Extra1_€_Ton  ValorDeEntrada  {  10  }
+Canon_entrada_Extra1_€_Ton_Label  EntidadObjetivo  {  Canon_entrada_Extra1_€_Ton  }
+Canon_entrada_Extra1_€_Ton_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Canon_entrada_Extra1_€_Ton_Label  Tamaño  {  3.287533  0.300000  0.000000  m  }
+Canon_entrada_Extra1_€_Ton_Label  EntidadRelativa  {  Canon_entrada_Extra1_€_Ton  }
+Canon_entrada_Extra2_€_Ton  Categoria  {  FACSA_datos_economic  {  ValorDeEntrada  }  }
+Canon_entrada_Extra2_€_Ton  Controlador  {  Controlador1  }
+Canon_entrada_Extra2_€_Ton  Posición  {  -44.800000  -35.600000  0.000000  m  }
+Canon_entrada_Extra2_€_Ton  Categoria  {  FACSA_datos_economic  {  ValorDeEntrada  }  }
+Canon_entrada_Extra2_€_Ton  Puntos  {  {  -59.000  -4.200  0.000  m  }  {  -58.000  -4.200  0.000  m  }  }
+Canon_entrada_Extra2_€_Ton  ValorDeEntrada  {  10  }
+Canon_entrada_Extra2_€_Ton_Label  EntidadObjetivo  {  Canon_entrada_Extra2_€_Ton  }
+Canon_entrada_Extra2_€_Ton_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Canon_entrada_Extra2_€_Ton_Label  Tamaño  {  3.287533  0.300000  0.000000  m  }
+Canon_entrada_Extra2_€_Ton_Label  EntidadRelativa  {  Canon_entrada_Extra2_€_Ton  }
+Canon_entrada_Kaura_€_Ton  Categoria  {  FACSA_datos_economic  {  ValorDeEntrada  }  }
+Canon_entrada_Kaura_€_Ton  Controlador  {  Controlador1  }
+Canon_entrada_Kaura_€_Ton  Posición  {  -44.800000  -32.000000  0.000000  m  }
+Canon_entrada_Kaura_€_Ton  Categoria  {  FACSA_datos_economic  {  ValorDeEntrada  }  }
+Canon_entrada_Kaura_€_Ton  Puntos  {  {  -55.500  -7.200  0.000  m  }  {  -54.500  -7.200  0.000  m  }  }
+Canon_entrada_Kaura_€_Ton  ValorDeEntrada  {  10  }
+Canon_entrada_Kaura_€_Ton_Label  EntidadObjetivo  {  Canon_entrada_Kaura_€_Ton  }
+Canon_entrada_Kaura_€_Ton_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Canon_entrada_Kaura_€_Ton_Label  Tamaño  {  3.220612  0.300000  0.000000  m  }
+Canon_entrada_Kaura_€_Ton_Label  EntidadRelativa  {  Canon_entrada_Kaura_€_Ton  }
+Canon_entrada_Otivar_€_Ton  Categoria  {  FACSA_datos_economic  {  ValorDeEntrada  }  }
+Canon_entrada_Otivar_€_Ton  Controlador  {  Controlador1  }
+Canon_entrada_Otivar_€_Ton  Posición  {  -44.800000  -30.800000  0.000000  m  }
+Canon_entrada_Otivar_€_Ton  Categoria  {  FACSA_datos_economic  {  ValorDeEntrada  }  }
+Canon_entrada_Otivar_€_Ton  Puntos  {  {  -59.000  -1.200  0.000  m  }  {  -58.000  -1.200  0.000  m  }  }
+Canon_entrada_Otivar_€_Ton  ValorDeEntrada  {  10  }
+Canon_entrada_Otivar_€_Ton_Label  EntidadObjetivo  {  Canon_entrada_Otivar_€_Ton  }
+Canon_entrada_Otivar_€_Ton_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Canon_entrada_Otivar_€_Ton_Label  Tamaño  {  3.245346  0.300000  0.000000  m  }
+Canon_entrada_Otivar_€_Ton_Label  EntidadRelativa  {  Canon_entrada_Otivar_€_Ton  }
+Captura1-model  ArchivoDeImagen  {  imagenes/Captura.PNG  }
+Caudal_efluente_m3_dia  Categoria  {  FACSA_generales  {  ValorDeEntrada  }  }
+Caudal_efluente_m3_dia  Controlador  {  Controlador1  }
+Caudal_efluente_m3_dia  Posición  {  -44.800000  0.800000  0.000000  m  }
+Caudal_efluente_m3_dia  Categoria  {  FACSA_generales  {  ValorDeEntrada  }  }
+Caudal_efluente_m3_dia  Puntos  {  {  -55.500  0.300  0.000  m  }  {  -54.500  0.300  0.000  m  }  }
+Caudal_efluente_m3_dia  ValorDeEntrada  {  40000  }
+Caudal_efluente_m3_dia_Label  EntidadObjetivo  {  Caudal_efluente_m3_dia  }
+Caudal_efluente_m3_dia_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Caudal_efluente_m3_dia_Label  Tamaño  {  2.706483  0.300000  0.000000  m  }
+Caudal_efluente_m3_dia_Label  EntidadRelativa  {  Caudal_efluente_m3_dia  }
+Caudal_influente_m3_dia  Categoria  {  FACSA_generales  {  ValorDeEntrada  }  }
+Caudal_influente_m3_dia  Controlador  {  Controlador1  }
+Caudal_influente_m3_dia  Posición  {  -44.800000  2.000000  0.000000  m  }
+Caudal_influente_m3_dia  Categoria  {  FACSA_generales  {  ValorDeEntrada  }  }
+Caudal_influente_m3_dia  Puntos  {  {  -12.900  -4.300  0.000  m  }  {  -11.900  -4.300  0.000  m  }  }
+Caudal_influente_m3_dia  ValorDeEntrada  {  45000  }
+Caudal_influente_m3_dia_Label  EntidadObjetivo  {  Caudal_influente_m3_dia  }
+Caudal_influente_m3_dia_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Caudal_influente_m3_dia_Label  Tamaño  {  2.770113  0.300000  0.000000  m  }
+Caudal_influente_m3_dia_Label  EntidadRelativa  {  Caudal_influente_m3_dia  }
+Centrifuga  SiguienteComponente  {  Deshidratacion  }
+Centrifuga  BufferDeEspera  {  b_centr  }
+Centrifuga  TiempoDeServicio  {  1[h]/80/10  }
+Centrifuga  Posición  {  6.600000  -12.300000  0.000000  m  }
+Centrifuga  Tamaño  {  0.5  0.5  1.000000  m  }
+Centrifuga  Puntos  {  {  6.000  -11.300  0.000  m  }  {  7.000  -11.300  0.000  m  }  }
+Centrifuga_Label  EntidadObjetivo  {  Centrifuga  }
+Centrifuga_Label  Posición  {  0.000000  -0.300000  0.000000  m  }
+Centrifuga_Label  Tamaño  {  1.218251  0.300000  0.000000  m  }
+Centrifuga_Label  EntidadRelativa  {  Centrifuga  }
+Cogeneracion  SiguienteComponente  {  c8  }
+Cogeneracion  BufferDeEspera  {  Gasometro  }
+Cogeneracion  TiempoDeServicio  {  0.5  s  }
+Cogeneracion  Posición  {  1.800000  -15.500000  0.000000  m  }
+Cogeneracion  Tamaño  {  0.15  0.15  1.000000  m  }
+Cogeneracion  Puntos  {  {  3.300  -10.500  0.000  m  }  {  4.300  -10.500  0.000  m  }  }
+Cogeneracion  ListaInmediataPermisos  {  u_mot  }
+Cogeneracion_Label  EntidadObjetivo  {  Cogeneracion  }
+Cogeneracion_Label  Posición  {  0.800000  0.000000  0.000000  m  }
+Cogeneracion_Label  Tamaño  {  1.541988  0.300000  0.000000  m  }
+Cogeneracion_Label  EntidadRelativa  {  Cogeneracion  }
+Consumo_biogas(kw/Nm3)  Categoria  {  FACSA_equipos  {  ValorDeEntrada  }  }
+Consumo_biogas(kw/Nm3)  Controlador  {  Controlador1  }
+Consumo_biogas(kw/Nm3)  Posición  {  -44.800000  -43.700000  0.000000  m  }
+Consumo_biogas(kw/Nm3)  Categoria  {  FACSA_equipos  {  ValorDeEntrada  }  }
+Consumo_biogas(kw/Nm3)  Puntos  {  {  -51.300  0.300  0.000  m  }  {  -50.300  0.300  0.000  m  }  }
+Consumo_biogas(kw/Nm3)  ValorDeEntrada  {  2.5  }
+Consumo_biogas(kw/Nm3)_Label  EntidadObjetivo  {  Consumo_biogas(kw/Nm3)  }
+Consumo_biogas(kw/Nm3)_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Consumo_biogas(kw/Nm3)_Label  Tamaño  {  2.945246  0.300000  0.000000  m  }
+Consumo_biogas(kw/Nm3)_Label  EntidadRelativa  {  Consumo_biogas(kw/Nm3)  }
+Consumo_deshidratacion(kw/Nm3)  Categoria  {  FACSA_equipos  {  ValorDeEntrada  }  }
+Consumo_deshidratacion(kw/Nm3)  Controlador  {  Controlador1  }
+Consumo_deshidratacion(kw/Nm3)  Posición  {  -44.800000  -44.900000  0.000000  m  }
+Consumo_deshidratacion(kw/Nm3)  Categoria  {  FACSA_equipos  {  ValorDeEntrada  }  }
+Consumo_deshidratacion(kw/Nm3)  Puntos  {  {  -48.900  0.300  0.000  m  }  {  -47.900  0.300  0.000  m  }  }
+Consumo_deshidratacion(kw/Nm3)  ValorDeEntrada  {  3.5  }
+Consumo_deshidratacion(kw/Nm3)_Label  EntidadObjetivo  {  Consumo_deshidratacion(kw/Nm3)  }
+Consumo_deshidratacion(kw/Nm3)_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Consumo_deshidratacion(kw/Nm3)_Label  Tamaño  {  3.778225  0.300000  0.000000  m  }
+Consumo_deshidratacion(kw/Nm3)_Label  EntidadRelativa  {  Consumo_deshidratacion(kw/Nm3)  }
+Controlador1  TiempoDeMuestra  {  500  w  }
+Controlador1  Posición  {  -41.800000  2.000000  0.000000  m  }
+Controlador1  Puntos  {  {  -11.300  -3.300  0.000  m  }  {  -10.300  -3.300  0.000  m  }  }
+Controlador1_Label1  EntidadObjetivo  {  Controlador1  }
+Controlador1_Label1  Posición  {  0.000000  -0.650000  0.000000  m  }
+Controlador1_Label1  Tamaño  {  1.484441  0.300000  0.000000  m  }
+Controlador1_Label1  EntidadRelativa  {  Controlador1  }
+Coste_gestion_fangos_deshidratados_€_Ton  Categoria  {  FACSA_datos_economic  {  ValorDeEntrada  }  }
+Coste_gestion_fangos_deshidratados_€_Ton  Controlador  {  Controlador1  }
+Coste_gestion_fangos_deshidratados_€_Ton  Posición  {  -44.800000  -42.100000  0.000000  m  }
+Coste_gestion_fangos_deshidratados_€_Ton  Categoria  {  FACSA_datos_economic  {  ValorDeEntrada  }  }
+Coste_gestion_fangos_deshidratados_€_Ton  Puntos  {  {  -55.500  -5.700  0.000  m  }  {  -54.500  -5.700  0.000  m  }  }
+Coste_gestion_fangos_deshidratados_€_Ton  ValorDeEntrada  {  3.5  }
+Coste_gestion_fangos_deshidratados_€_Ton_Label  EntidadObjetivo  {  Coste_gestion_fangos_deshidratados_€_Ton  }
+Coste_gestion_fangos_deshidratados_€_Ton_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Coste_gestion_fangos_deshidratados_€_Ton_Label  Tamaño  {  4.748438  0.300000  0.000000  m  }
+Coste_gestion_fangos_deshidratados_€_Ton_Label  EntidadRelativa  {  Coste_gestion_fangos_deshidratados_€_Ton  }
+De  SiguienteComponente  {  Camino2  }
+De  ListaDeAsignacionesDeAtributos  {  {  [Depuradora].Costes_totales=[Cogeneracion].Coste_MAN_fango_€+[Cogeneracion].Coste_MAN_cosustrato_€+[Cogeneracion].Coste_consumo_biogas_€+[Deshidratacion]._11_Coste_MAN_fangos_€+[Deshidratacion].Coste_MAN_cosustratos_€+[Deshidratacion].Coste_consumo_fangos_€+[Deshidratacion].Coste_consumo_cosustratos_€+[Deshidratacion].Coste_gestion_fangos_€+[Deshidratacion].Coste_gestion_cosustratos_€+[Deshidratacion].Coste_polielectrolito_fangos_€+[Deshidratacion].Coste_polielectrolito_cosustratos_€  }  {  [Depuradora].Ingreso_total_canon=[C_Otivar].Canon+[C_Kaura].Canon+[C_Biotrading].Canon+[C_Extra1].Canon+[C_Extra2].Canon  }  {  [Depuradora].Autoconsumo=([Cogeneracion].Total_generado_fangos+[Cogeneracion].Total_generado_cosustrato)/[Depuradora].Consumo_total*100  }  {  [Depuradora].Consumo_total=[Ratio_consumo_efluente_kWm3].Error*1[kWh]*[Efluente].UnidadesRecibidas  }  {  [Depuradora].Consumo_total_dia=[Depuradora].Consumo_total/(this.TotalTime/1[d])  }  {  [Depuradora].Costes_totales_fangos=[Cogeneracion].Coste_MAN_fango_€+[Cogeneracion].Coste_consumo_biogas_€+[Deshidratacion]._11_Coste_MAN_fangos_€+[Deshidratacion].Coste_consumo_fangos_€+[Deshidratacion].Coste_gestion_fangos_€+[Deshidratacion].Coste_polielectrolito_fangos_€  }  {  [Depuradora].Ratio_costes_totales_fangos=[Depuradora].Costes_totales_fangos/(([Espesador].Fango_espesado+[Flotador].Fango_flotado)/1[m3])  }  {  [Depuradora].Costes_totales_cosus=[Cogeneracion].Coste_MAN_cosustrato_€+[Deshidratacion].Coste_MAN_cosustratos_€+[Deshidratacion].Coste_consumo_cosustratos_€+[Deshidratacion].Coste_gestion_cosustratos_€+[Deshidratacion].Coste_polielectrolito_cosustratos_€  }  {  [Depuradora].Ratio_costes_totales_cosus=[Depuradora].Costes_totales_cosus/([C_Otivar].m3_introducidos+[C_Biotrading].m3_introducidos+[C_Kaura].m3_introducidos+[C_Extra1].m3_introducidos+[C_Extra2].m3_introducidos)  }  }
+De  Posición  {  -11.800000  -5.100000  0.000000  m  }
+De  Tamaño  {  0.3  0.3  1.000000  m  }
+De  Puntos  {  {  -11.650  -5.750  0.000  m  }  {  -10.650  -5.750  0.000  m  }  }
+De_Label  EntidadObjetivo  {  De  }
+De_Label  Posición  {  0.000000  0.300000  0.000000  m  }
+De_Label  Tamaño  {  0.429056  0.300000  0.000000  m  }
+De_Label  EntidadRelativa  {  De  }
+Depuradora  SiguienteComponente  {  De  }
+Depuradora  TiempoEntreLlegadas  {  86400[s]/[Caudal_influente_m3_dia].Error  }
+Depuradora  EntidadPrototipo  {  fango_espesado  }
+Depuradora  Posición  {  -12.400000  -5.100000  0.000000  m  }
+Depuradora  Tamaño  {  0.3  0.3  1.000000  m  }
+Depuradora  Puntos  {  {  1.500  -3.700  0.000  m  }  {  2.500  -3.700  0.000  m  }  }
+Depuradora_Label  EntidadObjetivo  {  Depuradora  }
+Depuradora_Label  Posición  {  -0.900000  0.000000  0.000000  m  }
+Depuradora_Label  Tamaño  {  1.356483  0.300000  0.000000  m  }
+Depuradora_Label  EntidadRelativa  {  Depuradora  }
+Deshidratacion  SiguienteComponente  {  SALIDA  }
+Deshidratacion  ListaDeAsignacionesDeAtributos  {  {  this.Total_fango=this.Total_fango+this.Entidad.m_fango*1[m3]  }  {  this.Total_cosus=this.Total_cosus+this.Entidad.m_cosus*1[m3]  }  {  this.Total_kaura=this.Total_kaura+this.Entidad.m_cosus*1[m3]*(this.Entidad.tipo_cosus==2)  }  {  this.Total_otivar=this.Total_otivar+this.Entidad.m_cosus*1[m3]*(this.Entidad.tipo_cosus==1)  }  {  this.Total_bio=this.Total_bio+this.Entidad.m_cosus*1[m3]*(this.Entidad.tipo_cosus==3)  }  {  this.Total_Extra1=this.Total_Extra1+this.Entidad.m_cosus*1[m3]*(this.Entidad.tipo_cosus==4)  }  {  this.Total_Extra2=this.Total_Extra2+this.Entidad.m_cosus*1[m3]*(this.Entidad.tipo_cosus==5)  }  {  this.Total_Ton_cosus=this.Total_cosus/1[m3]*[Normal_densidad].Numero  }  {  this.Total_Ton_kaura=this.Total_kaura/1[m3]*[Normal_densidad].Numero  }  {  this.Total_Ton_otivar=this.Total_otivar/1[m3]*[Normal_densidad].Numero  }  {  this.Total_Ton_bio=this.Total_bio/1[m3]*[Normal_densidad].Numero  }  {  this.Total_Ton_Extra1=this.Total_Extra1/1[m3]*[Normal_densidad].Numero  }  {  this.Total_Ton_Extra2=this.Total_Extra2/1[m3]*[Normal_densidad].Numero  }  {  this.Total_Ton_fango=this.Total_fango/1[m3]*[Normal_densidad].Numero  }  {  this._11_Coste_MAN_fangos_€=[MANT_Coste_hora_centrifuga].Error*([Centrifuga].TiempoEnProceso-[Reinicio].Ajuste)/1[h]*(this.Total_fango/(this.Total_fango+this.Total_cosus))  }  {  this.Coste_MAN_cosustratos_€=[MANT_Coste_hora_centrifuga].Error*([Centrifuga].TiempoEnProceso-[Reinicio].Ajuste)/1[h]*(this.Total_cosus/(this.Total_fango+this.Total_cosus))  }  {  this.Coste_MAN_kaura_€=[MANT_Coste_hora_centrifuga].Error*([Centrifuga].TiempoEnProceso-[Reinicio].Ajuste)/1[h]*(this.Total_kaura/(this.Total_fango+this.Total_cosus))  }  {  this.Coste_MAN_otivar_€=[MANT_Coste_hora_centrifuga].Error*([Centrifuga].TiempoEnProceso-[Reinicio].Ajuste)/1[h]*(this.Total_otivar/(this.Total_fango+this.Total_cosus))  }  {  this.Coste_MAN_bio_€=[MANT_Coste_hora_centrifuga].Error*([Centrifuga].TiempoEnProceso-[Reinicio].Ajuste)/1[h]*(this.Total_bio/(this.Total_fango+this.Total_cosus))  }  {  this.Coste_MAN_Extra1_€=[MANT_Coste_hora_centrifuga].Error*([Centrifuga].TiempoEnProceso-[Reinicio].Ajuste)/1[h]*(this.Total_Extra1/(this.Total_fango+this.Total_cosus))  }  {  this.Coste_MAN_Extra2_€=[MANT_Coste_hora_centrifuga].Error*([Centrifuga].TiempoEnProceso-[Reinicio].Ajuste)/1[h]*(this.Total_Extra2/(this.Total_fango+this.Total_cosus))  }  {  this.Consumo_fangos=[Consumo_deshidratacion(kw/Nm3)].Error*1[kWh]*(this.Total_fango/1[m3])  }  {  this.Consumo_cosustratos=[Consumo_deshidratacion(kw/Nm3)].Error*1[kWh]*(this.Total_cosus/1[m3])  }  {  this.Consumo_kaura=[Consumo_deshidratacion(kw/Nm3)].Error*1[kWh]*(this.Total_kaura/1[m3])  }  {  this.Consumo_otivar=[Consumo_deshidratacion(kw/Nm3)].Error*1[kWh]*(this.Total_otivar/1[m3])  }  {  this.Consumo_bio=[Consumo_deshidratacion(kw/Nm3)].Error*1[kWh]*(this.Total_bio/1[m3])  }  {  this.Consumo_Extra1=[Consumo_deshidratacion(kw/Nm3)].Error*1[kWh]*(this.Total_Extra1/1[m3])  }  {  this.Consumo_Extra2=[Consumo_deshidratacion(kw/Nm3)].Error*1[kWh]*(this.Total_Extra2/1[m3])  }  {  this.Coste_consumo_fangos_€=[Precio_kwh].Error*(this.Consumo_fangos/1[kWh])  }  {  this.Coste_consumo_cosustratos_€=[Precio_kwh].Error*(this.Consumo_cosustratos/1[kWh])  }  {  this.Coste_consumo_kaura_€=[Precio_kwh].Error*(this.Consumo_kaura/1[kWh])  }  {  this.Coste_consumo_otivar_€=[Precio_kwh].Error*(this.Consumo_otivar/1[kWh])  }  {  this.Coste_consumo_bio_€=[Precio_kwh].Error*(this.Consumo_bio/1[kWh])  }  {  this.Coste_consumo_Extra1_€=[Precio_kwh].Error*(this.Consumo_Extra1/1[kWh])  }  {  this.Coste_consumo_Extra2_€=[Precio_kwh].Error*(this.Consumo_Extra2/1[kWh])  }  {  this.Coste_gestion_fangos_€=[Coste_gestion_fangos_deshidratados_€_Ton].Error*this.Total_Ton_fango  }  {  this.Coste_gestion_cosustratos_€=[Coste_gestion_fangos_deshidratados_€_Ton].Error*this.Total_Ton_cosus  }  {  this.Coste_gestion_kaura_€=[Coste_gestion_fangos_deshidratados_€_Ton].Error*this.Total_Ton_kaura  }  {  this.Coste_gestion_otivar_€=[Coste_gestion_fangos_deshidratados_€_Ton].Error*this.Total_Ton_otivar  }  {  this.Coste_gestion_bio_€=[Coste_gestion_fangos_deshidratados_€_Ton].Error*this.Total_Ton_bio  }  {  this.Coste_gestion_Extra1_€=[Coste_gestion_fangos_deshidratados_€_Ton].Error*this.Total_Ton_Extra1  }  {  this.Coste_gestion_Extra2_€=[Coste_gestion_fangos_deshidratados_€_Ton].Error*this.Total_Ton_Extra2  }  {  this.Consumo_polielectrolito_fangos=1[kg]*(this.Total_fango/1[m3])*[Normal_poli].Numero  }  {  this.Consumo_polielectrolito_cosustratos=1[kg]*(this.Total_cosus/1[m3])*[Normal_poli].Numero  }  {  this.Consumo_polielectrolito_kaura=1[kg]*(this.Total_kaura/1[m3])*[Normal_poli].Numero  }  {  this.Consumo_polielectrolito_otivar=1[kg]*(this.Total_otivar/1[m3])*[Normal_poli].Numero  }  {  this.Consumo_polielectrolito_bio=1[kg]*(this.Total_bio/1[m3])*[Normal_poli].Numero  }  {  this.Consumo_polielectrolito_Extra1=1[kg]*(this.Total_Extra1/1[m3])*[Normal_poli].Numero  }  {  this.Consumo_polielectrolito_Extra2=1[kg]*(this.Total_Extra2/1[m3])*[Normal_poli].Numero  }  {  this.Coste_polielectrolito_fangos_€=this.Consumo_polielectrolito_fangos/1[t]*[Precio_Ton_poli].Error  }  {  this.Coste_polielectrolito_cosustratos_€=this.Consumo_polielectrolito_cosustratos/1[t]*[Precio_Ton_poli].Error  }  {  this.Coste_polielectrolito_kaura_€=this.Consumo_polielectrolito_kaura/1[t]*[Precio_Ton_poli].Error  }  {  this.Coste_polielectrolito_otivar_€=this.Consumo_polielectrolito_otivar/1[t]*[Precio_Ton_poli].Error  }  {  this.Coste_polielectrolito_bio_€=this.Consumo_polielectrolito_bio/1[t]*[Precio_Ton_poli].Error  }  {  this.Coste_polielectrolito_Extra1_€=this.Consumo_polielectrolito_Extra1/1[t]*[Precio_Ton_poli].Error  }  {  this.Coste_polielectrolito_Extra2_€=this.Consumo_polielectrolito_Extra2/1[t]*[Precio_Ton_poli].Error  }  {  this.Kg_MH_kg_DQO=(this.Total_Ton_cosus+this.Total_Ton_fango)*1000/[Fangos_mixtos].DQO_total_kg  }  {  this.Kg_MH_m3_Agua=(this.Total_Ton_cosus+this.Total_Ton_fango)*1000/[Depuradora].EntidadesGeneradas  }  }
+Deshidratacion  Posición  {  9.200000  -11.800000  0.000000  m  }
+Deshidratacion  Tamaño  {  0.2  0.2  0.2  m  }
+Deshidratacion  Puntos  {  {  14.200  -6.600  0.000  m  }  {  15.200  -6.600  0.000  m  }  }
+Deshidratacion_Label  EntidadObjetivo  {  Deshidratacion  }
+Deshidratacion_Label  Posición  {  0.000000  0.300000  0.000000  m  }
+Deshidratacion_Label  Tamaño  {  1.676729  0.300000  0.000000  m  }
+Deshidratacion_Label  EntidadRelativa  {  Deshidratacion  }
+DestructorEntidades1  Posición  {  -8.700000  -5.100000  0.000000  m  }
+DestructorEntidades1  Tamaño  {  0.3  0.3  1.000000  m  }
+DestructorEntidades1  Puntos  {  {  -3.600  -5.100  0.000  m  }  {  -2.600  -5.100  0.000  m  }  }
+DestructorEntidades1_Label1  EntidadObjetivo  {  DestructorEntidades1  }
+DestructorEntidades1_Label1  Posición  {  0.000000  0.300000  0.000000  m  }
+DestructorEntidades1_Label1  Tamaño  {  2.360505  0.300000  0.000000  m  }
+DestructorEntidades1_Label1  EntidadRelativa  {  DestructorEntidades1  }
+Digestor  SiguienteComponente  {  d1  }
+Digestor  TiempoDeViaje  {  60  min  }
+Digestor  Posición  {  -3.400000  -10.100000  2.000000  m  }
+Digestor  Puntos  {  {  -3.400  -10.100  2.000  m  }  {  -3.700  -9.700  2.000  m  }  {  -4.900  -9.700  2.000  m  }  {  -5.300  -10.200  2.000  m  }  {  -5.300  -11.300  2.000  m  }  {  -4.400  -11.800  2.000  m  }  {  -3.400  -11.300  2.000  m  }  {  -3.300  -10.700  2.000  m  }  {  -3.600  -10.200  2.000  m  }  {  -3.800  -10.000  2.000  m  }  {  -4.800  -9.900  2.000  m  }  {  -5.100  -10.300  2.000  m  }  {  -5.100  -11.100  2.000  m  }  {  -4.400  -11.600  2.000  m  }  {  -3.600  -11.200  2.000  m  }  {  -3.600  -10.700  2.000  m  }  {  -3.800  -10.300  2.000  m  }  {  -4.600  -10.200  2.000  m  }  }
+Digestor  EntidadRelativa  {  Caminos  }
+Digestor_2  SiguienteComponente  {  d2  }
+Digestor_2  TiempoDeViaje  {  60  min  }
+Digestor_2  Posición  {  -0.900000  -9.800000  2.000000  m  }
+Digestor_2  Puntos  {  {  -0.900  -9.800  1.7  m  }  {  -1.900  -10.100  1.7  m  }  {  -2.100  -10.800  1.7  m  }  {  -1.700  -11.500  1.7  m  }  {  -0.800  -11.800  1.7  m  }  {  -0.100  -11.300  1.7  m  }  {  0.100  -10.800  1.7  m  }  {  -0.100  -10.100  1.7  m  }  {  -0.900  -10.100  1.7  m  }  {  -1.700  -10.300  1.7  m  }  {  -1.800  -10.800  1.7  m  }  {  -1.500  -11.300  1.7  m  }  {  -0.900  -11.500  1.7  m  }  {  -0.300  -11.100  1.7  m  }  {  -0.200  -10.800  1.7  m  }  {  -0.300  -10.300  1.7  m  }  {  -0.900  -10.400  1.8  m  }  }
+Digestor_2  EntidadRelativa  {  Caminos  }
+Efluente  SiguienteComponente  {  Camino2  }
+Efluente  TiempoEntreLlegadas  {  86400[s]/[Caudal_efluente_m3_dia].Error  }
+Efluente  EntidadPrototipo  {  fango_espesado  }
+Efluente  Posición  {  -11.800000  -4.300000  0.000000  m  }
+Efluente  Tamaño  {  0.3  0.3  1.000000  m  }
+Efluente  Puntos  {  {  -12.250  -5.250  0.000  m  }  {  -11.250  -5.250  0.000  m  }  }
+Efluente_Label  EntidadObjetivo  {  Efluente  }
+Efluente_Label  Posición  {  0.000000  0.300000  0.000000  m  }
+Efluente_Label  Tamaño  {  0.989362  0.300000  0.000000  m  }
+Efluente_Label  EntidadRelativa  {  Efluente  }
+Ejes  ArchivoCollada  {  <res>/shapes/axis_text.dae  }
+Ejes-XYZ  Descripción  {  Unit vectors  }
+Ejes-XYZ  Alineación  {  -0.4393409  -0.4410096  -0.4394292  }
+Ejes-XYZ  Tamaño  {  1.125000  1.1568242  1.1266404  m  }
+Ejes-XYZ  Icono  {  Ejes  }
+Ejes-XYZ  Movible  {  FALSO  }
+Espesador  SiguienteComponente  {  c1  }
+Espesador  BufferDeEspera  {  buffer_esp  }
+Espesador  TiempoDeServicio  {  0.1  s  }
+Espesador  Posición  {  2.200000  -5.000000  -0.6  m  }
+Espesador  Tamaño  {  0.4  0.4  0.4  m  }
+Espesador  Puntos  {  {  5.963  -5.191  0.000  m  }  {  6.963  -5.191  0.000  m  }  }
+Espesador_Label  EntidadObjetivo  {  Espesador  }
+Espesador_Label  Posición  {  0.800000  0.000000  0.000000  m  }
+Espesador_Label  Tamaño  {  1.201995  0.300000  0.000000  m  }
+Espesador_Label  EntidadRelativa  {  Espesador  }
+Extra1_DQO_kgm3  Categoria  {  FACSA_cosustratos  {  ValorDeEntrada  }  }
+Extra1_DQO_kgm3  Controlador  {  Controlador1  }
+Extra1_DQO_kgm3  Posición  {  -44.800000  -24.000000  0.000000  m  }
+Extra1_DQO_kgm3  Categoria  {  FACSA_cosustratos  {  ValorDeEntrada  }  }
+Extra1_DQO_kgm3  Puntos  {  {  -44.300  -22.600  0.000  m  }  {  -43.300  -22.600  0.000  m  }  }
+Extra1_DQO_kgm3  ValorDeEntrada  {  60  }
+Extra1_DQO_kgm3_Label  EntidadObjetivo  {  Extra1_DQO_kgm3  }
+Extra1_DQO_kgm3_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Extra1_DQO_kgm3_Label  Tamaño  {  2.135505  0.300000  0.000000  m  }
+Extra1_DQO_kgm3_Label  EntidadRelativa  {  Extra1_DQO_kgm3  }
+Extra1_m3_dia  Categoria  {  FACSA_cosustratos  {  ValorDeEntrada  }  }
+Extra1_m3_dia  Controlador  {  Controlador1  }
+Extra1_m3_dia  Posición  {  -44.800000  -22.800000  0.000000  m  }
+Extra1_m3_dia  Categoria  {  FACSA_cosustratos  {  ValorDeEntrada  }  }
+Extra1_m3_dia  Puntos  {  {  -44.300  -21.300  0.000  m  }  {  -43.300  -21.300  0.000  m  }  }
+Extra1_m3_dia  ValorDeEntrada  {  10  }
+Extra1_m3_dia_Label  EntidadObjetivo  {  Extra1_m3_dia  }
+Extra1_m3_dia_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Extra1_m3_dia_Label  Tamaño  {  1.714428  0.300000  0.000000  m  }
+Extra1_m3_dia_Label  EntidadRelativa  {  Extra1_m3_dia  }
+Extra1_porcentaje_MV  Categoria  {  FACSA_cosustratos  {  ValorDeEntrada  }  }
+Extra1_porcentaje_MV  Controlador  {  Controlador1  }
+Extra1_porcentaje_MV  Posición  {  -44.800000  -25.200000  0.000000  m  }
+Extra1_porcentaje_MV  Categoria  {  FACSA_cosustratos  {  ValorDeEntrada  }  }
+Extra1_porcentaje_MV  Puntos  {  {  -44.300  -23.900  0.000  m  }  {  -43.300  -23.900  0.000  m  }  }
+Extra1_porcentaje_MV  ValorDeEntrada  {  80  }
+Extra1_porcentaje_MV_Label  EntidadObjetivo  {  Extra1_porcentaje_MV  }
+Extra1_porcentaje_MV_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Extra1_porcentaje_MV_Label  Tamaño  {  2.482580  0.300000  0.000000  m  }
+Extra1_porcentaje_MV_Label  EntidadRelativa  {  Extra1_porcentaje_MV  }
+Extra2_DQO_kgm3  Categoria  {  FACSA_cosustratos  {  ValorDeEntrada  }  }
+Extra2_DQO_kgm3  Controlador  {  Controlador1  }
+Extra2_DQO_kgm3  Posición  {  -44.800000  -27.900000  0.000000  m  }
+Extra2_DQO_kgm3  Categoria  {  FACSA_cosustratos  {  ValorDeEntrada  }  }
+Extra2_DQO_kgm3  Puntos  {  {  -40.000  -22.700  0.000  m  }  {  -39.000  -22.700  0.000  m  }  }
+Extra2_DQO_kgm3  ValorDeEntrada  {  70  }
+Extra2_DQO_kgm3_Label  EntidadObjetivo  {  Extra2_DQO_kgm3  }
+Extra2_DQO_kgm3_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Extra2_DQO_kgm3_Label  Tamaño  {  2.135505  0.300000  0.000000  m  }
+Extra2_DQO_kgm3_Label  EntidadRelativa  {  Extra2_DQO_kgm3  }
+Extra2_m3_dia  Categoria  {  FACSA_cosustratos  {  ValorDeEntrada  }  }
+Extra2_m3_dia  Controlador  {  Controlador1  }
+Extra2_m3_dia  Posición  {  -44.800000  -26.700000  0.000000  m  }
+Extra2_m3_dia  Categoria  {  FACSA_cosustratos  {  ValorDeEntrada  }  }
+Extra2_m3_dia  Puntos  {  {  -40.000  -21.300  0.000  m  }  {  -39.000  -21.300  0.000  m  }  }
+Extra2_m3_dia  ValorDeEntrada  {  23  }
+Extra2_m3_dia_Label  EntidadObjetivo  {  Extra2_m3_dia  }
+Extra2_m3_dia_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Extra2_m3_dia_Label  Tamaño  {  1.714428  0.300000  0.000000  m  }
+Extra2_m3_dia_Label  EntidadRelativa  {  Extra2_m3_dia  }
+Extra2_porcentaje_MV  Categoria  {  FACSA_cosustratos  {  ValorDeEntrada  }  }
+Extra2_porcentaje_MV  Controlador  {  Controlador1  }
+Extra2_porcentaje_MV  Posición  {  -44.800000  -29.100000  0.000000  m  }
+Extra2_porcentaje_MV  Categoria  {  FACSA_cosustratos  {  ValorDeEntrada  }  }
+Extra2_porcentaje_MV  Puntos  {  {  -40.000  -24.000  0.000  m  }  {  -39.000  -24.000  0.000  m  }  }
+Extra2_porcentaje_MV  ValorDeEntrada  {  80  }
+Extra2_porcentaje_MV_Label  EntidadObjetivo  {  Extra2_porcentaje_MV  }
+Extra2_porcentaje_MV_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Extra2_porcentaje_MV_Label  Tamaño  {  2.482580  0.300000  0.000000  m  }
+Extra2_porcentaje_MV_Label  EntidadRelativa  {  Extra2_porcentaje_MV  }
+Fango_espesado_DQO_kgm3  Categoria  {  FACSA_fangos  {  ValorDeEntrada  }  }
+Fango_espesado_DQO_kgm3  Controlador  {  Controlador1  }
+Fango_espesado_DQO_kgm3  Posición  {  -44.800000  -2.000000  0.000000  m  }
+Fango_espesado_DQO_kgm3  Categoria  {  FACSA_fangos  {  ValorDeEntrada  }  }
+Fango_espesado_DQO_kgm3  Puntos  {  {  -44.300  -1.200  0.000  m  }  {  -43.300  -1.200  0.000  m  }  }
+Fango_espesado_DQO_kgm3  ValorDeEntrada  {  26.63  }
+Fango_espesado_DQO_kgm3_Label  EntidadObjetivo  {  Fango_espesado_DQO_kgm3  }
+Fango_espesado_DQO_kgm3_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Fango_espesado_DQO_kgm3_Label  Tamaño  {  3.173039  0.300000  0.000000  m  }
+Fango_espesado_DQO_kgm3_Label  EntidadRelativa  {  Fango_espesado_DQO_kgm3  }
+Fango_espesado_m3_dia  Categoria  {  FACSA_fangos  {  ValorDeEntrada  }  }
+Fango_espesado_m3_dia  Controlador  {  Controlador1  }
+Fango_espesado_m3_dia  Posición  {  -44.800000  -0.800000  0.000000  m  }
+Fango_espesado_m3_dia  Categoria  {  FACSA_fangos  {  ValorDeEntrada  }  }
+Fango_espesado_m3_dia  Puntos  {  {  -44.300  0.300  0.000  m  }  {  -43.300  0.300  0.000  m  }  }
+Fango_espesado_m3_dia  ValorDeEntrada  {  300  }
+Fango_espesado_m3_dia_Label  EntidadObjetivo  {  Fango_espesado_m3_dia  }
+Fango_espesado_m3_dia_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Fango_espesado_m3_dia_Label  Tamaño  {  2.751961  0.300000  0.000000  m  }
+Fango_espesado_m3_dia_Label  EntidadRelativa  {  Fango_espesado_m3_dia  }
+Fango_espesado_porcentaje_MS  Categoria  {  FACSA_fangos  {  ValorDeEntrada  }  }
+Fango_espesado_porcentaje_MS  Controlador  {  Controlador1  }
+Fango_espesado_porcentaje_MS  Posición  {  -44.800000  -3.200000  0.000000  m  }
+Fango_espesado_porcentaje_MS  Categoria  {  FACSA_fangos  {  ValorDeEntrada  }  }
+Fango_espesado_porcentaje_MS  Puntos  {  {  -44.300  -2.600  0.000  m  }  {  -43.300  -2.600  0.000  m  }  }
+Fango_espesado_porcentaje_MS  ValorDeEntrada  {  3.49  }
+Fango_espesado_porcentaje_MS_Label  EntidadObjetivo  {  Fango_espesado_porcentaje_MS  }
+Fango_espesado_porcentaje_MS_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Fango_espesado_porcentaje_MS_Label  Tamaño  {  3.520113  0.300000  0.000000  m  }
+Fango_espesado_porcentaje_MS_Label  EntidadRelativa  {  Fango_espesado_porcentaje_MS  }
+Fango_espesado_porcentaje_MV  Categoria  {  FACSA_fangos  {  ValorDeEntrada  }  }
+Fango_espesado_porcentaje_MV  Controlador  {  Controlador1  }
+Fango_espesado_porcentaje_MV  Posición  {  -44.800000  -4.400000  0.000000  m  }
+Fango_espesado_porcentaje_MV  Categoria  {  FACSA_fangos  {  ValorDeEntrada  }  }
+Fango_espesado_porcentaje_MV  Puntos  {  {  -44.300  -3.900  0.000  m  }  {  -43.300  -3.900  0.000  m  }  }
+Fango_espesado_porcentaje_MV  ValorDeEntrada  {  73  }
+Fango_espesado_porcentaje_MV_Label  EntidadObjetivo  {  Fango_espesado_porcentaje_MV  }
+Fango_espesado_porcentaje_MV_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Fango_espesado_porcentaje_MV_Label  Tamaño  {  3.520113  0.300000  0.000000  m  }
+Fango_espesado_porcentaje_MV_Label  EntidadRelativa  {  Fango_espesado_porcentaje_MV  }
+Fango_flotado_DQO_kgm3  Categoria  {  FACSA_fangos  {  ValorDeEntrada  }  }
+Fango_flotado_DQO_kgm3  Controlador  {  Controlador1  }
+Fango_flotado_DQO_kgm3  Posición  {  -44.800000  -7.200000  0.000000  m  }
+Fango_flotado_DQO_kgm3  Categoria  {  FACSA_fangos  {  ValorDeEntrada  }  }
+Fango_flotado_DQO_kgm3  Puntos  {  {  -44.300  -2.600  0.000  m  }  {  -43.300  -2.600  0.000  m  }  }
+Fango_flotado_DQO_kgm3  ValorDeEntrada  {  23.71  }
+Fango_flotado_DQO_kgm3_Label  EntidadObjetivo  {  Fango_flotado_DQO_kgm3  }
+Fango_flotado_DQO_kgm3_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Fango_flotado_DQO_kgm3_Label  Tamaño  {  2.921908  0.300000  0.000000  m  }
+Fango_flotado_DQO_kgm3_Label  EntidadRelativa  {  Fango_flotado_DQO_kgm3  }
+Fango_flotado_m3_dia  Categoria  {  FACSA_fangos  {  ValorDeEntrada  }  }
+Fango_flotado_m3_dia  Controlador  {  Controlador1  }
+Fango_flotado_m3_dia  Posición  {  -44.800000  -6.000000  0.000000  m  }
+Fango_flotado_m3_dia  Categoria  {  FACSA_fangos  {  ValorDeEntrada  }  }
+Fango_flotado_m3_dia  Puntos  {  {  -44.300  -1.200  0.000  m  }  {  -43.300  -1.200  0.000  m  }  }
+Fango_flotado_m3_dia  ValorDeEntrada  {  163  }
+Fango_flotado_m3_dia_Label  EntidadObjetivo  {  Fango_flotado_m3_dia  }
+Fango_flotado_m3_dia_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Fango_flotado_m3_dia_Label  Tamaño  {  2.500831  0.300000  0.000000  m  }
+Fango_flotado_m3_dia_Label  EntidadRelativa  {  Fango_flotado_m3_dia  }
+Fango_flotado_porcentaje_MS  Categoria  {  FACSA_fangos  {  ValorDeEntrada  }  }
+Fango_flotado_porcentaje_MS  Controlador  {  Controlador1  }
+Fango_flotado_porcentaje_MS  Posición  {  -44.800000  -8.400000  0.000000  m  }
+Fango_flotado_porcentaje_MS  Categoria  {  FACSA_fangos  {  ValorDeEntrada  }  }
+Fango_flotado_porcentaje_MS  Puntos  {  {  -44.300  -3.900  0.000  m  }  {  -43.300  -3.900  0.000  m  }  }
+Fango_flotado_porcentaje_MS  ValorDeEntrada  {  3.23  }
+Fango_flotado_porcentaje_MS_Label  EntidadObjetivo  {  Fango_flotado_porcentaje_MS  }
+Fango_flotado_porcentaje_MS_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Fango_flotado_porcentaje_MS_Label  Tamaño  {  3.268983  0.300000  0.000000  m  }
+Fango_flotado_porcentaje_MS_Label  EntidadRelativa  {  Fango_flotado_porcentaje_MS  }
+Fango_flotado_porcentaje_MV  Categoria  {  FACSA_fangos  {  ValorDeEntrada  }  }
+Fango_flotado_porcentaje_MV  Controlador  {  Controlador1  }
+Fango_flotado_porcentaje_MV  Posición  {  -44.800000  -9.600000  0.000000  m  }
+Fango_flotado_porcentaje_MV  Categoria  {  FACSA_fangos  {  ValorDeEntrada  }  }
+Fango_flotado_porcentaje_MV  Puntos  {  {  -44.300  -5.200  0.000  m  }  {  -43.300  -5.200  0.000  m  }  }
+Fango_flotado_porcentaje_MV  ValorDeEntrada  {  66  }
+Fango_flotado_porcentaje_MV_Label  EntidadObjetivo  {  Fango_flotado_porcentaje_MV  }
+Fango_flotado_porcentaje_MV_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Fango_flotado_porcentaje_MV_Label  Tamaño  {  3.268983  0.300000  0.000000  m  }
+Fango_flotado_porcentaje_MV_Label  EntidadRelativa  {  Fango_flotado_porcentaje_MV  }
+Fangos_mixtos  SiguienteComponente  {  fm  }
+Fangos_mixtos  TiempoDeViaje  {  1  min  }
+Fangos_mixtos  Posición  {  8.600000  -5.600000  0.000000  m  }
+Fangos_mixtos  Puntos  {  {  8.600  -5.600  0.000  m  }  {  8.600  -6.300  0.000  m  }  }
+Fangos_mixtos  EntidadRelativa  {  Caminos  }
+Fangos_mixtos_Label  EntidadObjetivo  {  Fangos_mixtos  }
+Fangos_mixtos_Label  Posición  {  0.900000  -0.200000  0.000000  m  }
+Fangos_mixtos_Label  Tamaño  {  1.693285  0.300000  0.000000  m  }
+Fangos_mixtos_Label  EntidadRelativa  {  Fangos_mixtos  }
+Flotador  SiguienteComponente  {  c3  }
+Flotador  BufferDeEspera  {  buffer_flot  }
+Flotador  TiempoDeServicio  {  1  s  }
+Flotador  Posición  {  15.200000  -5.000000  -0.6  m  }
+Flotador  Tamaño  {  0.4  0.4  0.4  m  }
+Flotador  Puntos  {  {  4.863  -5.191  0.000  m  }  {  5.863  -5.191  0.000  m  }  }
+Flotador_Label  EntidadObjetivo  {  Flotador  }
+Flotador_Label  Posición  {  0.000000  -0.350000  0.000000  m  }
+Flotador_Label  Tamaño  {  0.988963  0.300000  0.000000  m  }
+Flotador_Label  EntidadRelativa  {  Flotador  }
+Gasometro  MáximoPorLinea  {  50  }
+Gasometro  Posición  {  0.800000  -16.200000  0.000000  m  }
+Gasometro  Puntos  {  {  2.400  -10.500  0.000  m  }  {  3.400  -10.500  0.000  m  }  }
+Gasometro_Label  EntidadObjetivo  {  Gasometro  }
+Gasometro_Label  Posición  {  0.000000  -0.400000  0.000000  m  }
+Gasometro_Label  Tamaño  {  1.273404  0.300000  0.000000  m  }
+Gasometro_Label  EntidadRelativa  {  Gasometro  }
+Kaura_DQO_kgm3  Categoria  {  FACSA_cosustratos  {  ValorDeEntrada  }  }
+Kaura_DQO_kgm3  Controlador  {  Controlador1  }
+Kaura_DQO_kgm3  Posición  {  -44.800000  -16.200000  0.000000  m  }
+Kaura_DQO_kgm3  Categoria  {  FACSA_cosustratos  {  ValorDeEntrada  }  }
+Kaura_DQO_kgm3  Puntos  {  {  -44.300  -14.100  0.000  m  }  {  -43.300  -14.100  0.000  m  }  }
+Kaura_DQO_kgm3  ValorDeEntrada  {  55  }
+Kaura_DQO_kgm3_Label  EntidadObjetivo  {  Kaura_DQO_kgm3  }
+Kaura_DQO_kgm3_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Kaura_DQO_kgm3_Label  Tamaño  {  2.068584  0.300000  0.000000  m  }
+Kaura_DQO_kgm3_Label  EntidadRelativa  {  Kaura_DQO_kgm3  }
+Kaura_m3_dia  Categoria  {  FACSA_cosustratos  {  ValorDeEntrada  }  }
+Kaura_m3_dia  Controlador  {  Controlador1  }
+Kaura_m3_dia  Posición  {  -44.800000  -15.000000  0.000000  m  }
+Kaura_m3_dia  Categoria  {  FACSA_cosustratos  {  ValorDeEntrada  }  }
+Kaura_m3_dia  Puntos  {  {  -44.300  -12.800  0.000  m  }  {  -43.300  -12.800  0.000  m  }  }
+Kaura_m3_dia  ValorDeEntrada  {  5  }
+Kaura_m3_dia_Label  EntidadObjetivo  {  Kaura_m3_dia  }
+Kaura_m3_dia_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Kaura_m3_dia_Label  Tamaño  {  1.647507  0.300000  0.000000  m  }
+Kaura_m3_dia_Label  EntidadRelativa  {  Kaura_m3_dia  }
+Kaura_porcentaje_MV  Categoria  {  FACSA_cosustratos  {  ValorDeEntrada  }  }
+Kaura_porcentaje_MV  Controlador  {  Controlador1  }
+Kaura_porcentaje_MV  Posición  {  -44.800000  -17.400000  0.000000  m  }
+Kaura_porcentaje_MV  Categoria  {  FACSA_cosustratos  {  ValorDeEntrada  }  }
+Kaura_porcentaje_MV  Puntos  {  {  -44.300  -15.400  0.000  m  }  {  -43.300  -15.400  0.000  m  }  }
+Kaura_porcentaje_MV  ValorDeEntrada  {  0  }
+Kaura_porcentaje_MV_Label  EntidadObjetivo  {  Kaura_porcentaje_MV  }
+Kaura_porcentaje_MV_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Kaura_porcentaje_MV_Label  Tamaño  {  2.415658  0.300000  0.000000  m  }
+Kaura_porcentaje_MV_Label  EntidadRelativa  {  Kaura_porcentaje_MV  }
+MANT_Coste_hora_centrifuga  Categoria  {  FACSA_datos_economic  {  ValorDeEntrada  }  }
+MANT_Coste_hora_centrifuga  Controlador  {  Controlador1  }
+MANT_Coste_hora_centrifuga  Posición  {  -44.800000  -38.400000  0.000000  m  }
+MANT_Coste_hora_centrifuga  Categoria  {  FACSA_datos_economic  {  ValorDeEntrada  }  }
+MANT_Coste_hora_centrifuga  Puntos  {  {  -48.900  -2.700  0.000  m  }  {  -47.900  -2.700  0.000  m  }  }
+MANT_Coste_hora_centrifuga  ValorDeEntrada  {  3  }
+MANT_Coste_hora_centrifuga_Label  EntidadObjetivo  {  MANT_Coste_hora_centrifuga  }
+MANT_Coste_hora_centrifuga_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+MANT_Coste_hora_centrifuga_Label  Tamaño  {  3.200266  0.300000  0.000000  m  }
+MANT_Coste_hora_centrifuga_Label  EntidadRelativa  {  MANT_Coste_hora_centrifuga  }
+MANT_Coste_hora_motores  Categoria  {  FACSA_datos_economic  {  ValorDeEntrada  }  }
+MANT_Coste_hora_motores  Controlador  {  Controlador1  }
+MANT_Coste_hora_motores  Posición  {  -44.800000  -37.200000  0.000000  m  }
+MANT_Coste_hora_motores  Categoria  {  FACSA_datos_economic  {  ValorDeEntrada  }  }
+MANT_Coste_hora_motores  Puntos  {  {  -48.900  -1.200  0.000  m  }  {  -47.900  -1.200  0.000  m  }  }
+MANT_Coste_hora_motores  ValorDeEntrada  {  3  }
+MANT_Coste_hora_motores_Label  EntidadObjetivo  {  MANT_Coste_hora_motores  }
+MANT_Coste_hora_motores_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+MANT_Coste_hora_motores_Label  Tamaño  {  3.010572  0.300000  0.000000  m  }
+MANT_Coste_hora_motores_Label  EntidadRelativa  {  MANT_Coste_hora_motores  }
+Malla-XY  Descripción  {  Grid for the X-Y plane (100 m x 100 m)  }
+Malla-XY  Tamaño  {  100  100  m  }
+Malla-XY  Icono  {  Malla100x100  }
+Malla-XY  Mostrar  {  FALSO  }
+Malla-XY  Movible  {  FALSO  }
+Malla100x100  ArchivoCollada  {  <res>/shapes/grid100x100.dae  }
+Motor_1  SiguienteComponente  {  mot1  }
+Motor_1  BufferDeEspera  {  b_mot  }
+Motor_1  TiempoDeServicio  {  [Normal_m1].Valor*1[s]*this.Entidad.m_gas*(350/this.Potencia)  }
+Motor_1  Posición  {  4.000000  -13.300000  0.000000  m  }
+Motor_1  Tamaño  {  0.3  0.3  0.3  m  }
+Motor_1  Puntos  {  {  7.600  -9.900  0.000  m  }  {  8.600  -9.900  0.000  m  }  }
+Motor_1  ListaPermisosOperativa  {  u_mot1  }
+Motor_1_Label  EntidadObjetivo  {  Motor_1  }
+Motor_1_Label  Posición  {  0.600000  0.000000  0.000000  m  }
+Motor_1_Label  Tamaño  {  0.997440  0.300000  0.000000  m  }
+Motor_1_Label  EntidadRelativa  {  Motor_1  }
+Motor_2  SiguienteComponente  {  mot2  }
+Motor_2  BufferDeEspera  {  b_mot  }
+Motor_2  TiempoDeServicio  {  [Normal_m2].Valor*1[s]*this.Entidad.m_gas*(200/this.Potencia)  }
+Motor_2  Posición  {  4.000000  -13.700000  0.000000  m  }
+Motor_2  Tamaño  {  0.3  0.3  0.3  m  }
+Motor_2  Puntos  {  {  7.750  -10.050  0.000  m  }  {  8.750  -10.050  0.000  m  }  }
+Motor_2  ListaPermisosOperativa  {  u_mot2  }
+Motor_2_Label  EntidadObjetivo  {  Motor_2  }
+Motor_2_Label  Posición  {  0.600000  -0.000000  0.000000  m  }
+Motor_2_Label  Tamaño  {  0.997440  0.300000  0.000000  m  }
+Motor_2_Label  EntidadRelativa  {  Motor_2  }
+Motor_3  SiguienteComponente  {  mot3  }
+Motor_3  BufferDeEspera  {  b_mot  }
+Motor_3  TiempoDeServicio  {  [Normal_m3].Valor*1[s]*this.Entidad.m_gas*(200/this.Potencia)  }
+Motor_3  Posición  {  4.000000  -14.100000  0.000000  m  }
+Motor_3  Tamaño  {  0.3  0.3  0.3  m  }
+Motor_3  Puntos  {  {  7.950  -10.750  0.000  m  }  {  8.950  -10.750  0.000  m  }  }
+Motor_3  ListaPermisosOperativa  {  u_mot3  }
+Motor_3_Label  EntidadObjetivo  {  Motor_3  }
+Motor_3_Label  Posición  {  0.600000  0.000000  0.000000  m  }
+Motor_3_Label  Tamaño  {  0.997440  0.300000  0.000000  m  }
+Motor_3_Label  EntidadRelativa  {  Motor_3  }
+Normal_densidad  SemillaAleatoria  {  2  }
+Normal_densidad  ValorMínimo  {  0  }
+Normal_densidad  ValorMáximo  {  1  }
+Normal_densidad  Significado  {  0.073  }
+Normal_densidad  DesviaciónEstándar  {  0.025  }
+Normal_densidad  Posición  {  -10.800000  -7.700000  0.000000  m  }
+Normal_densidad  Tamaño  {  0.5  0.5  0.5  m  }
+Normal_densidad  Puntos  {  {  13.300  -7.800  0.000  m  }  {  14.300  -7.800  0.000  m  }  }
+Normal_densidad_Label  EntidadObjetivo  {  Normal_densidad  }
+Normal_densidad_Label  Posición  {  1.200000  0.000000  0.000000  m  }
+Normal_densidad_Label  Tamaño  {  1.939029  0.300000  0.000000  m  }
+Normal_densidad_Label  EntidadRelativa  {  Normal_densidad  }
+Normal_m1  SemillaAleatoria  {  23  }
+Normal_m1  ValorMínimo  {  0  }
+Normal_m1  ValorMáximo  {  50  }
+Normal_m1  Significado  {  20  }
+Normal_m1  DesviaciónEstándar  {  0.15  }
+Normal_m1  Posición  {  6.500000  -13.300000  0.000000  m  }
+Normal_m1  Tamaño  {  0.3  0.3  0.3  m  }
+Normal_m1  Puntos  {  {  11.850  -12.150  0.000  m  }  {  12.850  -12.150  0.000  m  }  }
+Normal_m1_Label  EntidadObjetivo  {  Normal_m1  }
+Normal_m1_Label  Posición  {  0.800000  0.000000  0.000000  m  }
+Normal_m1_Label  Tamaño  {  1.349701  0.300000  0.000000  m  }
+Normal_m1_Label  EntidadRelativa  {  Normal_m1  }
+Normal_m2  SemillaAleatoria  {  23  }
+Normal_m2  ValorMínimo  {  0  }
+Normal_m2  ValorMáximo  {  50  }
+Normal_m2  Significado  {  28  }
+Normal_m2  DesviaciónEstándar  {  0.15  }
+Normal_m2  Posición  {  6.500000  -13.700000  0.000000  m  }
+Normal_m2  Tamaño  {  0.3  0.3  0.3  m  }
+Normal_m2  Puntos  {  {  10.350  -10.050  0.000  m  }  {  11.350  -10.050  0.000  m  }  }
+Normal_m2_Label  EntidadObjetivo  {  Normal_m2  }
+Normal_m2_Label  Posición  {  0.800000  0.000000  0.000000  m  }
+Normal_m2_Label  Tamaño  {  1.349701  0.300000  0.000000  m  }
+Normal_m2_Label  EntidadRelativa  {  Normal_m2  }
+Normal_m3  SemillaAleatoria  {  23  }
+Normal_m3  ValorMínimo  {  0  }
+Normal_m3  ValorMáximo  {  50  }
+Normal_m3  Significado  {  26.5  }
+Normal_m3  DesviaciónEstándar  {  0.15  }
+Normal_m3  Posición  {  6.500000  -14.100000  0.000000  m  }
+Normal_m3  Tamaño  {  0.3  0.3  0.3  m  }
+Normal_m3  Puntos  {  {  10.350  -10.850  0.000  m  }  {  11.350  -10.850  0.000  m  }  }
+Normal_m3_Label  EntidadObjetivo  {  Normal_m3  }
+Normal_m3_Label  Posición  {  0.800000  0.000000  0.000000  m  }
+Normal_m3_Label  Tamaño  {  1.349701  0.300000  0.000000  m  }
+Normal_m3_Label  EntidadRelativa  {  Normal_m3  }
+Normal_poli  SemillaAleatoria  {  2  }
+Normal_poli  ValorMínimo  {  0  }
+Normal_poli  ValorMáximo  {  1  }
+Normal_poli  Significado  {  0.23  }
+Normal_poli  DesviaciónEstándar  {  0.098  }
+Normal_poli  Posición  {  -10.800000  -7.100000  0.000000  m  }
+Normal_poli  Tamaño  {  0.5  0.5  0.5  m  }
+Normal_poli  Puntos  {  {  12.750  -8.150  0.000  m  }  {  13.750  -8.150  0.000  m  }  }
+Normal_poli_Label  EntidadObjetivo  {  Normal_poli  }
+Normal_poli_Label  Posición  {  1.000000  0.000000  0.000000  m  }
+Normal_poli_Label  Tamaño  {  1.384508  0.300000  0.000000  m  }
+Normal_poli_Label  EntidadRelativa  {  Normal_poli  }
+Normal_potencia  SemillaAleatoria  {  23  }
+Normal_potencia  ValorMínimo  {  0  }
+Normal_potencia  ValorMáximo  {  10  }
+Normal_potencia  Significado  {  0.518  }
+Normal_potencia  DesviaciónEstándar  {  0.017  }
+Normal_potencia  Posición  {  8.400000  -13.500000  0.000000  m  }
+Normal_potencia  Tamaño  {  0.5  0.5  0.5  m  }
+Normal_potencia  Puntos  {  {  15.750  -8.450  0.000  m  }  {  16.750  -8.450  0.000  m  }  }
+Normal_potencia_Label  EntidadObjetivo  {  Normal_potencia  }
+Normal_potencia_Label  Posición  {  1.200000  0.000000  0.000000  m  }
+Normal_potencia_Label  Tamaño  {  1.888963  0.300000  0.000000  m  }
+Normal_potencia_Label  EntidadRelativa  {  Normal_potencia  }
+Otivar_DQO_kgm3  Categoria  {  FACSA_cosustratos  {  ValorDeEntrada  }  }
+Otivar_DQO_kgm3  Controlador  {  Controlador1  }
+Otivar_DQO_kgm3  Posición  {  -44.800000  -12.300000  0.000000  m  }
+Otivar_DQO_kgm3  Categoria  {  FACSA_cosustratos  {  ValorDeEntrada  }  }
+Otivar_DQO_kgm3  Puntos  {  {  -44.300  -8.500  0.000  m  }  {  -43.300  -8.500  0.000  m  }  }
+Otivar_DQO_kgm3  ValorDeEntrada  {  65  }
+Otivar_DQO_kgm3_Label  EntidadObjetivo  {  Otivar_DQO_kgm3  }
+Otivar_DQO_kgm3_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Otivar_DQO_kgm3_Label  Tamaño  {  2.093318  0.300000  0.000000  m  }
+Otivar_DQO_kgm3_Label  EntidadRelativa  {  Otivar_DQO_kgm3  }
+Otivar_m3_dia  Categoria  {  FACSA_cosustratos  {  ValorDeEntrada  }  }
+Otivar_m3_dia  Controlador  {  Controlador1  }
+Otivar_m3_dia  Posición  {  -44.800000  -11.100000  0.000000  m  }
+Otivar_m3_dia  Categoria  {  FACSA_cosustratos  {  ValorDeEntrada  }  }
+Otivar_m3_dia  Puntos  {  {  -44.300  -7.200  0.000  m  }  {  -43.300  -7.200  0.000  m  }  }
+Otivar_m3_dia  ValorDeEntrada  {  24  }
+Otivar_m3_dia_Label  EntidadObjetivo  {  Otivar_m3_dia  }
+Otivar_m3_dia_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Otivar_m3_dia_Label  Tamaño  {  1.672241  0.300000  0.000000  m  }
+Otivar_m3_dia_Label  EntidadRelativa  {  Otivar_m3_dia  }
+Otivar_porcentaje_MV  Categoria  {  FACSA_cosustratos  {  ValorDeEntrada  }  }
+Otivar_porcentaje_MV  Controlador  {  Controlador1  }
+Otivar_porcentaje_MV  Posición  {  -44.800000  -13.500000  0.000000  m  }
+Otivar_porcentaje_MV  Categoria  {  FACSA_cosustratos  {  ValorDeEntrada  }  }
+Otivar_porcentaje_MV  Puntos  {  {  -44.300  -11.100  0.000  m  }  {  -43.300  -11.100  0.000  m  }  }
+Otivar_porcentaje_MV  ValorDeEntrada  {  85.58  }
+Otivar_porcentaje_MV_Label  EntidadObjetivo  {  Otivar_porcentaje_MV  }
+Otivar_porcentaje_MV_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Otivar_porcentaje_MV_Label  Tamaño  {  2.440392  0.300000  0.000000  m  }
+Otivar_porcentaje_MV_Label  EntidadRelativa  {  Otivar_porcentaje_MV  }
+PLANTA_SAVILLA  Posición  {  2.700000  -3.900000  0.600000  m  }
+PLANTA_SAVILLA  Alineación  {  0.000000  0.000000  0.000000  }
+PLANTA_SAVILLA  Tamaño  {  41  25  3.24  m  }
+PLANTA_SAVILLA  Icono  {  PLANTA_SAVILLA-model  }
+PLANTA_SAVILLA-model  ArchivoCollada  {  3D/PLANTA_SEVILLA_2_0.dae  }
+PLANTA_SAVILLA_Label1  EntidadObjetivo  {  PLANTA_SAVILLA  }
+PLANTA_SAVILLA_Label1  Posición  {  0.000000  -12.650000  0.000000  m  }
+PLANTA_SAVILLA_Label1  Tamaño  {  1.946509  0.300000  0.000000  m  }
+PLANTA_SAVILLA_Label1  EntidadRelativa  {  PLANTA_SAVILLA  }
+PLANTA_SAVILLA_Label1  Mostrar  {  FALSO  }
+Porcentaje_Metano  Categoria  {  FACSA_digestion  {  ValorDeEntrada  }  }
+Porcentaje_Metano  Controlador  {  Controlador1  }
+Porcentaje_Metano  Posición  {  -44.800000  -51.200000  0.000000  m  }
+Porcentaje_Metano  Categoria  {  FACSA_digestion  {  ValorDeEntrada  }  }
+Porcentaje_Metano  Puntos  {  {  -55.500  -7.200  0.000  m  }  {  -54.500  -7.200  0.000  m  }  }
+Porcentaje_Metano  ValorDeEntrada  {  60  }
+Porcentaje_Metano_Label  EntidadObjetivo  {  Porcentaje_Metano  }
+Porcentaje_Metano_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Porcentaje_Metano_Label  Tamaño  {  2.116855  0.300000  0.000000  m  }
+Porcentaje_Metano_Label  EntidadRelativa  {  Porcentaje_Metano  }
+Potencia_Motor_1_kW  Categoria  {  FACSA_equipos  {  ValorDeEntrada  }  }
+Potencia_Motor_1_kW  Controlador  {  Controlador1  }
+Potencia_Motor_1_kW  Posición  {  -44.800000  -52.400000  0.000000  m  }
+Potencia_Motor_1_kW  Categoria  {  FACSA_equipos  {  ValorDeEntrada  }  }
+Potencia_Motor_1_kW  Puntos  {  {  -59.000  0.300  0.000  m  }  {  -58.000  0.300  0.000  m  }  }
+Potencia_Motor_1_kW  ValorDeEntrada  {  350  }
+Potencia_Motor_1_kW_Label  EntidadObjetivo  {  Potencia_Motor_1_kW  }
+Potencia_Motor_1_kW_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Potencia_Motor_1_kW_Label  Tamaño  {  2.443684  0.300000  0.000000  m  }
+Potencia_Motor_1_kW_Label  EntidadRelativa  {  Potencia_Motor_1_kW  }
+Potencia_Motor_2_kW  Categoria  {  FACSA_equipos  {  ValorDeEntrada  }  }
+Potencia_Motor_2_kW  Controlador  {  Controlador1  }
+Potencia_Motor_2_kW  Posición  {  -44.800000  -53.600000  0.000000  m  }
+Potencia_Motor_2_kW  Categoria  {  FACSA_equipos  {  ValorDeEntrada  }  }
+Potencia_Motor_2_kW  Puntos  {  {  -62.500  0.300  0.000  m  }  {  -61.500  0.300  0.000  m  }  }
+Potencia_Motor_2_kW  ValorDeEntrada  {  200  }
+Potencia_Motor_2_kW_Label  EntidadObjetivo  {  Potencia_Motor_2_kW  }
+Potencia_Motor_2_kW_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Potencia_Motor_2_kW_Label  Tamaño  {  2.443684  0.300000  0.000000  m  }
+Potencia_Motor_2_kW_Label  EntidadRelativa  {  Potencia_Motor_2_kW  }
+Potencia_Motor_3_kW  Categoria  {  FACSA_equipos  {  ValorDeEntrada  }  }
+Potencia_Motor_3_kW  Controlador  {  Controlador1  }
+Potencia_Motor_3_kW  Posición  {  -44.800000  -54.800000  0.000000  m  }
+Potencia_Motor_3_kW  Categoria  {  FACSA_equipos  {  ValorDeEntrada  }  }
+Potencia_Motor_3_kW  Puntos  {  {  -62.500  -1.200  0.000  m  }  {  -61.500  -1.200  0.000  m  }  }
+Potencia_Motor_3_kW  ValorDeEntrada  {  200  }
+Potencia_Motor_3_kW_Label  EntidadObjetivo  {  Potencia_Motor_3_kW  }
+Potencia_Motor_3_kW_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Potencia_Motor_3_kW_Label  Tamaño  {  2.443684  0.300000  0.000000  m  }
+Potencia_Motor_3_kW_Label  EntidadRelativa  {  Potencia_Motor_3_kW  }
+Precio_Ton_poli  Categoria  {  FACSA_datos_economic  {  ValorDeEntrada  }  }
+Precio_Ton_poli  Controlador  {  Controlador1  }
+Precio_Ton_poli  Posición  {  -44.800000  -39.600000  0.000000  m  }
+Precio_Ton_poli  Categoria  {  FACSA_datos_economic  {  ValorDeEntrada  }  }
+Precio_Ton_poli  Puntos  {  {  -48.900  0.300  0.000  m  }  {  -47.900  0.300  0.000  m  }  }
+Precio_Ton_poli  ValorDeEntrada  {  2400  }
+Precio_Ton_poli_Label  EntidadObjetivo  {  Precio_Ton_poli  }
+Precio_Ton_poli_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Precio_Ton_poli_Label  Tamaño  {  1.770578  0.300000  0.000000  m  }
+Precio_Ton_poli_Label  EntidadRelativa  {  Precio_Ton_poli  }
+Precio_kwh  Categoria  {  FACSA_datos_economic  {  ValorDeEntrada  }  }
+Precio_kwh  Controlador  {  Controlador1  }
+Precio_kwh  Posición  {  -44.800000  -40.800000  0.000000  m  }
+Precio_kwh  Categoria  {  FACSA_datos_economic  {  ValorDeEntrada  }  }
+Precio_kwh  Puntos  {  {  -12.200  -6.400  0.000  m  }  {  -11.200  -6.400  0.000  m  }  }
+Precio_kwh  ValorDeEntrada  {  0.13  }
+Precio_kwh_Label  EntidadObjetivo  {  Precio_kwh  }
+Precio_kwh_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Precio_kwh_Label  Tamaño  {  1.315592  0.300000  0.000000  m  }
+Precio_kwh_Label  EntidadRelativa  {  Precio_kwh  }
+Primaria_1  SiguienteComponente  {  ap1  }
+Primaria_1  TiempoEntreLlegadas  {  86400[s]/([Fango_espesado_m3_dia].Error)/3.333  }
+Primaria_1  EntidadPrototipo  {  fango_espesado  }
+Primaria_1  Posición  {  1.900000  -2.500000  -0.600000  m  }
+Primaria_1  Tamaño  {  0.3  0.3  1.000000  m  }
+Primaria_1  Puntos  {  {  -5.150  -4.150  0.000  m  }  {  -4.150  -4.150  0.000  m  }  }
+Primaria_1_Label  EntidadObjetivo  {  Primaria_1  }
+Primaria_1_Label  Posición  {  -0.800000  0.000000  0.000000  m  }
+Primaria_1_Label  Tamaño  {  1.263331  0.300000  0.000000  m  }
+Primaria_1_Label  EntidadRelativa  {  Primaria_1  }
+Primaria_2  SiguienteComponente  {  ap2  }
+Primaria_2  TiempoEntreLlegadas  {  86400[s]/([Fango_espesado_m3_dia].Error)/3.333  }
+Primaria_2  EntidadPrototipo  {  fango_espesado  }
+Primaria_2  Posición  {  -2.400000  -5.000000  -0.600000  m  }
+Primaria_2  Tamaño  {  0.3  0.3  1.000000  m  }
+Primaria_2  Puntos  {  {  1.350  -3.550  0.000  m  }  {  2.350  -3.550  0.000  m  }  }
+Primaria_2_Label  EntidadObjetivo  {  Primaria_2  }
+Primaria_2_Label  Posición  {  -0.800000  -0.000000  0.000000  m  }
+Primaria_2_Label  Tamaño  {  1.263331  0.300000  0.000000  m  }
+Primaria_2_Label  EntidadRelativa  {  Primaria_2  }
+Primaria_3  SiguienteComponente  {  ap3  }
+Primaria_3  TiempoEntreLlegadas  {  86400[s]/([Fango_espesado_m3_dia].Error)/3.333  }
+Primaria_3  EntidadPrototipo  {  fango_espesado  }
+Primaria_3  Posición  {  1.900000  -7.500000  -0.600000  m  }
+Primaria_3  Tamaño  {  0.3  0.3  1.000000  m  }
+Primaria_3  Puntos  {  {  1.350  -4.950  0.000  m  }  {  2.350  -4.950  0.000  m  }  }
+Primaria_3_Label  EntidadObjetivo  {  Primaria_3  }
+Primaria_3_Label  Posición  {  -0.800000  0.000000  0.000000  m  }
+Primaria_3_Label  Tamaño  {  1.263331  0.300000  0.000000  m  }
+Primaria_3_Label  EntidadRelativa  {  Primaria_3  }
+Ratio_consumo_efluente_kWm3  Categoria  {  FACSA_generales  {  ValorDeEntrada  }  }
+Ratio_consumo_efluente_kWm3  Controlador  {  Controlador1  }
+Ratio_consumo_efluente_kWm3  Posición  {  -44.800000  -46.100000  0.000000  m  }
+Ratio_consumo_efluente_kWm3  Categoria  {  FACSA_generales  {  ValorDeEntrada  }  }
+Ratio_consumo_efluente_kWm3  Puntos  {  {  -55.000  -0.200  0.000  m  }  {  -54.000  -0.200  0.000  m  }  }
+Ratio_consumo_efluente_kWm3  ValorDeEntrada  {  0.35  }
+Ratio_consumo_efluente_kWm3_Label  EntidadObjetivo  {  Ratio_consumo_efluente_kWm3  }
+Ratio_consumo_efluente_kWm3_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Ratio_consumo_efluente_kWm3_Label  Tamaño  {  3.465957  0.300000  0.000000  m  }
+Ratio_consumo_efluente_kWm3_Label  EntidadRelativa  {  Ratio_consumo_efluente_kWm3  }
+Re  SiguienteComponente  {  DestructorEntidades1  }
+Re  ListaDeAsignacionesDeAtributos  {  {  [Deshidratacion].Total_fango=0[m3]  }  {  [Deshidratacion].Total_cosus=0[m3]  }  {  [Deshidratacion].Total_kaura=0[m3]  }  {  [Deshidratacion].Total_otivar=0[m3]  }  {  [Deshidratacion].Total_bio=0[m3]  }  {  [Deshidratacion].Total_Extra1=0[m3]  }  {  [Deshidratacion].Total_Extra2=0[m3]  }  {  [Reinicio].Ajuste=[Centrifuga].TiempoEnProceso  }  {  [Reinicio].Ajuste_M1=[Motor_1].TiempoEnProceso  }  {  [Reinicio].Ajuste_M2=[Motor_2].TiempoEnProceso  }  {  [Reinicio].Ajuste_M3=[Motor_3].TiempoEnProceso  }  {  [Fangos_mixtos].Q_total=0.1[m3]  }  {  [Motor_1].potencia_generada_fangos=0[kWh]  }  {  [Motor_2].potencia_generada_fangos=0[kWh]  }  {  [Motor_3].potencia_generada_fangos=0[kWh]  }  {  [Motor_1].potencia_generada_cosus=0[kWh]  }  {  [Motor_1].potencia_generada_kaura=0[kWh]  }  {  [Motor_1].potencia_generada_otivar=0[kWh]  }  {  [Motor_1].potencia_generada_bio=0[kWh]  }  {  [Motor_1].potencia_generada_Extra1=0[kWh]  }  {  [Motor_1].potencia_generada_Extra2=0[kWh]  }  {  [Motor_2].potencia_generada_cosus=0[kWh]  }  {  [Motor_2].potencia_generada_kaura=0[kWh]  }  {  [Motor_2].potencia_generada_otivar=0[kWh]  }  {  [Motor_2].potencia_generada_bio=0[kWh]  }  {  [Motor_2].potencia_generada_Extra1=0[kWh]  }  {  [Motor_2].potencia_generada_Extra2=0[kWh]  }  {  [Motor_3].potencia_generada_cosus=0[kWh]  }  {  [Motor_3].potencia_generada_kaura=0[kWh]  }  {  [Motor_3].potencia_generada_otivar=0[kWh]  }  {  [Motor_3].potencia_generada_bio=0[kWh]  }  {  [Motor_3].potencia_generada_Extra1=0[kWh]  }  {  [Motor_3].potencia_generada_Extra2=0[kWh]  }  {  [Cogeneracion].Total=0[m3]  }  {  [Cogeneracion].Total_fangos=0[m3]  }  {  [Cogeneracion].Total_kaura=0[m3]  }  {  [Cogeneracion].Total_bio=0[m3]  }  {  [Cogeneracion].Total_otivar=0[m3]  }  {  [Cogeneracion].Total_extra1=0[m3]  }  {  [Cogeneracion].Total_extra2=0[m3]  }  {  [Gasometro].Total_generado=0[m3]  }  {  [Gasometro].Total_generado_fangos=0[m3]  }  {  [Gasometro].Total_generado_cosus=0[m3]  }  {  [Flotador].Fango_flotado=0[m3]  }  {  [Espesador].Fango_espesado=0[m3]  }  {  [Antorcha].Total=0[m3]  }  {  [Caldera].Total=0[m3]  }  {  [Depuradora].Consumo_total=0.001[kWh]  }  {  [Motor_1].Total=0[m3]  }  {  [Motor_2].Total=0[m3]  }  {  [Motor_3].Total=0[m3]  }  }
+Re  Posición  {  -11.800000  -5.600000  0.000000  m  }
+Re  Tamaño  {  0.3  0.3  1.000000  m  }
+Re  Puntos  {  {  -11.400  -6.400  0.000  m  }  {  -10.400  -6.400  0.000  m  }  }
+Re_Label  EntidadObjetivo  {  Re  }
+Re_Label  Posición  {  0.000000  -0.300000  0.000000  m  }
+Re_Label  Tamaño  {  0.413697  0.300000  0.000000  m  }
+Re_Label  EntidadRelativa  {  Re  }
+Reinicio  SiguienteComponente  {  Re  }
+Reinicio  TiempoDePrimeraLlegada  {  2  d  }
+Reinicio  EntidadPrototipo  {  fango_espesado  }
+Reinicio  NúmeroMáximo  {  1  }
+Reinicio  Posición  {  -12.400000  -5.600000  0.000000  m  }
+Reinicio  Tamaño  {  0.3  0.3  1.000000  m  }
+Reinicio  Puntos  {  {  -12.250  -5.250  0.000  m  }  {  -11.250  -5.250  0.000  m  }  }
+Reinicio_Label  EntidadObjetivo  {  Reinicio  }
+Reinicio_Label  Posición  {  -0.700000  0.000000  0.000000  m  }
+Reinicio_Label  Tamaño  {  0.941489  0.300000  0.000000  m  }
+Reinicio_Label  EntidadRelativa  {  Reinicio  }
+Reloj  Descripción  {  Simulation date and time (no leap years or leap seconds)  }
+Reloj  AñoDeInicio  {  2021  }
+Reloj  FormatoDeFecha  {  dd - HH:mm:ss  }
+Reloj  PosiciónEnPantalla  {  15  15  }
+Reloj  AlineaciónInferior  {  VERDADERO  }
+Reloj  AlturaDeTexto  {  10  }
+Reloj  ColorDeFuente  {  0  54  95  }
+Reloj  EstiloDeFuente  {  CURSIVA  }
+SALIDA  Categoria  {  FACSA_consumo_energ  {  2.2.2_Generado_Kaura  }  }
+SALIDA  Categoria  {  FACSA_linea_fangos  {  2.3_Porcentaje_MV  }  }
+SALIDA  Categoria  {  FACSA_consumo_energ  {  2.2_Generado_por_cosustratos_kWh_dia  }  }
+SALIDA  Categoria  {  FACSA_económicas  {  2.3.1_Coste_MAN_cogeneracion_Otivar  }  }
+SALIDA  Categoria  {  FACSA_linea_fangos  {  2.1_m3_dia  }  }
+SALIDA  Categoria  {  FACSA_linea_fangos  {  4_Fango_deshidratado  }  }
+SALIDA  Categoria  {  FACSA_consumo_energ  {  3.2.1_Porcentaje  }  }
+SALIDA  Categoria  {  FACSA_linea_fangos  {  1_TRH_dias  }  }
+SALIDA  Categoria  {  FACSA_consumo_energ  {  2_Cogeneracion_total_kWh_dia  }  }
+SALIDA  Categoria  {  FACSA_consumo_energ  {  3.1_Motores_de_cogeneracion  }  }
+SALIDA  Categoria  {  FACSA_económicas  {  2.1.1_Coste_MAN_cogeneracion_Kaura  }  }
+SALIDA  Categoria  {  FACSA_económicas  {  1_Coste_total_fangos  }  }
+SALIDA  Categoria  {  FACSA_linea_biogas  {  3.3.1_m3_dia  }  }
+SALIDA  Categoria  {  FACSA_económicas  {  1.2.1_Coste_ENER_biogas_fangos  }  }
+SALIDA  Categoria  {  FACSA_económicas  {  2_Coste_total_cosustratos  }  }
+SALIDA  Categoria  {  FACSA_linea_fangos  {  3_Fango_a_deshidratacion  }  }
+SALIDA  Categoria  {  FACSA_económicas  {  2.1.4_Coste_GESTION_RES_Kaura  }  }
+SALIDA  Categoria  {  FACSA_linea_biogas  {  3.1.2_Porcentaje  }  }
+SALIDA  Categoria  {  FACSA_económicas  {  2.1_Coste_Kaura  }  }
+SALIDA  Categoria  {  FACSA_linea_fangos  {  3.2_Cosustratos  }  }
+SALIDA  Categoria  {  FACSA_linea_fangos  {  4.2_kgMH_m3_agua  }  }
+SALIDA  Categoria  {  FACSA_consumo_energ  {  2.2.4_Generado_Extra1  }  }
+SALIDA  Categoria  {  FACSA_linea_fangos  {  3.2.2_Polielectorlito_kg_dia  }  }
+SALIDA  Categoria  {  FACSA_linea_biogas  {  3.3.2_Porcentaje  }  }
+SALIDA  Categoria  {  FACSA_linea_biogas  {  1.2_Biogas_generado_por_cosustratos_m3_dia  }  }
+SALIDA  Categoria  {  FACSA_económicas  {  2.2.5_Coste_POLI_Biotrading  }  }
+SALIDA  Categoria  {  FACSA_linea_fangos  {  3.1_Fango  }  }
+SALIDA  Categoria  {  FACSA_linea_biogas  {  3_Consumo_total_biogas_m3_dia  }  }
+SALIDA  Categoria  {  FACSA_consumo_energ  {  3_Autoconsumo_EDAR  }  }
+SALIDA  Categoria  {  FACSA_económicas  {  2.1.2_Coste_MAN_deshidratacion_Kaura  }  }
+SALIDA  Categoria  {  FACSA_linea_biogas  {  1.1_Biogas_generado_por_fangos_m3_dia  }  }
+SALIDA  Categoria  {  FACSA_económicas  {  1.2.2_Coste_ENER_deshidratacion_fangos  }  }
+SALIDA  Categoria  {  FACSA_consumo_energ  {  2.1_Generado_por_fangos_kWh_dia  }  }
+SALIDA  Categoria  {  FACSA_consumo_energ  {  2.2.3_Generado_Otivar  }  }
+SALIDA  Categoria  {  FACSA_consumo_energ  {  2.2.1_Generado_Biotrading  }  }
+SALIDA  Categoria  {  FACSA_económicas  {  2.2.3.1_Coste_ENER_biogas_Biotrading  }  }
+SALIDA  Categoria  {  FACSA_linea_biogas  {  1_Biogas_total_generado_m3_dia  }  }
+SALIDA  Categoria  {  FACSA_económicas  {  2.3.3.2_Coste_ENER_deshidratacion_Otivar  }  }
+SALIDA  Categoria  {  FACSA_económicas  {  2.2.3_Coste_ENER_Biotrading  }  }
+SALIDA  Categoria  {  FACSA_económicas  {  2.3.4_Coste_GESTION_RES_Otivar  }  }
+SALIDA  Categoria  {  FACSA_económicas  {  1.3_Coste_GESTION_RES_fangos  }  }
+SALIDA  Categoria  {  FACSA_linea_fangos  {  2_Fango_digerido  }  }
+SALIDA  Categoria  {  FACSA_linea_fangos  {  2.2_DQO_kgm3  }  }
+SALIDA  Categoria  {  FACSA_económicas  {  2.2.2_Coste_MAN_deshidratacion_Biotrading  }  }
+SALIDA  Categoria  {  FACSA_linea_fangos  {  3.2.3_Consumo_kWh  }  }
+SALIDA  Categoria  {  FACSA_económicas  {  2.3.2_Coste_MAN_deshidratacion_Otivar  }  }
+SALIDA  Categoria  {  FACSA_linea_fangos  {  3.1.3_Consumo_kWh  }  }
+SALIDA  Categoria  {  FACSA_linea_biogas  {  3.2.2_Porcentaje  }  }
+SALIDA  Categoria  {  FACSA_económicas  {  Costes_totales  }  }
+SALIDA  Categoria  {  FACSA_linea_fangos  {  3.1.2_Polielectorlito_kg_dia  }  }
+SALIDA  Categoria  {  FACSA_económicas  {  2.1.3.2_Coste_ENER_deshidratacion_Kaura  }  }
+SALIDA  Categoria  {  FACSA_económicas  {  2.3.3.1_Coste_ENER_biogas_Otivar  }  }
+SALIDA  Categoria  {  FACSA_económicas  {  2.3.5_Coste_POLI_Otivar  }  }
+SALIDA  Categoria  {  FACSA_consumo_energ  {  2.2.5_Generado_Extra2  }  }
+SALIDA  Categoria  {  FACSA_consumo_energ  {  3.1.1_m3_dia_motores  }  }
+SALIDA  Categoria  {  FACSA_económicas  {  2.1.3_Coste_ENER_Kaura  }  }
+SALIDA  Categoria  {  FACSA_económicas  {  1.4_Coste_POLI_fangos  }  }
+SALIDA  Categoria  {  FACSA_económicas  {  2.2_Coste_Biotrading  }  }
+SALIDA  Categoria  {  FACSA_linea_biogas  {  4_Ocupacion_gasometro_Porcentaje  }  }
+SALIDA  Categoria  {  FACSA_económicas  {  2.1.5_Coste_POLI_Kaura  }  }
+SALIDA  Categoria  {  FACSA_económicas  {  2.3.3_Coste_ENER_Otivar  }  }
+SALIDA  Categoria  {  FACSA_linea_fangos  {  3.2.1_m3_dia  }  }
+SALIDA  Categoria  {  FACSA_linea_biogas  {  2_Biogas_generado_m3_kg_DQO_eliminada  }  }
+SALIDA  Categoria  {  FACSA_linea_fangos  {  3.1.1_m3_dia  }  }
+SALIDA  Categoria  {  FACSA_linea_biogas  {  3.1.3_kWh_m3_biogas  }  }
+SALIDA  Categoria  {  FACSA_linea_fangos  {  4.1_kgMH_kgDQO_eliminada  }  }
+SALIDA  Categoria  {  FACSA_económicas  {  2.2.4_Coste_GESTION_RES_Biotrading  }  }
+SALIDA  Categoria  {  FACSA_económicas  {  2.3_Coste_Otivar  }  }
+SALIDA  Categoria  {  FACSA_económicas  {  1.1_Coste_MAN_deshidratacion_fangos  }  }
+SALIDA  Categoria  {  FACSA_económicas  {  1.2_Coste_ENERGIA  }  }
+SALIDA  Categoria  {  FACSA_linea_biogas  {  3.3_Antorcha  }  }
+SALIDA  Categoria  {  FACSA_económicas  {  2.2.3.2_Coste_ENER_deshidratacion_Biotrading  }  }
+SALIDA  Categoria  {  FACSA_económicas  {  2.1.3.1_Coste_ENER_biogas_Kaura  }  }
+SALIDA  Categoria  {  FACSA_económicas  {  2.2.1_Coste_MAN_cogeneracion_Biotrading  }  }
+SALIDA  Categoria  {  FACSA_linea_biogas  {  3.2_Calderas  }  }
+SALIDA  Categoria  {  FACSA_linea_biogas  {  3.1_Motores_de_cogeneraion  }  }
+SALIDA  Categoria  {  FACSA_consumo_energ  {  1_Consumo_EDAR_kWh_dia  }  }
+SALIDA  Posición  {  -10.800000  -9.200000  0.000000  m  }
+SALIDA  Categoria  {  FACSA_consumo_energ  {  1_Consumo_EDAR_kWh_dia  }  }
+SALIDA  Tamaño  {  0.5  0.5  0.5  m  }
+SALIDA  Puntos  {  {  13.000  -9.100  0.000  m  }  {  14.000  -9.100  0.000  m  }  }
+SALIDA_Label  EntidadObjetivo  {  SALIDA  }
+SALIDA_Label  Posición  {  0.000000  -0.400000  0.000000  m  }
+SALIDA_Label  Tamaño  {  0.925931  0.300000  0.000000  m  }
+SALIDA_Label  EntidadRelativa  {  SALIDA  }
+Secundaria_1  SiguienteComponente  {  as1  }
+Secundaria_1  TiempoEntreLlegadas  {  86400[s]/([Fango_flotado_m3_dia].Error)/3.333  }
+Secundaria_1  EntidadPrototipo  {  fango_flotado  }
+Secundaria_1  Posición  {  16.200000  -0.200000  -0.600000  m  }
+Secundaria_1  Tamaño  {  0.3  0.3  1.000000  m  }
+Secundaria_1  Puntos  {  {  1.350  -3.550  0.000  m  }  {  2.350  -3.550  0.000  m  }  }
+Secundaria_1_Label  EntidadObjetivo  {  Secundaria_1  }
+Secundaria_1_Label  Posición  {  0.900000  -0.000000  0.000000  m  }
+Secundaria_1_Label  Tamaño  {  1.551762  0.300000  0.000000  m  }
+Secundaria_1_Label  EntidadRelativa  {  Secundaria_1  }
+Secundaria_2  SiguienteComponente  {  as2  }
+Secundaria_2  TiempoEntreLlegadas  {  86400[s]/([Fango_flotado_m3_dia].Error)/3.333  }
+Secundaria_2  EntidadPrototipo  {  fango_flotado  }
+Secundaria_2  Posición  {  18.800000  -5.000000  -0.600000  m  }
+Secundaria_2  Tamaño  {  0.3  0.3  1.000000  m  }
+Secundaria_2  Puntos  {  {  14.650  -3.550  0.000  m  }  {  15.650  -3.550  0.000  m  }  }
+Secundaria_2_Label  EntidadObjetivo  {  Secundaria_2  }
+Secundaria_2_Label  Posición  {  0.900000  0.000000  0.000000  m  }
+Secundaria_2_Label  Tamaño  {  1.551762  0.300000  0.000000  m  }
+Secundaria_2_Label  EntidadRelativa  {  Secundaria_2  }
+Secundaria_3  SiguienteComponente  {  as3  }
+Secundaria_3  TiempoEntreLlegadas  {  86400[s]/([Fango_flotado_m3_dia].Error)/3.333  }
+Secundaria_3  EntidadPrototipo  {  fango_flotado  }
+Secundaria_3  Posición  {  16.200000  -9.700000  -0.600000  m  }
+Secundaria_3  Tamaño  {  0.3  0.3  1.000000  m  }
+Secundaria_3  Puntos  {  {  14.550  -5.050  0.000  m  }  {  15.550  -5.050  0.000  m  }  }
+Secundaria_3_Label  EntidadObjetivo  {  Secundaria_3  }
+Secundaria_3_Label  Posición  {  0.900000  0.000000  0.000000  m  }
+Secundaria_3_Label  Tamaño  {  1.551762  0.300000  0.000000  m  }
+Secundaria_3_Label  EntidadRelativa  {  Secundaria_3  }
+Temp_digestor_ºC  Categoria  {  FACSA_digestion  {  ValorDeEntrada  }  }
+Temp_digestor_ºC  Controlador  {  Controlador1  }
+Temp_digestor_ºC  Posición  {  -44.800000  -50.000000  0.000000  m  }
+Temp_digestor_ºC  Categoria  {  FACSA_digestion  {  ValorDeEntrada  }  }
+Temp_digestor_ºC  Puntos  {  {  -46.800  -1.200  0.000  m  }  {  -45.800  -1.200  0.000  m  }  }
+Temp_digestor_ºC  ValorDeEntrada  {  25  }
+Temp_digestor_ºC_Label  EntidadObjetivo  {  Temp_digestor_ºC  }
+Temp_digestor_ºC_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Temp_digestor_ºC_Label  Tamaño  {  2.067487  0.300000  0.000000  m  }
+Temp_digestor_ºC_Label  EntidadRelativa  {  Temp_digestor_ºC  }
+Texto3  Formato  {  Estado centrifuga: %s  }
+Texto3  FuenteDeDatos  {  [alerta_centrifuga].Mensaje_estado  }
+Texto3  TextoFallido  {  Estado centrifuga: ERROR_LECTURA  }
+Texto3  Posición  {  10.800000  -12.600000  -0.600000  m  }
+Texto3  Puntos  {  {  10.800  -12.700  0.000  m  }  {  11.800  -12.700  0.000  m  }  }
+Texto3  AlturaDeTexto  {  0.15  m  }
+Texto3_Copia1  Formato  {  Estado Digestores: %s  }
+Texto3_Copia1  FuenteDeDatos  {  [alerta_digestor].Mensaje_estado  }
+Texto3_Copia1  TextoFallido  {  Estado Digestores: ERROR_LECTURA  }
+Texto3_Copia1  Posición  {  -2.800000  -11.800000  1.650000  m  }
+Texto3_Copia1  Puntos  {  {  11.300  -13.100  -0.600  m  }  {  12.300  -13.100  -0.600  m  }  }
+Texto3_Copia1  AlturaDeTexto  {  0.15  m  }
+Texto4  Formato  {  Caudal instantáneo: %.2f m3h (max: 80)  }
+Texto4  FuenteDeDatos  {  [Centrifuga].Caudal  }
+Texto4  Posición  {  10.800000  -12.900000  -0.600000  m  }
+Texto4  Puntos  {  {  5.600  -11.100  0.000  m  }  {  6.600  -11.100  0.000  m  }  }
+Texto4  AlturaDeTexto  {  0.14  m  }
+Vista1  Descripción  {  Default view window  }
+Vista1  VerCentro  {  7.156398642938918  -5.485072131796764  0  m  }
+Vista1  VerPosición  {  7.156398642938918  -5.485103439336987  31.216178358497924  m  }
+Vista1  MostrarVentana  {  VERDADERO  }
+Vista1  Bloqueo2D  {  FALSO  }
+Vista1  ImagenCielo  {  <res>/images/sky_map_2048x1024.jpg  }
+Vista2  VerCentro  {  8.938935  -5.985675  33.326574  m  }
+Vista2  VerPosición  {  8.938935  -5.985675  41.986803  m  }
+Vista2  MostrarVentana  {  VERDADERO  }
+Vista2  Bloqueo2D  {  VERDADERO  }
+Volumen_total_digestion_m3  Categoria  {  FACSA_digestion  {  ValorDeEntrada  }  }
+Volumen_total_digestion_m3  Controlador  {  Controlador1  }
+Volumen_total_digestion_m3  Posición  {  -44.800000  -48.800000  0.000000  m  }
+Volumen_total_digestion_m3  Categoria  {  FACSA_digestion  {  ValorDeEntrada  }  }
+Volumen_total_digestion_m3  Puntos  {  {  -51.300  0.300  0.000  m  }  {  -50.300  0.300  0.000  m  }  }
+Volumen_total_digestion_m3  ValorDeEntrada  {  8900  }
+Volumen_total_digestion_m3_Label  EntidadObjetivo  {  Volumen_total_digestion_m3  }
+Volumen_total_digestion_m3_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+Volumen_total_digestion_m3_Label  Tamaño  {  3.158677  0.300000  0.000000  m  }
+Volumen_total_digestion_m3_Label  EntidadRelativa  {  Volumen_total_digestion_m3  }
+_Label  Posición  {  0.000000  -0.650000  0.000000  m  }
+_Label  Tamaño  {  0.150000  0.300000  0.000000  m  }
+a_gas  SiguienteComponente  {  Gasometro  }
+a_gas  ListaDeAsignacionesDeAtributos  {  {  [Gasometro].Total=[Gasometro].Total+this.Entidad.m_gas*1[m3]  }  {  [Gasometro].Total_generado=[Gasometro].Total_generado+this.Entidad.m_gas*1[m3]  }  {  [Gasometro].Total_generado_fangos=[Gasometro].Total_generado_fangos+this.Entidad.m_gas*1[m3]*(this.Entidad.tipo==1)  }  {  [Gasometro].Total_generado_cosus=[Gasometro].Total_generado_cosus+this.Entidad.m_gas*1[m3]*(this.Entidad.tipo==2)  }  {  [Gasometro].Total_generado_dia=[Gasometro].Total_generado/(this.TotalTime/1[d])  }  {  [Gasometro].Total_generado_fangos_dia=[Gasometro].Total_generado_fangos/(this.TotalTime/1[d])  }  {  [Gasometro].Total_generado_cosus_dia=[Gasometro].Total_generado_cosus/(this.TotalTime/1[d])  }  {  [Gasometro].Total_generado_hora=([Gasometro].Total_generado_cosus+[Gasometro].Total_generado_fangos)/(this.TotalTime/1[h])  }  }
+a_gas  Posición  {  0.400000  -16.000000  0.000000  m  }
+a_gas  Tamaño  {  0.15  0.15  1.000000  m  }
+a_gas  Puntos  {  {  9.250  -10.050  0.000  m  }  {  10.250  -10.050  0.000  m  }  }
+a_gas_Label  EntidadObjetivo  {  a_gas  }
+a_gas_Label  Posición  {  -0.200000  0.200000  0.000000  m  }
+a_gas_Label  Tamaño  {  0.758876  0.300000  0.000000  m  }
+a_gas_Label  EntidadRelativa  {  a_gas  }
+agua-model  ArchivoDeImagen  {  imagenes/agua.png  }
+alerta_centrifuga  CondiciónDeApertura  {  [b_centr].CantidadEnBuffer<8  }
+alerta_centrifuga  Posición  {  10.800000  -12.713584  -0.700000  m  }
+alerta_centrifuga  Tamaño  {  5.570923  0.672057  0.000000  m  }
+alerta_centrifuga  Puntos  {  {  5.300  -12.600  0.000  m  }  {  6.300  -12.600  0.000  m  }  }
+alerta_digestor  CondiciónDeApertura  {  [Digestor]._1_TRH_dias>15  }
+alerta_digestor  Posición  {  -2.700000  -11.801771  1.600000  m  }
+alerta_digestor  Tamaño  {  5.570923  0.475611  0.000000  m  }
+alerta_digestor  Puntos  {  {  13.585  -13.050  -0.700  m  }  {  14.585  -13.050  -0.700  m  }  }
+ant_2  SiguienteComponente  {  SALIDA  }
+ant_2  ListaDeAsignacionesDeAtributos  {  {  [Gasometro].Total=[Gasometro].Total-this.Entidad.m_gas*1[m3]  }  {  [Antorcha].Total=[Antorcha].Total+this.Entidad.m_gas*1[m3]  }  }
+ant_2  Posición  {  9.500000  -15.800000  0.000000  m  }
+ant_2  Tamaño  {  0.2  0.2  0.2  m  }
+ant_2  Puntos  {  {  2.400  -9.900  0.000  m  }  {  3.400  -9.900  0.000  m  }  }
+ant_2_Label  EntidadObjetivo  {  ant_2  }
+ant_2_Label  Posición  {  0.500000  0.000000  0.000000  m  }
+ant_2_Label  Tamaño  {  0.742121  0.300000  0.000000  m  }
+ant_2_Label  EntidadRelativa  {  ant_2  }
+ap1  SiguienteComponente  {  p1  }
+ap1  AsignarEstado  {  2  }
+ap1  ListaDeAsignacionesDeAtributos  {  {  [Espesador].Fango_espesado=[Espesador].Fango_espesado+this.Entidad.m_fango*1[m3]  }  }
+ap1  Posición  {  2.100000  -2.000000  -0.6  m  }
+ap1  Tamaño  {  0.2  0.2  0.2  m  }
+ap1  Puntos  {  {  2.300  -3.100  0.000  m  }  {  3.300  -3.100  0.000  m  }  }
+ap1_Label  EntidadObjetivo  {  ap1  }
+ap1_Label  Posición  {  0.000000  0.300000  0.000000  m  }
+ap1_Label  Tamaño  {  0.529787  0.300000  0.000000  m  }
+ap1_Label  EntidadRelativa  {  ap1  }
+ap2  SiguienteComponente  {  p2  }
+ap2  AsignarEstado  {  2  }
+ap2  ListaDeAsignacionesDeAtributos  {  {  [Espesador].Fango_espesado=[Espesador].Fango_espesado+this.Entidad.m_fango*1[m3]  }  }
+ap2  Posición  {  -1.900000  -4.500000  -0.6  m  }
+ap2  Tamaño  {  0.2  0.2  0.2  m  }
+ap2  Puntos  {  {  1.600  -3.200  0.000  m  }  {  2.600  -3.200  0.000  m  }  }
+ap2_Label  EntidadObjetivo  {  ap2  }
+ap2_Label  Posición  {  0.000000  0.300000  0.000000  m  }
+ap2_Label  Tamaño  {  0.529787  0.300000  0.000000  m  }
+ap2_Label  EntidadRelativa  {  ap2  }
+ap3  SiguienteComponente  {  p3  }
+ap3  AsignarEstado  {  2  }
+ap3  ListaDeAsignacionesDeAtributos  {  {  [Espesador].Fango_espesado=[Espesador].Fango_espesado+this.Entidad.m_fango*1[m3]  }  }
+ap3  Posición  {  2.100000  -7.000000  -0.6  m  }
+ap3  Tamaño  {  0.2  0.2  0.2  m  }
+ap3  Puntos  {  {  1.600  -4.800  0.000  m  }  {  2.600  -4.800  0.000  m  }  }
+ap3_Label  EntidadObjetivo  {  ap3  }
+ap3_Label  Posición  {  0.000000  0.300000  0.000000  m  }
+ap3_Label  Tamaño  {  0.529787  0.300000  0.000000  m  }
+ap3_Label  EntidadRelativa  {  ap3  }
+as1  SiguienteComponente  {  s1  }
+as1  AsignarEstado  {  2  }
+as1  ListaDeAsignacionesDeAtributos  {  {  [Flotador].Fango_flotado=[Flotador].Fango_flotado+this.Entidad.m_fango*1[m3]  }  }
+as1  Posición  {  17.800000  0.400000  -0.6  m  }
+as1  Tamaño  {  0.2  0.2  0.2  m  }
+as1  Puntos  {  {  1.600  -3.200  0.000  m  }  {  2.600  -3.200  0.000  m  }  }
+as1_Label  EntidadObjetivo  {  as1  }
+as1_Label  Posición  {  0.000000  0.200000  0.000000  m  }
+as1_Label  Tamaño  {  0.508943  0.300000  0.000000  m  }
+as1_Label  EntidadRelativa  {  as1  }
+as2  SiguienteComponente  {  s2  }
+as2  AsignarEstado  {  2  }
+as2  ListaDeAsignacionesDeAtributos  {  {  [Flotador].Fango_flotado=[Flotador].Fango_flotado+this.Entidad.m_fango*1[m3]  }  }
+as2  Posición  {  20.300000  -4.400000  -0.6  m  }
+as2  Tamaño  {  0.2  0.2  0.2  m  }
+as2  Puntos  {  {  14.200  -3.400  0.000  m  }  {  15.200  -3.400  0.000  m  }  }
+as2_Label  EntidadObjetivo  {  as2  }
+as2_Label  Posición  {  0.000000  0.200000  0.000000  m  }
+as2_Label  Tamaño  {  0.508943  0.300000  0.000000  m  }
+as2_Label  EntidadRelativa  {  as2  }
+as3  SiguienteComponente  {  s3  }
+as3  AsignarEstado  {  2  }
+as3  ListaDeAsignacionesDeAtributos  {  {  [Flotador].Fango_flotado=[Flotador].Fango_flotado+this.Entidad.m_fango*1[m3]  }  }
+as3  Posición  {  17.700000  -9.100000  -0.6  m  }
+as3  Tamaño  {  0.2  0.2  0.2  m  }
+as3  Puntos  {  {  14.200  -5.000  0.000  m  }  {  15.200  -5.000  0.000  m  }  }
+as3_Label  EntidadObjetivo  {  as3  }
+as3_Label  Posición  {  0.000000  0.200000  0.000000  m  }
+as3_Label  Tamaño  {  0.508943  0.300000  0.000000  m  }
+as3_Label  EntidadRelativa  {  as3  }
+asig_prob  SiguienteComponente  {  SALIDA  }
+asig_prob  ListaDeAsignacionesDeAtributos  {  {  [Normal_poli].Numero=[Normal_poli].Valor  }  {  [Normal_densidad].Numero=[Normal_densidad].Valor  }  }
+asig_prob  Posición  {  -12.500000  -7.400000  0.000000  m  }
+asig_prob  Tamaño  {  0.3  0.3  0.3  m  }
+asig_prob  Puntos  {  {  13.600  -7.700  0.000  m  }  {  14.600  -7.700  0.000  m  }  }
+asig_prob_Label  EntidadObjetivo  {  asig_prob  }
+asig_prob_Label  Posición  {  0.700000  -0.000000  0.000000  m  }
+asig_prob_Label  Tamaño  {  1.157912  0.300000  0.000000  m  }
+asig_prob_Label  EntidadRelativa  {  asig_prob  }
+b_antorcha  Posición  {  7.400000  -15.800000  0.000000  m  }
+b_antorcha  Puntos  {  {  7.350  -10.850  0.000  m  }  {  8.350  -10.850  0.000  m  }  }
+b_antorcha_Label  EntidadObjetivo  {  b_antorcha  }
+b_antorcha_Label  Posición  {  0.000000  0.300000  0.000000  m  }
+b_antorcha_Label  Tamaño  {  1.309009  0.300000  0.000000  m  }
+b_antorcha_Label  EntidadRelativa  {  b_antorcha  }
+b_centr  MáximoPorLinea  {  20  }
+b_centr  Posición  {  6.900000  -11.800000  0.000000  m  }
+b_centr  Tamaño  {  0.3  0.3  0.3  m  }
+b_centr  Puntos  {  {  6.900  -11.400  0.000  m  }  {  7.900  -11.400  0.000  m  }  }
+b_centr_Label  EntidadObjetivo  {  b_centr  }
+b_centr_Label  Posición  {  0.000000  0.300000  0.000000  m  }
+b_centr_Label  Tamaño  {  0.932114  0.300000  0.000000  m  }
+b_centr_Label  EntidadRelativa  {  b_centr  }
+b_mot  Posición  {  2.300000  -13.700000  0.000000  m  }
+b_mot  Puntos  {  {  7.400  -10.800  0.000  m  }  {  8.400  -10.800  0.000  m  }  }
+b_mot_Label  EntidadObjetivo  {  b_mot  }
+b_mot_Label  Posición  {  0.000000  -0.400000  0.000000  m  }
+b_mot_Label  Tamaño  {  0.810239  0.300000  0.000000  m  }
+b_mot_Label  EntidadRelativa  {  b_mot  }
+bif_1  SiguienteComponente  {  Digestor  }
+bif_1  TiempoDeViaje  {  20  min  }
+bif_1  Posición  {  3.300000  -9.600000  0.000000  m  }
+bif_1  Puntos  {  {  3.300  -9.600  0.000  m  }  {  0.500  -9.500  0.000  m  }  {  -4.200  -7.500  0.000  m  }  {  -4.200  -9.600  0.000  m  }  }
+bif_1  EntidadRelativa  {  Caminos  }
+bif_2  SiguienteComponente  {  Digestor_2  }
+bif_2  TiempoDeViaje  {  10  min  }
+bif_2  Posición  {  3.300000  -9.500000  0.000000  m  }
+bif_2  Puntos  {  {  3.300  -9.500  0.000  m  }  {  0.500  -9.400  0.000  m  }  {  -0.700  -9.200  0.000  m  }  }
+bif_2  EntidadRelativa  {  Caminos  }
+bio  EstadoDeGraficos  {  {  1  aguas  }  {  2  icono_fango  }  {  3  icono_gas  }  }
+bio  Posición  {  -13.500000  -10.100000  -0.1  m  }
+bio  Alineación  {  0.0  0.0  -0.5  }
+bio  Tamaño  {  0.108086  0.135506  0.300000  m  }
+bio  Puntos  {  {  7.954  -10.068  0.000  m  }  {  8.954  -10.068  0.000  m  }  }
+bio  Icono  {  Triángulo  }
+bio_Label  EntidadObjetivo  {  bio  }
+bio_Label  Posición  {  0.000000  -0.217753  0.000000  m  }
+bio_Label  Tamaño  {  0.457281  0.300000  0.000000  m  }
+bio_Label  EntidadRelativa  {  bio  }
+buffer_esp  Posición  {  2.200000  -4.700000  -0.6  m  }
+buffer_esp  Tamaño  {  0.15  0.15  0.000000  m  }
+buffer_esp  Puntos  {  {  3.904  -4.486  0.000  m  }  {  4.904  -4.486  0.000  m  }  }
+buffer_esp_Label  EntidadObjetivo  {  buffer_esp  }
+buffer_esp_Label  Posición  {  0.700000  0.000000  0.000000  m  }
+buffer_esp_Label  Tamaño  {  1.244182  0.300000  0.000000  m  }
+buffer_esp_Label  EntidadRelativa  {  buffer_esp  }
+buffer_flot  Posición  {  15.200000  -4.700000  -0.6  m  }
+buffer_flot  Tamaño  {  0.15  0.15  0.000000  m  }
+buffer_flot  Puntos  {  {  5.104  -4.486  0.000  m  }  {  6.104  -4.486  0.000  m  }  }
+buffer_flot_Label  EntidadObjetivo  {  buffer_flot  }
+buffer_flot_Label  Posición  {  0.700000  -0.000000  0.000000  m  }
+buffer_flot_Label  Tamaño  {  1.221144  0.300000  0.000000  m  }
+buffer_flot_Label  EntidadRelativa  {  buffer_flot  }
+buffer_flot_Label  Mostrar  {  VERDADERO  }
+c1  SiguienteComponente  {  Fangos_mixtos  }
+c1  TiempoDeViaje  {  20  min  }
+c1  Posición  {  3.700000  -5.000000  0.000000  m  }
+c1  Puntos  {  {  3.700  -5.000  -0.6  m  }  {  6.700  -5.000  -0.6  m  }  {  8.500  -5.000  -0.6  m  }  }
+c1  EntidadRelativa  {  Caminos  }
+c2  SiguienteComponente  {  Fangos_mixtos  }
+c2  TiempoDeViaje  {  130  min  }
+c2  Posición  {  8.600000  -7.800000  -0.600000  m  }
+c2  Puntos  {  {  8.600  -7.800  -0.600  m  }  {  8.600  -6.600  -0.600  m  }  }
+c2  EntidadRelativa  {  Caminos  }
+c3  SiguienteComponente  {  Fangos_mixtos  }
+c3  TiempoDeViaje  {  20  min  }
+c3  Posición  {  14.900000  -5.000000  0.000000  m  }
+c3  Puntos  {  {  14.900  -5.000  -0.6  m  }  {  10.200  -5.000  -0.6  m  }  {  8.600  -5.000  -0.6  m  }  {  8.600  -5.500  -0.6  m  }  }
+c3  EntidadRelativa  {  Caminos  }
+c4  SiguienteComponente  {  digestores  }
+c4  TiempoDeViaje  {  20  min  }
+c4  Posición  {  8.400000  -6.500000  0.000000  m  }
+c4  Puntos  {  {  8.400  -6.500  -0.6  m  }  {  6.200  -8.000  -0.6  m  }  {  3.500  -9.500  -0.6  m  }  }
+c4  EntidadRelativa  {  Caminos  }
+c5  SiguienteComponente  {  c7  }
+c5  TiempoDeViaje  {  20  min  }
+c5  Posición  {  -4.300000  -12.100000  0.000000  m  }
+c5  Puntos  {  {  -4.300  -12.100  0.000  m  }  {  -4.300  -12.400  0.000  m  }  {  -1.000  -12.400  0.000  m  }  }
+c5  EntidadRelativa  {  Caminos  }
+c5  Ancho  {  3  }
+c5  Color  {  153  51  0  }
+c6  SiguienteComponente  {  c7  }
+c6  TiempoDeViaje  {  1  min  }
+c6  Posición  {  -1.000000  -12.100000  0.000000  m  }
+c6  Puntos  {  {  -1.000  -12.100  0.000  m  }  {  -1.000  -12.400  0.000  m  }  }
+c6  EntidadRelativa  {  Caminos  }
+c6  Ancho  {  3  }
+c6  Color  {  153  0  51  }
+c7  SiguienteComponente  {  b_centr  }
+c7  TiempoDeViaje  {  30  min  }
+c7  Posición  {  -1.000000  -12.400000  0.000000  m  }
+c7  Puntos  {  {  -1.000  -12.400  0.000  m  }  {  0.900  -12.400  0.000  m  }  {  0.900  -11.800  0.000  m  }  {  6.600  -11.800  0.000  m  }  }
+c7  EntidadRelativa  {  Caminos  }
+c7  Ancho  {  3  }
+c7  Color  {  153  0  0  }
+c8  SiguienteComponente  {  mot_2  }
+c8  TiempoDeViaje  {  0.2  s  }
+c8  Posición  {  1.800000  -15.400000  0.000000  m  }
+c8  Puntos  {  {  1.800  -15.400  0.000  m  }  {  2.400  -14.900  0.000  m  }  {  2.400  -14.400  0.000  m  }  }
+c8  EntidadRelativa  {  Caminos  }
+c8  Ancho  {  3  }
+c8  Color  {  51  153  0  }
+c9  SiguienteComponente  {  SALIDA  }
+c9  TiempoDeViaje  {  3  s  }
+c9  Posición  {  8.200000  -13.800000  0.000000  m  }
+c9  Puntos  {  {  8.200  -13.800  0.000  m  }  {  13.300  -13.800  0.000  m  }  }
+c9  EntidadRelativa  {  Caminos  }
+c9  Ancho  {  3  }
+c9  Color  {  204  0  0  }
+c10  SiguienteComponente  {  b_antorcha  }
+c10  TiempoDeViaje  {  2  s  }
+c10  Posición  {  3.700000  -16.100000  0.000000  m  }
+c10  Puntos  {  {  3.700  -16.100  0.000  m  }  {  7.000  -16.100  0.000  m  }  }
+c10  EntidadRelativa  {  Caminos  }
+c10  Ancho  {  3  }
+c10  Color  {  204  204  0  }
+cal_2  SiguienteComponente  {  SALIDA  }
+cal_2  ListaDeAsignacionesDeAtributos  {  {  [Gasometro].Total=[Gasometro].Total-this.Entidad.m_gas*1[m3]  }  {  [Caldera].Total=[Caldera].Total+this.Entidad.m_gas*1[m3]  }  }
+cal_2  Posición  {  0.800000  -15.500000  0.000000  m  }
+cal_2  Tamaño  {  0.2  0.2  0.2  m  }
+cal_2  Puntos  {  {  1.900  -8.400  0.000  m  }  {  2.900  -8.400  0.000  m  }  }
+cal_2_Label  EntidadObjetivo  {  cal_2  }
+cal_2_Label  Posición  {  -0.100000  0.200000  0.000000  m  }
+cal_2_Label  Tamaño  {  0.694847  0.300000  0.000000  m  }
+cal_2_Label  EntidadRelativa  {  cal_2  }
+calculos_cosus  SiguienteComponente  {  c2  }
+calculos_cosus  ListaDeAsignacionesDeAtributos  {  {  [C_Otivar].Total_costes=[Deshidratacion].Coste_gestion_otivar_€+[Deshidratacion].Coste_consumo_otivar_€+[Deshidratacion].Coste_MAN_otivar_€+[Deshidratacion].Coste_polielectrolito_otivar_€+[Cogeneracion].Coste_MAN_otivar_€  }  {  [C_Otivar].Total_ingresos=[C_Otivar].Canon+[Cogeneracion].Ahorro_otivar_€  }  {  [C_Otivar].Balance=[C_Otivar].Canon+[Cogeneracion].Ahorro_otivar_€-([Deshidratacion].Coste_gestion_otivar_€+[Deshidratacion].Coste_consumo_otivar_€+[Deshidratacion].Coste_MAN_otivar_€+[Deshidratacion].Coste_polielectrolito_otivar_€+[Cogeneracion].Coste_MAN_otivar_€)  }  {  [C_Otivar].Balance_ton=([C_Otivar].Canon+[Cogeneracion].Ahorro_otivar_€-([Deshidratacion].Coste_gestion_otivar_€+[Deshidratacion].Coste_consumo_otivar_€+[Deshidratacion].Coste_MAN_otivar_€+[Deshidratacion].Coste_polielectrolito_otivar_€+[Cogeneracion].Coste_MAN_otivar_€))/[Deshidratacion].Total_Ton_otivar  }  {  [C_Kaura].Total_costes=[Deshidratacion].Coste_gestion_kaura_€+[Deshidratacion].Coste_consumo_kaura_€+[Deshidratacion].Coste_MAN_kaura_€+[Deshidratacion].Coste_polielectrolito_kaura_€+[Cogeneracion].Coste_MAN_kaura_€  }  {  [C_Kaura].Total_ingresos=[C_Kaura].Canon+[Cogeneracion].Ahorro_kaura_€  }  {  [C_Kaura].Balance=[C_Kaura].Canon+[Cogeneracion].Ahorro_kaura_€-([Deshidratacion].Coste_gestion_kaura_€+[Deshidratacion].Coste_consumo_kaura_€+[Deshidratacion].Coste_MAN_kaura_€+[Deshidratacion].Coste_polielectrolito_kaura_€+[Cogeneracion].Coste_MAN_kaura_€)  }  {  [C_Kaura].Balance_ton=([C_Kaura].Canon+[Cogeneracion].Ahorro_kaura_€-([Deshidratacion].Coste_gestion_kaura_€+[Deshidratacion].Coste_consumo_kaura_€+[Deshidratacion].Coste_MAN_kaura_€+[Deshidratacion].Coste_polielectrolito_kaura_€+[Cogeneracion].Coste_MAN_kaura_€))/[Deshidratacion].Total_Ton_kaura  }  {  [C_Biotrading].Total_costes=[Deshidratacion].Coste_gestion_bio_€+[Deshidratacion].Coste_consumo_bio_€+[Deshidratacion].Coste_MAN_bio_€+[Deshidratacion].Coste_polielectrolito_bio_€+[Cogeneracion].Coste_MAN_bio_€  }  {  [C_Biotrading].Total_ingresos=[C_Biotrading].Canon+[Cogeneracion].Ahorro_bio_€  }  {  [C_Biotrading].Balance=[C_Biotrading].Canon+[Cogeneracion].Ahorro_bio_€-([Deshidratacion].Coste_gestion_bio_€+[Deshidratacion].Coste_consumo_bio_€+[Deshidratacion].Coste_MAN_bio_€+[Deshidratacion].Coste_polielectrolito_bio_€+[Cogeneracion].Coste_MAN_bio_€)  }  {  [C_Biotrading].Balance_ton=([C_Biotrading].Canon+[Cogeneracion].Ahorro_bio_€-([Deshidratacion].Coste_gestion_bio_€+[Deshidratacion].Coste_consumo_bio_€+[Deshidratacion].Coste_MAN_bio_€+[Deshidratacion].Coste_polielectrolito_bio_€+[Cogeneracion].Coste_MAN_bio_€))/[Deshidratacion].Total_Ton_bio  }  {  [C_Extra1].Total_costes=[Deshidratacion].Coste_gestion_Extra1_€+[Deshidratacion].Coste_consumo_Extra1_€+[Deshidratacion].Coste_MAN_Extra1_€+[Deshidratacion].Coste_polielectrolito_Extra1_€+[Cogeneracion].Coste_MAN_Extra1_€  }  {  [C_Extra1].Total_ingresos=[C_Extra1].Canon+[Cogeneracion].Ahorro_Extra1_€  }  {  [C_Extra1].Balance=[C_Extra1].Canon+[Cogeneracion].Ahorro_Extra1_€-([Deshidratacion].Coste_gestion_Extra1_€+[Deshidratacion].Coste_consumo_Extra1_€+[Deshidratacion].Coste_MAN_Extra1_€+[Deshidratacion].Coste_polielectrolito_Extra1_€+[Cogeneracion].Coste_MAN_Extra1_€)  }  {  [C_Extra1].Balance_ton=([C_Extra1].Canon+[Cogeneracion].Ahorro_Extra1_€-([Deshidratacion].Coste_gestion_Extra1_€+[Deshidratacion].Coste_consumo_Extra1_€+[Deshidratacion].Coste_MAN_Extra1_€+[Deshidratacion].Coste_polielectrolito_Extra1_€+[Cogeneracion].Coste_MAN_Extra1_€))/[Deshidratacion].Total_Ton_Extra1  }  {  [C_Extra2].Total_costes=[Deshidratacion].Coste_gestion_Extra2_€+[Deshidratacion].Coste_consumo_Extra2_€+[Deshidratacion].Coste_MAN_Extra2_€+[Deshidratacion].Coste_polielectrolito_Extra2_€+[Cogeneracion].Coste_MAN_Extra2_€  }  {  [C_Extra2].Total_ingresos=[C_Extra2].Canon+[Cogeneracion].Ahorro_Extra2_€  }  {  [C_Extra2].Balance=[C_Extra2].Canon+[Cogeneracion].Ahorro_Extra2_€-([Deshidratacion].Coste_gestion_Extra2_€+[Deshidratacion].Coste_consumo_Extra2_€+[Deshidratacion].Coste_MAN_Extra2_€+[Deshidratacion].Coste_polielectrolito_Extra2_€+[Cogeneracion].Coste_MAN_Extra2_€)  }  {  [C_Extra2].Balance_ton=([C_Extra2].Canon+[Cogeneracion].Ahorro_Extra2_€-([Deshidratacion].Coste_gestion_Extra2_€+[Deshidratacion].Coste_consumo_Extra2_€+[Deshidratacion].Coste_MAN_Extra2_€+[Deshidratacion].Coste_polielectrolito_Extra2_€+[Cogeneracion].Coste_MAN_Extra2_€))/[Deshidratacion].Total_Ton_Extra2  }  {  [C_Otivar].Balance_1=[C_Otivar].Total_costes/[C_Otivar].m3_introducidos  }  {  [C_Otivar].Balance_2=([C_Otivar].Canon+[Cogeneracion].Ahorro_otivar_€)/[C_Otivar].m3_introducidos  }  {  [C_Biotrading].Balance_1=[C_Biotrading].Total_costes/[C_Biotrading].m3_introducidos  }  {  [C_Biotrading].Balance_2=([C_Biotrading].Canon+[Cogeneracion].Ahorro_bio_€)/[C_Biotrading].m3_introducidos  }  {  [C_Kaura].Balance_1=[C_Kaura].Total_costes/[C_Kaura].m3_introducidos  }  {  [C_Kaura].Balance_2=([C_Kaura].Canon+[Cogeneracion].Ahorro_kaura_€)/[C_Kaura].m3_introducidos  }  {  [C_Extra1].Balance_1=[C_Extra1].Total_costes/[C_Extra1].m3_introducidos  }  {  [C_Extra1].Balance_2=([C_Extra1].Canon+[Cogeneracion].Ahorro_Extra1_€)/[C_Extra1].m3_introducidos  }  {  [C_Extra2].Balance_1=[C_Extra2].Total_costes/[C_Extra2].m3_introducidos  }  {  [C_Extra2].Balance_2=([C_Extra2].Canon+[Cogeneracion].Ahorro_Extra2_€)/[C_Extra2].m3_introducidos  }  }
+calculos_cosus  Posición  {  8.600000  -7.900000  -0.500000  m  }
+calculos_cosus  Tamaño  {  0.2  0.2  0.2  m  }
+calculos_cosus  Puntos  {  {  8.500  -6.500  -0.500  m  }  {  9.500  -6.500  -0.500  m  }  }
+calculos_cosus_Label  EntidadObjetivo  {  calculos_cosus  }
+calculos_cosus_Label  Posición  {  0.900000  0.000000  0.000000  m  }
+calculos_cosus_Label  Tamaño  {  1.659574  0.300000  0.000000  m  }
+calculos_cosus_Label  EntidadRelativa  {  calculos_cosus  }
+co1  SiguienteComponente  {  calculos_cosus  }
+co1  TiempoDeViaje  {  20  min  }
+co1  Posición  {  7.100000  -9.200000  0.000000  m  }
+co1  Puntos  {  {  7.100  -9.200  -0.6  m  }  {  7.100  -8.500  -0.6  m  }  {  7.100  -7.900  -0.6  m  }  {  8.600  -7.900  -0.6  m  }  }
+co1  EntidadRelativa  {  Caminos  }
+co2  SiguienteComponente  {  calculos_cosus  }
+co2  TiempoDeViaje  {  20  min  }
+co2  Posición  {  7.700000  -9.200000  0.000000  m  }
+co2  Puntos  {  {  7.700  -9.200  -0.6  m  }  {  7.700  -8.200  -0.6  m  }  {  8.500  -8.200  -0.6  m  }  {  8.600  -7.900  -0.6  m  }  }
+co2  EntidadRelativa  {  Caminos  }
+co3  SiguienteComponente  {  calculos_cosus  }
+co3  TiempoDeViaje  {  20  min  }
+co3  Posición  {  9.800000  -9.200000  -0.600000  m  }
+co3  Puntos  {  {  9.800  -9.200  -0.600  m  }  {  9.800  -8.200  -0.600  m  }  {  8.700  -8.200  -0.600  m  }  {  8.600  -7.900  -0.600  m  }  }
+co3  EntidadRelativa  {  Caminos  }
+co4  SiguienteComponente  {  calculos_cosus  }
+co4  TiempoDeViaje  {  20  min  }
+co4  Posición  {  11.000000  -9.200000  -0.600000  m  }
+co4  Puntos  {  {  11.000  -9.200  -0.600  m  }  {  11.000  -7.900  -0.600  m  }  {  8.600  -7.900  -0.600  m  }  }
+co4  EntidadRelativa  {  Caminos  }
+co4  ListaInmediataPermisos  {  u_cosus_4  }
+co5  SiguienteComponente  {  calculos_cosus  }
+co5  TiempoDeViaje  {  20  min  }
+co5  Posición  {  12.500000  -9.200000  -0.600000  m  }
+co5  Puntos  {  {  12.500  -9.200  -0.600  m  }  {  12.500  -7.900  -0.600  m  }  {  8.600  -7.900  -0.600  m  }  }
+co5  TipoCurva  {  LINEAL  }
+co5  EntidadRelativa  {  Caminos  }
+color_web  Posición  {  -52.300000  -26.000000  0.150000  m  }
+color_web  Tamaño  {  7.708223  62.692785  0.000000  m  }
+color_web  Icono  {  color_web-model  }
+color_web-model  ArchivoDeImagen  {  imagenes/color_web.JPG  }
+color_web_Copia1  Posición  {  -22.300000  -8.000000  0.150000  m  }
+color_web_Copia1  Tamaño  {  10.346572  12.010978  0.000000  m  }
+color_web_Copia1  Puntos  {  {  -17.389  -13.005  0.150  m  }  {  -16.389  -13.005  0.150  m  }  }
+color_web_Copia1  Icono  {  color_web-model  }
+d1  SiguienteComponente  {  met_1  }
+d1  ListaDeComponentesObjetivo  {  c5  }
+d1  Posición  {  -4.200000  -9.600000  2.000000  m  }
+d1  Tamaño  {  0.2  0.2  0.2  m  }
+d1  Puntos  {  {  1.400  -6.000  0.000  m  }  {  2.400  -6.000  0.000  m  }  }
+d1_Label  EntidadObjetivo  {  d1  }
+d1_Label  Posición  {  0.200000  0.000000  0.000000  m  }
+d1_Label  Tamaño  {  0.407114  0.300000  0.000000  m  }
+d1_Label  EntidadRelativa  {  d1  }
+d2  SiguienteComponente  {  met_2  }
+d2  ListaDeComponentesObjetivo  {  c6  }
+d2  Posición  {  -0.400000  -9.900000  2.000000  m  }
+d2  Tamaño  {  0.2  0.2  0.2  m  }
+d2  Puntos  {  {  2.100  -8.400  0.000  m  }  {  3.100  -8.400  0.000  m  }  }
+d2_Label  EntidadObjetivo  {  d2  }
+d2_Label  Posición  {  0.200000  0.000000  0.000000  m  }
+d2_Label  Tamaño  {  0.407114  0.300000  0.000000  m  }
+d2_Label  EntidadRelativa  {  d2  }
+digestores  SiguienteListaDeComponentes  {  bif_1  bif_2  }
+digestores  Elección  {  unif_dig  }
+digestores  Posición  {  3.400000  -9.500000  0.000000  m  }
+digestores  Tamaño  {  0.15  0.15  1.000000  m  }
+digestores  Puntos  {  {  4.700  -6.800  0.000  m  }  {  5.700  -6.800  0.000  m  }  }
+digestores_Label  EntidadObjetivo  {  digestores  }
+digestores_Label  Posición  {  0.000000  0.200000  0.000000  m  }
+digestores_Label  Tamaño  {  1.208378  0.300000  0.000000  m  }
+digestores_Label  EntidadRelativa  {  digestores  }
+ext_antorcha_12  SiguienteComponente  {  c10  }
+ext_antorcha_12  BufferDeEspera  {  Gasometro  }
+ext_antorcha_12  TiempoDeServicio  {  [met_3].Entidad.m_gas*45[s]  }
+ext_antorcha_12  Posición  {  2.500000  -16.000000  0.000000  m  }
+ext_antorcha_12  Tamaño  {  0.15  0.15  1.000000  m  }
+ext_antorcha_12  Puntos  {  {  2.375  -10.275  0.000  m  }  {  3.375  -10.275  0.000  m  }  }
+ext_antorcha_12  ListaPermisosOperativa  {  u_ant_1  }
+ext_antorcha_12_Label  EntidadObjetivo  {  ext_antorcha_12  }
+ext_antorcha_12_Label  Posición  {  1.000000  0.000000  0.000000  m  }
+ext_antorcha_12_Label  Tamaño  {  1.894348  0.300000  0.000000  m  }
+ext_antorcha_12_Label  EntidadRelativa  {  ext_antorcha_12  }
+ext_antorcha_34  SiguienteComponente  {  c10  }
+ext_antorcha_34  BufferDeEspera  {  Gasometro  }
+ext_antorcha_34  TiempoDeServicio  {  [met_3].Entidad.m_gas*45[s]  }
+ext_antorcha_34  Posición  {  2.500000  -16.200000  0.000000  m  }
+ext_antorcha_34  Tamaño  {  0.15  0.15  1.000000  m  }
+ext_antorcha_34  Puntos  {  {  2.375  -11.375  0.000  m  }  {  3.375  -11.375  0.000  m  }  }
+ext_antorcha_34  ListaPermisosOperativa  {  u_ant_2  }
+ext_antorcha_34_Label  EntidadObjetivo  {  ext_antorcha_34  }
+ext_antorcha_34_Label  Posición  {  1.000000  -0.000000  0.000000  m  }
+ext_antorcha_34_Label  Tamaño  {  1.894348  0.300000  0.000000  m  }
+ext_antorcha_34_Label  EntidadRelativa  {  ext_antorcha_34  }
+extra1  EstadoDeGraficos  {  {  1  aguas  }  {  2  icono_fango  }  {  3  icono_gas  }  }
+extra1  Posición  {  -12.800000  -10.100000  -0.1  m  }
+extra1  Alineación  {  0.0  0.0  -0.5  }
+extra1  Tamaño  {  0.108086  0.135506  0.300000  m  }
+extra1  Puntos  {  {  9.554  -10.068  0.000  m  }  {  10.554  -10.068  0.000  m  }  }
+extra1  Icono  {  Triángulo  }
+extra1_Label  EntidadObjetivo  {  extra1  }
+extra1_Label  Posición  {  0.000000  -0.217753  0.000000  m  }
+extra1_Label  Tamaño  {  0.812733  0.300000  0.000000  m  }
+extra1_Label  EntidadRelativa  {  extra1  }
+extra2  EstadoDeGraficos  {  {  1  aguas  }  {  2  icono_fango  }  {  3  icono_gas  }  }
+extra2  Posición  {  -12.100000  -10.100000  -0.1  m  }
+extra2  Alineación  {  0.0  0.0  -0.5  }
+extra2  Tamaño  {  0.108086  0.135506  0.300000  m  }
+extra2  Puntos  {  {  10.954  -10.268  0.000  m  }  {  11.954  -10.268  0.000  m  }  }
+extra2  Icono  {  Triángulo  }
+extra2_Label  EntidadObjetivo  {  extra2  }
+extra2_Label  Posición  {  0.000000  -0.217753  0.000000  m  }
+extra2_Label  Tamaño  {  0.812733  0.300000  0.000000  m  }
+extra2_Label  EntidadRelativa  {  extra2  }
+fango-model  ArchivoDeImagen  {  imagenes/fango.png  }
+fango_espesado  EstadoDeGraficos  {  {  1  aguas  }  {  2  icono_fango  }  {  3  icono_gas  }  }
+fango_espesado  Posición  {  -8.500000  -3.500000  0.000000  m  }
+fango_espesado  Tamaño  {  0.15  0.15  0.300000  m  }
+fango_espesado  Puntos  {  {  -24.600  2.400  0.000  m  }  {  -23.600  2.400  0.000  m  }  }
+fango_espesado_Label  EntidadObjetivo  {  fango_espesado  }
+fango_espesado_Label  Posición  {  0.000000  -0.200000  0.000000  m  }
+fango_espesado_Label  Tamaño  {  1.812168  0.300000  0.000000  m  }
+fango_espesado_Label  EntidadRelativa  {  fango_espesado  }
+fango_flotado  EstadoDeGraficos  {  {  1  aguas  }  {  2  icono_fango  }  {  3  icono_gas  }  }
+fango_flotado  Posición  {  -8.500000  -4.000000  0.000000  m  }
+fango_flotado  Tamaño  {  0.15  0.15  0.300000  m  }
+fango_flotado  Puntos  {  {  -8.425  -3.575  0.000  m  }  {  -7.425  -3.575  0.000  m  }  }
+fango_flotado_Label  EntidadObjetivo  {  fango_flotado  }
+fango_flotado_Label  Posición  {  0.000000  -0.225000  0.000000  m  }
+fango_flotado_Label  Tamaño  {  1.561037  0.300000  0.000000  m  }
+fango_flotado_Label  EntidadRelativa  {  fango_flotado  }
+fm  SiguienteComponente  {  c4  }
+fm  ListaDeAsignacionesDeAtributos  {  {  [Fangos_mixtos].Q_cos_dia=[Otivar_m3_dia].Error+[Kaura_m3_dia].Error+[Biotrading_m3_dia].Error+[Extra1_m3_dia].Error+[Extra2_m3_dia].Error  }  {  [Fangos_mixtos].Q_fangos_dia=[Fango_flotado_m3_dia].Error+[Fango_espesado_m3_dia].Error  }  {  [Fangos_mixtos].DQO_cos_kgm3=([Otivar_DQO_kgm3].Error*[Otivar_m3_dia].Error+[Kaura_DQO_kgm3].Error*[Kaura_m3_dia].Error+[Biotrading_DQO_kgm3].Error*[Biotrading_m3_dia].Error+[Extra1_DQO_kgm3].Error*[Extra1_m3_dia].Error+[Extra2_DQO_kgm3].Error*[Extra2_m3_dia].Error)/([Fangos_mixtos].Q_cos_dia)  }  {  [Fangos_mixtos].Porcentaje_MV_cos=([Otivar_porcentaje_MV].Error*[Otivar_m3_dia].Error+[Kaura_porcentaje_MV].Error*[Kaura_m3_dia].Error+[Biotrading_porcentaje_MV].Error*[Biotrading_m3_dia].Error+[Extra1_porcentaje_MV].Error*[Extra1_m3_dia].Error+[Extra2_porcentaje_MV].Error*[Extra2_m3_dia].Error)/([Fangos_mixtos].Q_cos_dia)  }  {  [Fangos_mixtos].Q_total=[Fangos_mixtos].Q_total+this.Entidad.m_cosus*1[m3]+this.Entidad.m_fango*1[m3]  }  {  [Fangos_mixtos].DQO_kgm3=([Fango_espesado_m3_dia].Error*[Fango_espesado_DQO_kgm3].Error+[Fango_flotado_DQO_kgm3].Error*[Fango_flotado_m3_dia].Error+[Fangos_mixtos].DQO_cos_kgm3*[Fangos_mixtos].Q_cos_dia)/([Fangos_mixtos].Q_fangos_dia)  }  {  [Fangos_mixtos].Porcentaje_MV=([Fango_espesado_m3_dia].Error*[Fango_espesado_porcentaje_MV].Error+[Fango_flotado_porcentaje_MV].Error*[Fango_flotado_m3_dia].Error+[Fangos_mixtos].Porcentaje_MV_cos*[Fangos_mixtos].Q_cos_dia)/([Fangos_mixtos].Q_fangos_dia)  }  {  [Fangos_mixtos].DQO_total_kg=[Fangos_mixtos].DQO_kgm3*[Fangos_mixtos].Q_total/1[m3]  }  {  [Fangos_mixtos].Kilos_SV=[Fangos_mixtos].Q_total/1[m3]*[Normal_densidad].Numero/(this.TotalTime/1[d])*1000*([Fangos_mixtos].Porcentaje_MV/100)  }  }
+fm  Posición  {  8.400000  -6.400000  -0.500000  m  }
+fm  Tamaño  {  0.2  0.2  0.2  m  }
+fm  Puntos  {  {  6.800  -6.600  0.000  m  }  {  7.800  -6.600  0.000  m  }  }
+fm_Label  EntidadObjetivo  {  fm  }
+fm_Label  Posición  {  -0.300000  0.000000  0.000000  m  }
+fm_Label  Tamaño  {  0.420479  0.300000  0.000000  m  }
+fm_Label  EntidadRelativa  {  fm  }
+gen_prob  SiguienteComponente  {  asig_prob  }
+gen_prob  EntidadPrototipo  {  otivar  }
+gen_prob  NúmeroMáximo  {  1  }
+gen_prob  Posición  {  -12.900000  -7.400000  0.000000  m  }
+gen_prob  Tamaño  {  0.3  0.3  0.3  m  }
+gen_prob  Puntos  {  {  12.400  -7.600  0.000  m  }  {  13.400  -7.600  0.000  m  }  }
+gen_prob_Label  EntidadObjetivo  {  gen_prob  }
+gen_prob_Label  Posición  {  -0.700000  -0.000000  0.000000  m  }
+gen_prob_Label  Tamaño  {  1.123703  0.300000  0.000000  m  }
+gen_prob_Label  EntidadRelativa  {  gen_prob  }
+icono_fango  Posición  {  -10.300000  -3.500000  0.000000  m  }
+icono_fango  Tamaño  {  0.15  0.15  0.300000  m  }
+icono_fango  Puntos  {  {  -10.300  -3.500  0.000  m  }  {  -9.300  -3.500  0.000  m  }  }
+icono_fango  Icono  {  fango-model  }
+icono_fango_Label  EntidadObjetivo  {  icono_fango  }
+icono_fango_Label  Posición  {  0.000000  -0.200000  0.000000  m  }
+icono_fango_Label  Tamaño  {  1.394481  0.300000  0.000000  m  }
+icono_fango_Label  EntidadRelativa  {  icono_fango  }
+icono_gas  Posición  {  -10.300000  -4.100000  0.000000  m  }
+icono_gas  Tamaño  {  0.15  0.150000  1.0  m  }
+icono_gas  Puntos  {  {  -10.225  -3.575  0.000  m  }  {  -9.225  -3.575  0.000  m  }  }
+icono_gas  Icono  {  Captura1-model  }
+icono_gas_Label  EntidadObjetivo  {  icono_gas  }
+icono_gas_Label  Posición  {  0.000000  -0.200000  0.000000  m  }
+icono_gas_Label  Tamaño  {  1.175864  0.300000  0.000000  m  }
+icono_gas_Label  EntidadRelativa  {  icono_gas  }
+kaura  EstadoDeGraficos  {  {  1  aguas  }  {  2  icono_fango  }  {  3  icono_gas  }  }
+kaura  Posición  {  -14.100000  -10.100000  -0.1000000  m  }
+kaura  Alineación  {  0.0  0.0  -0.5  }
+kaura  Tamaño  {  0.108086  0.135506  0.300000  m  }
+kaura  Puntos  {  {  7.054  -10.068  0.000  m  }  {  8.054  -10.068  0.000  m  }  }
+kaura  Icono  {  Triángulo  }
+kaura_Label  EntidadObjetivo  {  kaura  }
+kaura_Label  Posición  {  0.000000  -0.217753  0.000000  m  }
+kaura_Label  Tamaño  {  0.732646  0.300000  0.000000  m  }
+kaura_Label  EntidadRelativa  {  kaura  }
+met_1  SiguienteComponente  {  met_3  }
+met_1  AsignarEstado  {  3  }
+met_1  TiempoDeViaje  {  1  min  }
+met_1  Posición  {  -4.400000  -9.400000  0.000000  m  }
+met_1  Puntos  {  {  -4.400  -9.400  0.000  m  }  {  -4.400  -8.700  0.000  m  }  }
+met_1  EntidadRelativa  {  Caminos  }
+met_1  Ancho  {  2  }
+met_1  Color  {  255  153  0  }
+met_2  SiguienteComponente  {  met_3  }
+met_2  AsignarEstado  {  3  }
+met_2  TiempoDeViaje  {  10  min  }
+met_2  Posición  {  -1.000000  -9.400000  0.000000  m  }
+met_2  Puntos  {  {  -1.000  -9.400  0.000  m  }  {  -1.000  -8.700  0.000  m  }  {  -4.400  -8.700  0.000  m  }  }
+met_2  EntidadRelativa  {  Caminos  }
+met_2  Ancho  {  2  }
+met_2  Color  {  255  153  0  }
+met_3  SiguienteComponente  {  a_gas  }
+met_3  TiempoDeViaje  {  20  min  }
+met_3  Posición  {  -4.400000  -8.700000  0.000000  m  }
+met_3  Puntos  {  {  -4.400  -8.700  0.000  m  }  {  -7.100  -8.700  0.000  m  }  {  -7.100  -12.600  0.000  m  }  {  -6.500  -13.600  0.000  m  }  {  -5.800  -14.100  0.000  m  }  }
+met_3  EntidadRelativa  {  Caminos  }
+met_3  Ancho  {  2  }
+met_3  Color  {  255  153  0  }
+mot1  SiguienteComponente  {  c9  }
+mot1  ListaDeAsignacionesDeAtributos  {  {  [Motor_1].potencia_generada_fangos=[Motor_1].potencia_generada_fangos+1[kWh]*this.Entidad.m_gas*2.3*(this.Entidad.tipo==1)*([Potencia_Motor_1_kW].Error)/350  }  {  [Motor_1].potencia_generada_cosus=[Motor_1].potencia_generada_cosus+1[kWh]*this.Entidad.m_gas*2.3*(this.Entidad.tipo==2)*([Potencia_Motor_1_kW].Error)/350  }  {  [Motor_1].potencia_generada_kaura=[Motor_1].potencia_generada_kaura+1[kWh]*this.Entidad.m_gas*2.3*(this.Entidad.tipo_cosus==2)*([Potencia_Motor_1_kW].Error)/350  }  {  [Motor_1].potencia_generada_otivar=[Motor_1].potencia_generada_otivar+1[kWh]*this.Entidad.m_gas*2.3*(this.Entidad.tipo_cosus==1)*([Potencia_Motor_1_kW].Error)/350  }  {  [Motor_1].potencia_generada_bio=[Motor_1].potencia_generada_bio+1[kWh]*this.Entidad.m_gas*2.3*(this.Entidad.tipo_cosus==3)*([Potencia_Motor_1_kW].Error)/350  }  {  [Motor_1].potencia_generada_Extra1=[Motor_1].potencia_generada_Extra1+1[kWh]*this.Entidad.m_gas*2.3*(this.Entidad.tipo_cosus==4)*([Potencia_Motor_1_kW].Error)/350  }  {  [Motor_1].potencia_generada_Extra2=[Motor_1].potencia_generada_Extra2+1[kWh]*this.Entidad.m_gas*2.3*(this.Entidad.tipo_cosus==5)*([Potencia_Motor_1_kW].Error)/350  }  {  [Motor_1].Total=[Motor_1].Total+this.Entidad.m_gas*1[m3]  }  }
+mot1  Posición  {  5.400000  -13.300000  0.000000  m  }
+mot1  Tamaño  {  0.3  0.3  0.3  m  }
+mot1  Puntos  {  {  10.200  -9.600  0.000  m  }  {  11.200  -9.600  0.000  m  }  }
+mot1_Label  EntidadObjetivo  {  mot1  }
+mot1_Label  Posición  {  0.500000  -0.000000  0.000000  m  }
+mot1_Label  Tamaño  {  0.682979  0.300000  0.000000  m  }
+mot1_Label  EntidadRelativa  {  mot1  }
+mot2  SiguienteComponente  {  c9  }
+mot2  ListaDeAsignacionesDeAtributos  {  {  [Motor_2].potencia_generada_fangos=[Motor_2].potencia_generada_fangos+1[kWh]*this.Entidad.m_gas*2*(this.Entidad.tipo==1)*([Potencia_Motor_2_kW].Error)/200  }  {  [Motor_2].potencia_generada_cosus=[Motor_2].potencia_generada_cosus+1[kWh]*this.Entidad.m_gas*2*(this.Entidad.tipo==2)*([Potencia_Motor_2_kW].Error)/200  }  {  [Motor_2].potencia_generada_kaura=[Motor_2].potencia_generada_kaura+1[kWh]*this.Entidad.m_gas*2*(this.Entidad.tipo_cosus==2)*([Potencia_Motor_2_kW].Error)/200  }  {  [Motor_2].potencia_generada_otivar=[Motor_2].potencia_generada_otivar+1[kWh]*this.Entidad.m_gas*2*(this.Entidad.tipo_cosus==1)*([Potencia_Motor_2_kW].Error)/200  }  {  [Motor_2].potencia_generada_bio=[Motor_2].potencia_generada_bio+1[kWh]*this.Entidad.m_gas*2*(this.Entidad.tipo_cosus==3)*([Potencia_Motor_2_kW].Error)/200  }  {  [Motor_2].potencia_generada_Extra1=[Motor_2].potencia_generada_Extra1+1[kWh]*this.Entidad.m_gas*2*(this.Entidad.tipo_cosus==4)*([Potencia_Motor_2_kW].Error)/200  }  {  [Motor_2].potencia_generada_Extra2=[Motor_2].potencia_generada_Extra2+1[kWh]*this.Entidad.m_gas*2*(this.Entidad.tipo_cosus==5)*([Potencia_Motor_2_kW].Error)/200  }  {  [Motor_2].Total=[Motor_2].Total+this.Entidad.m_gas*1[m3]  }  }
+mot2  Posición  {  5.400000  -13.700000  0.000000  m  }
+mot2  Tamaño  {  0.3  0.3  0.3  m  }
+mot2  Puntos  {  {  9.350  -10.050  0.000  m  }  {  10.350  -10.050  0.000  m  }  }
+mot2_Label  EntidadObjetivo  {  mot2  }
+mot2_Label  Posición  {  0.500000  0.000000  0.000000  m  }
+mot2_Label  Tamaño  {  0.682979  0.300000  0.000000  m  }
+mot2_Label  EntidadRelativa  {  mot2  }
+mot3  SiguienteComponente  {  c9  }
+mot3  ListaDeAsignacionesDeAtributos  {  {  [Motor_3].potencia_generada_fangos=[Motor_3].potencia_generada_fangos+1[kWh]*this.Entidad.m_gas*2*(this.Entidad.tipo==1)*([Potencia_Motor_3_kW].Error)/200  }  {  [Motor_3].potencia_generada_cosus=[Motor_3].potencia_generada_cosus+1[kWh]*this.Entidad.m_gas*2*(this.Entidad.tipo==2)*([Potencia_Motor_3_kW].Error)/200  }  {  [Motor_3].potencia_generada_kaura=[Motor_3].potencia_generada_kaura+1[kWh]*this.Entidad.m_gas*2*(this.Entidad.tipo_cosus==2)*([Potencia_Motor_3_kW].Error)/200  }  {  [Motor_3].potencia_generada_otivar=[Motor_3].potencia_generada_otivar+1[kWh]*this.Entidad.m_gas*2*(this.Entidad.tipo_cosus==1)*([Potencia_Motor_3_kW].Error)/200  }  {  [Motor_3].potencia_generada_bio=[Motor_3].potencia_generada_bio+1[kWh]*this.Entidad.m_gas*2*(this.Entidad.tipo_cosus==3)*([Potencia_Motor_3_kW].Error)/200  }  {  [Motor_3].potencia_generada_Extra1=[Motor_3].potencia_generada_Extra1+1[kWh]*this.Entidad.m_gas*2*(this.Entidad.tipo_cosus==4)*([Potencia_Motor_3_kW].Error)/200  }  {  [Motor_3].potencia_generada_Extra2=[Motor_3].potencia_generada_Extra2+1[kWh]*this.Entidad.m_gas*2*(this.Entidad.tipo_cosus==5)*([Potencia_Motor_3_kW].Error)/200  }  {  [Motor_3].Total=[Motor_3].Total+this.Entidad.m_gas*1[m3]  }  }
+mot3  Posición  {  5.400000  -14.100000  0.000000  m  }
+mot3  Tamaño  {  0.3  0.3  0.3  m  }
+mot3  Puntos  {  {  9.350  -10.750  0.000  m  }  {  10.350  -10.750  0.000  m  }  }
+mot3_Label  EntidadObjetivo  {  mot3  }
+mot3_Label  Posición  {  0.500000  0.000000  0.000000  m  }
+mot3_Label  Tamaño  {  0.682979  0.300000  0.000000  m  }
+mot3_Label  EntidadRelativa  {  mot3  }
+mot_2  SiguienteComponente  {  b_mot  }
+mot_2  ListaDeAsignacionesDeAtributos  {  {  [Gasometro].Total=[Gasometro].Total-this.Entidad.m_gas*1[m3]  }  {  [Cogeneracion].Total=[Cogeneracion].Total+this.Entidad.m_gas*1[m3]  }  {  [Cogeneracion].Total_fangos=[Cogeneracion].Total_fangos+this.Entidad.m_gas*1[m3]*(this.Entidad.tipo==1)  }  {  [Cogeneracion].Total_kaura=[Cogeneracion].Total_kaura+this.Entidad.m_gas*1[m3]*(this.Entidad.tipo_cosus==2)  }  {  [Cogeneracion].Total_bio=[Cogeneracion].Total_bio+this.Entidad.m_gas*1[m3]*(this.Entidad.tipo_cosus==3)  }  {  [Cogeneracion].Total_otivar=[Cogeneracion].Total_otivar+this.Entidad.m_gas*1[m3]*(this.Entidad.tipo_cosus==1)  }  {  [Cogeneracion].Total_extra1=[Cogeneracion].Total_extra1+this.Entidad.m_gas*1[m3]*(this.Entidad.tipo_cosus==4)  }  {  [Cogeneracion].Total_extra2=[Cogeneracion].Total_extra2+this.Entidad.m_gas*1[m3]*(this.Entidad.tipo_cosus==5)  }  {  [Cogeneracion].KW_m3=(([Cogeneracion].Total_generado_fangos+[Cogeneracion].Total_generado_cosustrato)/1[kWh])/([Cogeneracion].Total/1[m3])  }  {  [Cogeneracion].Ahorro_total=[Cogeneracion].Total_generado_cosustrato+[Cogeneracion].Total_generado_fangos  }  {  [Cogeneracion].Ahorro_total_euros=([Cogeneracion].Ahorro_total/1[kWh])*[Precio_kwh].Error  }  {  [Cogeneracion].Ahorro=[Cogeneracion].Total_generado_cosustrato  }  {  [Cogeneracion].Ahorro_€=([Cogeneracion].Total_generado_cosustrato/1[kWh])*[Precio_kwh].Error  }  {  [Cogeneracion].Ahorro_kaura_€=([Cogeneracion].Total_generado_kaura/1[kWh])*[Precio_kwh].Error  }  {  [Cogeneracion].Ahorro_otivar_€=([Cogeneracion].Total_generado_otivar/1[kWh])*[Precio_kwh].Error  }  {  [Cogeneracion].Ahorro_bio_€=([Cogeneracion].Total_generado_bio/1[kWh])*[Precio_kwh].Error  }  {  [Cogeneracion].Ahorro_Extra1_€=([Cogeneracion].Total_generado_Extra1/1[kWh])*[Precio_kwh].Error  }  {  [Cogeneracion].Ahorro_Extra2_€=([Cogeneracion].Total_generado_Extra2/1[kWh])*[Precio_kwh].Error  }  {  [Cogeneracion].Coste_MAN_fango_€=([Motor_1].TiempoEnProceso-[Reinicio].Ajuste_M1+[Motor_2].TiempoEnProceso-[Reinicio].Ajuste_M2+[Motor_3].TiempoEnProceso-[Reinicio].Ajuste_M3)/1[h]*[MANT_Coste_hora_motores].Error*([Deshidratacion].Total_fango/([Deshidratacion].Total_fango+[Deshidratacion].Total_cosus))  }  {  [Cogeneracion].Coste_MAN_cosustrato_€=([Motor_1].TiempoEnProceso-[Reinicio].Ajuste_M1+[Motor_2].TiempoEnProceso-[Reinicio].Ajuste_M2+[Motor_3].TiempoEnProceso-[Reinicio].Ajuste_M3)/1[h]*[MANT_Coste_hora_motores].Error*([Deshidratacion].Total_cosus/([Deshidratacion].Total_fango+[Deshidratacion].Total_cosus))  }  {  [Cogeneracion].Coste_MAN_kaura_€=([Motor_1].TiempoEnProceso-[Reinicio].Ajuste_M1+[Motor_2].TiempoEnProceso-[Reinicio].Ajuste_M2+[Motor_3].TiempoEnProceso-[Reinicio].Ajuste_M3)/1[h]*[MANT_Coste_hora_motores].Error*([Deshidratacion].Total_kaura/([Deshidratacion].Total_fango+[Deshidratacion].Total_cosus))  }  {  [Cogeneracion].Coste_MAN_otivar_€=([Motor_1].TiempoEnProceso-[Reinicio].Ajuste_M1+[Motor_2].TiempoEnProceso-[Reinicio].Ajuste_M2+[Motor_3].TiempoEnProceso-[Reinicio].Ajuste_M3)/1[h]*[MANT_Coste_hora_motores].Error*([Deshidratacion].Total_otivar/([Deshidratacion].Total_fango+[Deshidratacion].Total_cosus))  }  {  [Cogeneracion].Coste_MAN_bio_€=([Motor_1].TiempoEnProceso-[Reinicio].Ajuste_M1+[Motor_2].TiempoEnProceso-[Reinicio].Ajuste_M2+[Motor_3].TiempoEnProceso-[Reinicio].Ajuste_M3)/1[h]*[MANT_Coste_hora_motores].Error*([Deshidratacion].Total_bio/([Deshidratacion].Total_fango+[Deshidratacion].Total_cosus))  }  {  [Cogeneracion].Coste_MAN_Extra1_€=([Motor_1].TiempoEnProceso-[Reinicio].Ajuste_M1+[Motor_2].TiempoEnProceso-[Reinicio].Ajuste_M2+[Motor_3].TiempoEnProceso-[Reinicio].Ajuste_M3)/1[h]*[MANT_Coste_hora_motores].Error*([Deshidratacion].Total_Extra1/([Deshidratacion].Total_fango+[Deshidratacion].Total_cosus))  }  {  [Cogeneracion].Coste_MAN_Extra2_€=([Motor_1].TiempoEnProceso-[Reinicio].Ajuste_M1+[Motor_2].TiempoEnProceso-[Reinicio].Ajuste_M2+[Motor_3].TiempoEnProceso-[Reinicio].Ajuste_M3)/1[h]*[MANT_Coste_hora_motores].Error*([Deshidratacion].Total_Extra2/([Deshidratacion].Total_fango+[Deshidratacion].Total_cosus))  }  {  [Cogeneracion].Total_generado_fangos=([Motor_1].potencia_generada_fangos+[Motor_2].potencia_generada_fangos+[Motor_3].potencia_generada_fangos)  }  {  [Cogeneracion].Total_generado_fangos_dia=[Cogeneracion].Total_generado_fangos/(this.TotalTime/1[d])  }  {  [Cogeneracion].Total_generado_cosustrato=([Motor_1].potencia_generada_cosus+[Motor_2].potencia_generada_cosus+[Motor_3].potencia_generada_cosus)  }  {  [Cogeneracion].Total_generado_cosustrato_dia=[Cogeneracion].Total_generado_cosustrato/(this.TotalTime/1[d])  }  {  [Cogeneracion].Total_generado_kaura=([Motor_1].potencia_generada_kaura+[Motor_2].potencia_generada_kaura+[Motor_3].potencia_generada_kaura)  }  {  [Cogeneracion].Total_generado_otivar=([Motor_1].potencia_generada_otivar+[Motor_2].potencia_generada_otivar+[Motor_3].potencia_generada_otivar)  }  {  [Cogeneracion].Total_generado_bio=([Motor_1].potencia_generada_bio+[Motor_2].potencia_generada_bio+[Motor_3].potencia_generada_bio)  }  {  [Cogeneracion].Total_generado_Extra1=([Motor_1].potencia_generada_Extra1+[Motor_2].potencia_generada_Extra1+[Motor_3].potencia_generada_Extra1)  }  {  [Cogeneracion].Total_generado_Extra2=([Motor_1].potencia_generada_Extra2+[Motor_2].potencia_generada_Extra2+[Motor_3].potencia_generada_Extra2)  }  {  [Cogeneracion].Consumo_biogas=([Cogeneracion].Total/1[m3])*[Consumo_biogas(kw/Nm3)].Error*1[kWh]  }  {  [Cogeneracion].Coste_consumo_biogas_€=[Cogeneracion].Consumo_biogas/1[kWh]*[Precio_kwh].Error  }  {  [Cogeneracion].Consumo_biogas_fangos=([Cogeneracion].Total_fangos/1[m3])*[Consumo_biogas(kw/Nm3)].Error*1[kWh]  }  {  [Cogeneracion].Consumo_biogas_kaura=([Cogeneracion].Total_kaura/1[m3])*[Consumo_biogas(kw/Nm3)].Error*1[kWh]  }  {  [Cogeneracion].Consumo_biogas_bio=([Cogeneracion].Total_bio/1[m3])*[Consumo_biogas(kw/Nm3)].Error*1[kWh]  }  {  [Cogeneracion].Consumo_biogas_otivar=([Cogeneracion].Total_otivar/1[m3])*[Consumo_biogas(kw/Nm3)].Error*1[kWh]  }  {  [Cogeneracion].Consumo_biogas_extra1=([Cogeneracion].Total_extra1/1[m3])*[Consumo_biogas(kw/Nm3)].Error*1[kWh]  }  {  [Cogeneracion].Consumo_biogas_extra2=([Cogeneracion].Total_extra2/1[m3])*[Consumo_biogas(kw/Nm3)].Error*1[kWh]  }  {  [Cogeneracion].Coste_consumo_biogas_fangos_€=[Cogeneracion].Consumo_biogas_fangos/1[kWh]*[Precio_kwh].Error  }  {  [Cogeneracion].Coste_consumo_biogas_kaura_€=[Cogeneracion].Consumo_biogas_kaura/1[kWh]*[Precio_kwh].Error  }  {  [Cogeneracion].Coste_consumo_biogas_bio_€=[Cogeneracion].Consumo_biogas_bio/1[kWh]*[Precio_kwh].Error  }  {  [Cogeneracion].Coste_consumo_biogas_otivar_€=[Cogeneracion].Consumo_biogas_otivar/1[kWh]*[Precio_kwh].Error  }  {  [Cogeneracion].Coste_consumo_biogas_extra1_€=[Cogeneracion].Consumo_biogas_extra1/1[kWh]*[Precio_kwh].Error  }  {  [Cogeneracion].Coste_consumo_biogas_extra2_€=[Cogeneracion].Consumo_biogas_extra2/1[kWh]*[Precio_kwh].Error  }  {  [Cogeneracion].m3_biogas_m3_fangos_mixtos=[Cogeneracion].Total/[Fangos_mixtos].Q_total  }  {  [Cogeneracion].m3_biogas_ton_DQO=([Cogeneracion].Total/1[m3])/([Fangos_mixtos].DQO_total_kg/1000)  }  }
+mot_2  Posición  {  2.400000  -14.400000  0.000000  m  }
+mot_2  Tamaño  {  0.2  0.2  0.2  m  }
+mot_2  Puntos  {  {  9.000  -12.900  0.000  m  }  {  10.000  -12.900  0.000  m  }  }
+mot_2_Label  EntidadObjetivo  {  mot_2  }
+mot_2_Label  Posición  {  -0.400000  0.000000  0.000000  m  }
+mot_2_Label  Tamaño  {  0.812832  0.300000  0.000000  m  }
+mot_2_Label  EntidadRelativa  {  mot_2  }
+otivar  EstadoDeGraficos  {  {  1  aguas  }  {  2  icono_fango  }  {  3  icono_gas  }  }
+otivar  Posición  {  -14.900000  -10.100000  -0.1000000  m  }
+otivar  Alineación  {  0.0  0.0  -0.5  }
+otivar  Tamaño  {  0.108086  0.135506  0.300000  m  }
+otivar  Puntos  {  {  -25.150  4.350  0.000  m  }  {  -24.150  4.350  0.000  m  }  }
+otivar  Icono  {  Triángulo  }
+otivar_Label  EntidadObjetivo  {  otivar  }
+otivar_Label  Posición  {  0.000000  -0.200000  0.000000  m  }
+otivar_Label  Tamaño  {  0.741223  0.300000  0.000000  m  }
+otivar_Label  EntidadRelativa  {  otivar  }
+p1  SiguienteComponente  {  Espesador  }
+p1  TiempoDeViaje  {  30  min  }
+p1  Posición  {  2.400000  -1.100000  0.000000  m  }
+p1  Puntos  {  {  2.400  -1.100  -0.6  m  }  {  1.100  -1.500  -0.6  m  }  {  0.600  -2.500  -0.6  m  }  {  1.100  -3.500  -0.6  m  }  {  2.100  -4.000  -0.6  m  }  {  3.200  -3.500  -0.6  m  }  {  3.500  -2.500  -0.6  m  }  {  3.000  -1.400  -0.6  m  }  {  2.400  -1.500  -0.6  m  }  {  1.300  -1.800  -0.6  m  }  {  1.000  -2.500  -0.6  m  }  {  1.400  -3.200  -0.6  m  }  {  2.100  -3.600  -0.6  m  }  {  2.900  -3.200  -0.6  m  }  {  3.100  -2.600  -0.6  m  }  {  2.800  -1.800  -0.6  m  }  {  1.600  -2.300  -0.6  m  }  {  2.200  -4.400  -0.6  m  }  }
+p1  EntidadRelativa  {  Caminos  }
+p2  SiguienteComponente  {  Espesador  }
+p2  TiempoDeViaje  {  30  min  }
+p2  Posición  {  -3.300000  -3.900000  0.000000  m  }
+p2  Puntos  {  {  -3.300  -3.900  -0.6  m  }  {  -3.600  -5.300  -0.6  m  }  {  -2.600  -6.400  -0.6  m  }  {  -1.200  -5.900  -0.6  m  }  {  -0.800  -4.900  -0.6  m  }  {  -1.300  -3.900  -0.6  m  }  {  -2.400  -3.600  -0.6  m  }  {  -3.000  -4.100  -0.6  m  }  {  -3.300  -5.200  -0.6  m  }  {  -2.500  -6.000  -0.6  m  }  {  -1.400  -5.600  -0.6  m  }  {  -1.200  -4.900  -0.6  m  }  {  -1.500  -4.200  -0.6  m  }  {  -2.300  -4.000  -0.6  m  }  {  -3.000  -5.100  -0.6  m  }  {  -2.500  -5.600  -0.6  m  }  {  -1.600  -5.400  -0.6  m  }  {  -1.700  -4.900  -0.6  m  }  {  1.900  -5.000  -0.6  m  }  }
+p2  EntidadRelativa  {  Caminos  }
+p3  SiguienteComponente  {  Espesador  }
+p3  TiempoDeViaje  {  30  min  }
+p3  Posición  {  2.700000  -8.700000  0.000000  m  }
+p3  Puntos  {  {  2.700  -8.700  -0.6  m  }  {  1.400  -8.700  -0.6  m  }  {  0.700  -7.800  -0.6  m  }  {  0.900  -6.700  -0.6  m  }  {  1.900  -6.000  -0.6  m  }  {  3.100  -6.400  -0.6  m  }  {  3.500  -7.700  -0.6  m  }  {  2.600  -8.400  -0.6  m  }  {  1.500  -8.400  -0.6  m  }  {  1.100  -7.700  -0.6  m  }  {  1.200  -6.900  -0.6  m  }  {  1.900  -6.400  -0.6  m  }  {  2.800  -6.700  -0.6  m  }  {  3.100  -7.600  -0.6  m  }  {  2.500  -8.000  -0.6  m  }  {  1.700  -8.000  -0.6  m  }  {  1.500  -7.600  -0.6  m  }  {  2.200  -5.300  -0.6  m  }  }
+p3  EntidadRelativa  {  Caminos  }
+s1  SiguienteComponente  {  Flotador  }
+s1  TiempoDeViaje  {  30  min  }
+s1  Posición  {  17.300000  1.500000  0.000000  m  }
+s1  Puntos  {  {  17.300  1.500  -0.6  m  }  {  15.000  1.200  -0.6  m  }  {  14.500  -0.600  -0.6  m  }  {  15.400  -1.900  -0.6  m  }  {  17.400  -1.800  -0.6  m  }  {  18.200  -0.200  -0.6  m  }  {  17.200  1.200  -0.6  m  }  {  15.400  0.800  -0.6  m  }  {  15.000  -0.600  -0.6  m  }  {  15.600  -1.400  -0.6  m  }  {  17.200  -1.400  -0.6  m  }  {  17.700  -0.300  -0.6  m  }  {  17.100  0.700  -0.6  m  }  {  15.700  0.400  -0.6  m  }  {  15.500  -0.600  -0.6  m  }  {  15.800  -1.000  -0.6  m  }  {  17.000  -1.000  -0.6  m  }  {  17.400  -0.300  -0.6  m  }  {  16.400  -0.200  -0.6  m  }  {  15.400  -4.500  -0.6  m  }  }
+s1  EntidadRelativa  {  Caminos  }
+s2  SiguienteComponente  {  Flotador  }
+s2  TiempoDeViaje  {  30  min  }
+s2  Posición  {  20.600000  -4.000000  0.000000  m  }
+s2  Puntos  {  {  20.600  -4.000  -0.6  m  }  {  18.800  -3.000  -0.6  m  }  {  17.300  -4.000  -0.6  m  }  {  17.400  -5.900  -0.6  m  }  {  18.500  -6.700  -0.6  m  }  {  20.300  -6.400  -0.6  m  }  {  20.900  -5.000  -0.6  m  }  {  20.100  -4.100  -0.6  m  }  {  18.800  -3.600  -0.6  m  }  {  17.900  -4.200  -0.6  m  }  {  17.800  -5.700  -0.6  m  }  {  18.600  -6.200  -0.6  m  }  {  19.900  -6.000  -0.6  m  }  {  20.300  -5.000  -0.6  m  }  {  17.200  -5.000  -0.6  m  }  {  15.500  -5.000  -0.6  m  }  }
+s2  EntidadRelativa  {  Caminos  }
+s3  SiguienteComponente  {  Flotador  }
+s3  TiempoDeViaje  {  30  min  }
+s3  Posición  {  18.400000  -9.500000  0.000000  m  }
+s3  Puntos  {  {  18.400  -9.500  -0.600  m  }  {  17.900  -11.100  -0.600  m  }  {  16.500  -11.800  -0.600  m  }  {  15.100  -11.200  -0.600  m  }  {  14.500  -9.800  -0.600  m  }  {  15.300  -8.000  -0.600  m  }  {  17.300  -7.900  -0.600  m  }  {  18.100  -9.100  -0.600  m  }  {  17.600  -10.800  -0.600  m  }  {  16.500  -11.300  -0.600  m  }  {  15.300  -10.800  -0.600  m  }  {  15.000  -9.800  -0.600  m  }  {  15.600  -8.500  -0.600  m  }  {  17.100  -8.400  -0.600  m  }  {  17.500  -9.200  -0.600  m  }  {  17.100  -10.400  -0.600  m  }  {  16.500  -10.800  -0.600  m  }  {  15.700  -10.500  -0.600  m  }  {  15.500  -9.800  -0.600  m  }  {  15.900  -9.000  -0.600  m  }  {  16.100  -7.900  -0.600  m  }  {  15.500  -5.400  -0.600  m  }  }
+s3  EntidadRelativa  {  Caminos  }
+u_ant_1  CondiciónDeApertura  {  [Gasometro].Ocupacion>80  }
+u_ant_1  Posición  {  2.300000  -16.000000  0.000000  m  }
+u_ant_1  Tamaño  {  0.15  0.15  1.000000  m  }
+u_ant_1  Puntos  {  {  1.600  -11.400  0.000  m  }  {  2.600  -11.400  0.000  m  }  }
+u_ant_2  CondiciónDeApertura  {  [Gasometro].Ocupacion>80  }
+u_ant_2  Posición  {  2.300000  -16.200000  0.000000  m  }
+u_ant_2  Tamaño  {  0.15  0.15  1.000000  m  }
+u_ant_2  Puntos  {  {  2.175  -11.375  0.000  m  }  {  3.175  -11.375  0.000  m  }  }
+u_cosus_1  CondiciónDeApertura  {  [Otivar_m3_dia].Error > 0  }
+u_cosus_1  Posición  {  7.200000  -9.100000  0.000000  m  }
+u_cosus_1  Tamaño  {  0.2  0.2  0.2  m  }
+u_cosus_1  Puntos  {  {  8.100  -9.300  0.000  m  }  {  9.100  -9.300  0.000  m  }  }
+u_cosus_2  CondiciónDeApertura  {  [Kaura_m3_dia].Error> 0  }
+u_cosus_2  Posición  {  8.000000  -9.100000  0.000000  m  }
+u_cosus_2  Tamaño  {  0.2  0.2  0.2  m  }
+u_cosus_2  Puntos  {  {  9.800  -9.200  0.000  m  }  {  10.800  -9.200  0.000  m  }  }
+u_cosus_3  CondiciónDeApertura  {  [Biotrading_m3_dia].Error > 0  }
+u_cosus_3  Posición  {  9.700000  -9.100000  0.000000  m  }
+u_cosus_3  Tamaño  {  0.2  0.2  0.2  m  }
+u_cosus_3  Puntos  {  {  11.000  -9.200  0.000  m  }  {  12.000  -9.200  0.000  m  }  }
+u_cosus_4  CondiciónDeApertura  {  [Extra1_m3_dia].Error > 0  }
+u_cosus_4  Posición  {  10.900000  -9.100000  0.000000  m  }
+u_cosus_4  Tamaño  {  0.2  0.2  0.2  m  }
+u_cosus_4  Puntos  {  {  12.200  -9.300  0.000  m  }  {  13.200  -9.300  0.000  m  }  }
+u_cosus_5  CondiciónDeApertura  {  [Extra2_m3_dia].Error > 0  }
+u_cosus_5  Posición  {  12.300000  -9.100000  0.000000  m  }
+u_cosus_5  Tamaño  {  0.2  0.2  0.2  m  }
+u_cosus_5  Puntos  {  {  12.500  -9.300  0.000  m  }  {  13.500  -9.300  0.000  m  }  }
+u_mot  CondiciónDeApertura  {  [b_mot].CantidadEnBuffer<1  }
+u_mot  Posición  {  1.800000  -15.700000  0.000000  m  }
+u_mot  Tamaño  {  0.15  0.15  1.000000  m  }
+u_mot1  CondiciónDeApertura  {  [Gasometro].Ocupacion>30 && [Gasometro].Total_generado_hora/(1[m3])>100  }
+u_mot1  Posición  {  2.800000  -13.300000  0.000000  m  }
+u_mot1  Tamaño  {  0.2  0.2  0.2  m  }
+u_mot2  CondiciónDeApertura  {  [Gasometro].Ocupacion>30 && [Motor_3].UnidadesEnProceso==0 && ( [Gasometro].Total_generado_hora/(1[m3])>140 || [Gasometro].Total_generado_hora/(1[m3])<100) && ((this.TiempoSimulación-[Motor_2].TiempoDeLiberación)>5[s] || [Motor_2].UnidadesProcesadas==0)  }
+u_mot2  Posición  {  2.800000  -13.700000  0.000000  m  }
+u_mot2  Tamaño  {  0.2  0.2  0.2  m  }
+u_mot3  CondiciónDeApertura  {  [Gasometro].Ocupacion>30 && [Motor_2].UnidadesEnProceso==0  && ( [Gasometro].Total_generado_hora/(1[m3])>140 || [Gasometro].Total_generado_hora/(1[m3])<100) && ((this.TiempoSimulación-[Motor_3].TiempoDeLiberación)>5[s] || [Motor_3].UnidadesProcesadas==0)  }
+u_mot3  Posición  {  2.800000  -14.100000  0.000000  m  }
+u_mot3  Tamaño  {  0.2  0.2  0.2  m  }
+unif_dig  SemillaAleatoria  {  8  }
+unif_dig  ListaDeValores  {  1  2  }
+unif_dig  ListaDeProbabilidad  {  0.5  0.5  }
+unif_dig  Posición  {  3.400000  -9.800000  0.000000  m  }
+unif_dig  Tamaño  {  0.3  0.3  0.3  m  }
+verde-model1  ArchivoDeImagen  {  3D/verde.png  }
+EXPORT  {  Biogas_calderas_m3_dia  ValorDeEntrada  {  true  }  Biotrading_DQO_kgm3  ValorDeEntrada  {  true  }  Biotrading_m3_dia  ValorDeEntrada  {  true  }  Biotrading_porcentaje_MV  ValorDeEntrada  {  true  }  Canon_entrada_Biotrading_€_Ton  ValorDeEntrada  {  true  }  Canon_entrada_Extra1_€_Ton  ValorDeEntrada  {  true  }  Canon_entrada_Extra2_€_Ton  ValorDeEntrada  {  true  }  Canon_entrada_Kaura_€_Ton  ValorDeEntrada  {  true  }  Canon_entrada_Otivar_€_Ton  ValorDeEntrada  {  true  }  Caudal_efluente_m3_dia  ValorDeEntrada  {  true  }  Caudal_influente_m3_dia  ValorDeEntrada  {  true  }  Consumo_biogas(kw/Nm3)  ValorDeEntrada  {  true  }  Consumo_deshidratacion(kw/Nm3)  ValorDeEntrada  {  true  }  Coste_gestion_fangos_deshidratados_€_Ton  ValorDeEntrada  {  true  }  Extra1_DQO_kgm3  ValorDeEntrada  {  true  }  Extra1_m3_dia  ValorDeEntrada  {  true  }  Extra1_porcentaje_MV  ValorDeEntrada  {  true  }  Extra2_DQO_kgm3  ValorDeEntrada  {  true  }  Extra2_m3_dia  ValorDeEntrada  {  true  }  Extra2_porcentaje_MV  ValorDeEntrada  {  true  }  Fango_espesado_DQO_kgm3  ValorDeEntrada  {  true  }  Fango_espesado_m3_dia  ValorDeEntrada  {  true  }  Fango_espesado_porcentaje_MS  ValorDeEntrada  {  true  }  Fango_espesado_porcentaje_MV  ValorDeEntrada  {  true  }  Fango_flotado_DQO_kgm3  ValorDeEntrada  {  true  }  Fango_flotado_m3_dia  ValorDeEntrada  {  true  }  Fango_flotado_porcentaje_MS  ValorDeEntrada  {  true  }  Fango_flotado_porcentaje_MV  ValorDeEntrada  {  true  }  Kaura_DQO_kgm3  ValorDeEntrada  {  true  }  Kaura_m3_dia  ValorDeEntrada  {  true  }  Kaura_porcentaje_MV  ValorDeEntrada  {  true  }  MANT_Coste_hora_centrifuga  ValorDeEntrada  {  true  }  MANT_Coste_hora_motores  ValorDeEntrada  {  true  }  Otivar_DQO_kgm3  ValorDeEntrada  {  true  }  Otivar_m3_dia  ValorDeEntrada  {  true  }  Otivar_porcentaje_MV  ValorDeEntrada  {  true  }  Porcentaje_Metano  ValorDeEntrada  {  true  }  Potencia_Motor_1_kW  ValorDeEntrada  {  true  }  Potencia_Motor_2_kW  ValorDeEntrada  {  true  }  Potencia_Motor_3_kW  ValorDeEntrada  {  true  }  Precio_Ton_poli  ValorDeEntrada  {  true  }  Precio_kwh  ValorDeEntrada  {  true  }  Ratio_consumo_efluente_kWm3  ValorDeEntrada  {  true  }  Temp_digestor_ºC  ValorDeEntrada  {  true  }  Volumen_total_digestion_m3  ValorDeEntrada  {  true  }  }
+OUTPUTEXPORT  {  SALIDA||null||  1_Coste_total_fangos  true  SALIDA||null||  1.1_Coste_MAN_deshidratacion_fangos  true  SALIDA||null||  1.2_Coste_ENERGIA  true  SALIDA||null||  1.2.1_Coste_ENER_biogas_fangos  true  SALIDA||null||  1.2.2_Coste_ENER_deshidratacion_fangos  true  SALIDA||null||  1.3_Coste_GESTION_RES_fangos  true  SALIDA||null||  1.4_Coste_POLI_fangos  true  SALIDA||null||  2_Coste_total_cosustratos  true  SALIDA||null||  2.1_Coste_Kaura  true  SALIDA||null||  2.1.1_Coste_MAN_cogeneracion_Kaura  true  SALIDA||null||  2.1.2_Coste_MAN_deshidratacion_Kaura  true  SALIDA||null||  2.1.3_Coste_ENER_Kaura  true  SALIDA||null||  2.1.3.1_Coste_ENER_biogas_Kaura  true  SALIDA||null||  2.1.3.2_Coste_ENER_deshidratacion_Kaura  true  SALIDA||null||  2.1.4_Coste_GESTION_RES_Kaura  true  SALIDA||null||  2.1.5_Coste_POLI_Kaura  true  SALIDA||null||  2.2_Coste_Biotrading  true  SALIDA||null||  2.2.1_Coste_MAN_cogeneracion_Biotrading  true  SALIDA||null||  2.2.2_Coste_MAN_deshidratacion_Biotrading  true  SALIDA||null||  2.2.3_Coste_ENER_Biotrading  true  SALIDA||null||  2.2.3.1_Coste_ENER_biogas_Biotrading  true  SALIDA||null||  2.2.3.2_Coste_ENER_deshidratacion_Biotrading  true  SALIDA||null||  2.2.4_Coste_GESTION_RES_Biotrading  true  SALIDA||null||  2.2.5_Coste_POLI_Biotrading  true  SALIDA||null||  2.3_Coste_Otivar  true  SALIDA||null||  2.3.1_Coste_MAN_cogeneracion_Otivar  true  SALIDA||null||  2.3.2_Coste_MAN_deshidratacion_Otivar  true  SALIDA||null||  2.3.3_Coste_ENER_Otivar  true  SALIDA||null||  2.3.3.1_Coste_ENER_biogas_Otivar  true  SALIDA||null||  2.3.3.2_Coste_ENER_deshidratacion_Otivar  true  SALIDA||null||  2.3.4_Coste_GESTION_RES_Otivar  true  SALIDA||null||  2.3.5_Coste_POLI_Otivar  true  SALIDA||null||  1_TRH_dias  true  SALIDA||null||  2_Fango_digerido  true  SALIDA||null||  2.1_m3_dia  true  SALIDA||null||  2.2_DQO_kgm3  true  SALIDA||null||  2.3_Porcentaje_MV  true  SALIDA||null||  3_Fango_a_deshidratacion  true  SALIDA||null||  3.1_Fango  true  SALIDA||null||  3.1.1_m3_dia  true  SALIDA||null||  3.1.2_Polielectorlito_kg_dia  true  SALIDA||null||  3.1.3_Consumo_kWh  true  SALIDA||null||  3.2_Cosustratos  true  SALIDA||null||  3.2.1_m3_dia  true  SALIDA||null||  3.2.2_Polielectorlito_kg_dia  true  SALIDA||null||  4_Fango_deshidratado  true  SALIDA||null||  3.2.3_Consumo_kWh  true  SALIDA||null||  4.1_kgMH_kgDQO_eliminada  true  SALIDA||null||  4.2_kgMH_m3_agua  true  SALIDA||null||  1_Biogas_total_generado_m3_dia  true  SALIDA||null||  1.1_Biogas_generado_por_fangos_m3_dia  true  SALIDA||null||  1.2_Biogas_generado_por_cosustratos_m3_dia  true  SALIDA||null||  2_Biogas_generado_m3_kg_DQO_eliminada  true  SALIDA||null||  3_Consumo_total_biogas_m3_dia  true  SALIDA||null||  3.1_Motores_de_cogeneraion  true  SALIDA||null||  3.1.2_Porcentaje  true  SALIDA||null||  3.1.3_kWh_m3_biogas  true  SALIDA||null||  3.2_Calderas  true  SALIDA||null||  3.2.2_Porcentaje  true  SALIDA||null||  3.3_Antorcha  true  SALIDA||null||  3.3.1_m3_dia  true  SALIDA||null||  3.3.2_Porcentaje  true  SALIDA||null||  4_Ocupacion_gasometro_Porcentaje  true  SALIDA||null||  1_Consumo_EDAR_kWh_dia  true  SALIDA||null||  2_Cogeneracion_total_kWh_dia  true  SALIDA||null||  2.1_Generado_por_fangos_kWh_dia  true  SALIDA||null||  2.2_Generado_por_cosustratos_kWh_dia  true  SALIDA||null||  2.2.1_Generado_Biotrading  true  SALIDA||null||  2.2.2_Generado_Kaura  true  SALIDA||null||  2.2.3_Generado_Otivar  true  SALIDA||null||  2.2.4_Generado_Extra1  true  SALIDA||null||  2.2.5_Generado_Extra2  true  SALIDA||null||  3_Autoconsumo_EDAR  true  SALIDA||null||  3.1_Motores_de_cogeneracion  true  SALIDA||null||  3.1.1_m3_dia_motores  true  SALIDA||null||  3.2.1_Porcentaje  true  SALIDA||null||  Costes_totales  true  }
+MONITOR  {  }
+OUTPUTMONITOR  {  Antorcha||null||  Total  true  Antorcha||null||  Per  true  C_Biotrading||null||  m3_introducidos  true  C_Biotrading||null||  Canon  true  C_Biotrading||null||  Total_costes  true  C_Biotrading||null||  Total_ingresos  true  C_Biotrading||null||  Balance  true  C_Biotrading||null||  Balance_ton  true  C_Biotrading||null||  Balance_1  true  C_Biotrading||null||  Balance_2  true  C_Extra1||null||  m3_introducidos  true  C_Extra1||null||  Canon  true  C_Extra1||null||  Total_costes  true  C_Extra1||null||  Total_ingresos  true  C_Extra1||null||  Balance  true  C_Extra1||null||  Balance_ton  true  C_Extra1||null||  Balance_1  true  C_Extra1||null||  Balance_2  true  C_Extra2||null||  m3_introducidos  true  C_Extra2||null||  Canon  true  C_Extra2||null||  Total_costes  true  C_Extra2||null||  Total_ingresos  true  C_Extra2||null||  Balance  true  C_Extra2||null||  Balance_ton  true  C_Extra2||null||  Balance_1  true  C_Extra2||null||  Balance_2  true  C_Kaura||null||  m3_introducidos  true  C_Kaura||null||  Canon  true  C_Kaura||null||  Total_costes  true  C_Kaura||null||  Total_ingresos  true  C_Kaura||null||  Balance  true  C_Kaura||null||  Balance_ton  true  C_Kaura||null||  Balance_1  true  C_Kaura||null||  Balance_2  true  C_Otivar||null||  m3_introducidos  true  C_Otivar||null||  Canon  true  C_Otivar||null||  Total_ingresos  true  C_Otivar||null||  Total_costes  true  C_Otivar||null||  Balance  true  C_Otivar||null||  Balance_ton  true  C_Otivar||null||  Balance_1  true  C_Otivar||null||  Balance_2  true  Caldera||null||  Total  true  Caldera||null||  Per  true  Cogeneracion||null||  Ahorro_€  true  Cogeneracion||null||  KW_m3  true  Cogeneracion||null||  Total  true  Cogeneracion||null||  Total_generado_fangos_dia  true  Cogeneracion||null||  Total_generado_cosustrato_dia  true  Cogeneracion||null||  Per  true  Cogeneracion||null||  Generado  true  Cogeneracion||null||  Ahorro_total_euros  true  Cogeneracion||null||  m3_biogas_m3_fangos_mixtos  true  Cogeneracion||null||  m3_biogas_ton_DQO  true  Depuradora||null||  Consumo_total  true  Depuradora||null||  Costes_totales  true  Depuradora||null||  Ingreso_total_canon  true  Depuradora||null||  Autoconsumo  true  Depuradora||null||  Balance  true  Depuradora||null||  Costes_totales_fangos  true  Depuradora||null||  Ratio_costes_totales_fangos  true  Deshidratacion||null||  Consumo_fangos  true  Deshidratacion||null||  Consumo_cosustratos  true  Deshidratacion||null||  Consumo  true  Espesador||null||  Fango_espesado  true  Fangos_mixtos||null||  Q_total  true  Fangos_mixtos||null||  DQO_kgm3  true  Fangos_mixtos||null||  Porcentaje_MV  true  Flotador||null||  Fango_flotado  true  Gasometro||null||  Total  true  Motor_1||null||  potencia_generada_dia  true  Motor_1||null||  potencia_generada_fangos  true  Motor_1||null||  potencia_generada_cosus  true  Motor_2||null||  potencia_generada_dia  true  Motor_2||null||  potencia_generada_fangos  true  Motor_2||null||  potencia_generada_cosus  true  Motor_3||null||  potencia_generada_dia  true  Motor_3||null||  potencia_generada_fangos  true  Motor_3||null||  potencia_generada_cosus  true  Porcentaje_Metano||null||  Error  true  }
